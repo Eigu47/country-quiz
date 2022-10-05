@@ -1,0 +1,4566 @@
+[
+  {
+    "name": "Iceland",
+    "code": "ISL",
+    "capital": { "name": "Reykjavik", "latlng": [65, -18] },
+    "altSpellings": [
+      "Iceland",
+      "Island",
+      "Republic of Iceland",
+      "Lýðveldið Ísland"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": ["Icelandic"],
+    "area": 103000,
+    "population": 366425,
+    "map": "https://goo.gl/maps/WxFWSQuc3oamNxoE6",
+    "flag": "https://flagcdn.com/w320/is.png"
+  },
+  {
+    "name": "Spain",
+    "code": "ESP",
+    "capital": { "name": "Madrid", "latlng": [40, -4] },
+    "altSpellings": ["Kingdom of Spain", "Kingdom of Spain", "Reino de España"],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": ["Spanish"],
+    "borders": ["Andorra", "France", "Gibraltar", "Portugal", "Morocco"],
+    "area": 505992,
+    "population": 47351567,
+    "map": "https://goo.gl/maps/138JaXW8EZzRVitY9",
+    "flag": "https://flagcdn.com/w320/es.png"
+  },
+  {
+    "name": "Iraq",
+    "code": "IRQ",
+    "capital": { "name": "Baghdad", "latlng": [33, 44] },
+    "altSpellings": [
+      "Republic of Iraq",
+      "Republic of Iraq",
+      "Jumhūriyyat al-‘Irāq"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": ["Arabic", "Aramaic", "Sorani"],
+    "borders": ["Iran", "Jordan", "Kuwait", "Saudi Arabia", "Syria", "Turkey"],
+    "area": 438317,
+    "population": 40222503,
+    "map": "https://goo.gl/maps/iL8Bmy1sUCW9fUk18",
+    "flag": "https://flagcdn.com/w320/iq.png"
+  },
+  {
+    "name": "Malawi",
+    "code": "MWI",
+    "capital": { "name": "Lilongwe", "latlng": [-13.5, 34] },
+    "altSpellings": ["Republic of Malawi", "Republic of Malawi"],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["English", "Chewa"],
+    "borders": ["Mozambique", "Tanzania", "Zambia"],
+    "area": 118484,
+    "population": 19129955,
+    "map": "https://goo.gl/maps/mc6z83pW9m98X2Ef6",
+    "flag": "https://flagcdn.com/w320/mw.png"
+  },
+  {
+    "name": "Hong Kong",
+    "code": "HKG",
+    "capital": { "name": "City of Victoria", "latlng": [22.267, 114.188] },
+    "altSpellings": [
+      "Hong Kong Special Administrative Region of the People's Republic of China"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "languages": ["English", "Chinese"],
+    "borders": ["China"],
+    "area": 1104,
+    "population": 7500700,
+    "map": "https://goo.gl/maps/1sEnNmT47ffrC8MU8",
+    "flag": "https://flagcdn.com/w320/hk.png"
+  },
+  {
+    "name": "Malta",
+    "code": "MLT",
+    "capital": { "name": "Valletta", "latlng": [35.83333333, 14.58333333] },
+    "altSpellings": [
+      "Republic of Malta",
+      "Republic of Malta",
+      "Repubblika ta' Malta"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": ["English", "Maltese"],
+    "area": 316,
+    "population": 525285,
+    "map": "https://goo.gl/maps/skXCqguxDxxEKVk47",
+    "flag": "https://flagcdn.com/w320/mt.png"
+  },
+  {
+    "name": "Paraguay",
+    "code": "PRY",
+    "capital": { "name": "Asunción", "latlng": [-23, -58] },
+    "altSpellings": [
+      "Republic of Paraguay",
+      "Republic of Paraguay",
+      "República del Paraguay",
+      "Tetã Paraguái"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": ["Guaraní", "Spanish"],
+    "borders": ["Argentina", "Bolivia", "Brazil"],
+    "area": 406752,
+    "population": 7132530,
+    "map": "https://goo.gl/maps/JtnqG73WJn1Gx6mz6",
+    "flag": "https://flagcdn.com/w320/py.png"
+  },
+  {
+    "name": "Djibouti",
+    "code": "DJI",
+    "capital": { "name": "Djibouti", "latlng": [11.5, 43] },
+    "altSpellings": [
+      "Republic of Djibouti",
+      "Jabuuti",
+      "Gabuuti",
+      "Republic of Djibouti",
+      "République de Djibouti",
+      "Gabuutih Ummuuno",
+      "Jamhuuriyadda Jabuuti"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["Arabic", "French"],
+    "borders": ["Eritrea", "Ethiopia", "Somalia"],
+    "area": 23200,
+    "population": 988002,
+    "map": "https://goo.gl/maps/V1HWfzN3bS1kwf4C6",
+    "flag": "https://flagcdn.com/w320/dj.png"
+  },
+  {
+    "name": "Madagascar",
+    "code": "MDG",
+    "capital": { "name": "Antananarivo", "latlng": [-20, 47] },
+    "altSpellings": [
+      "Republic of Madagascar",
+      "Republic of Madagascar",
+      "Repoblikan'i Madagasikara",
+      "République de Madagascar"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["French", "Malagasy"],
+    "area": 587041,
+    "population": 27691019,
+    "map": "https://goo.gl/maps/AHQh2ABBaFW6Ngj26",
+    "flag": "https://flagcdn.com/w320/mg.png"
+  },
+  {
+    "name": "Nepal",
+    "code": "NPL",
+    "capital": { "name": "Kathmandu", "latlng": [28, 84] },
+    "altSpellings": [
+      "Federal Democratic Republic of Nepal",
+      "Federal Democratic Republic of Nepal",
+      "Loktāntrik Ganatantra Nepāl"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": ["Nepali"],
+    "borders": ["China", "India"],
+    "area": 147181,
+    "population": 29136808,
+    "map": "https://goo.gl/maps/UMj2zpbQp7B5c3yT7",
+    "flag": "https://flagcdn.com/w320/np.png"
+  },
+  {
+    "name": "San Marino",
+    "code": "SMR",
+    "capital": {
+      "name": "City of San Marino",
+      "latlng": [43.76666666, 12.41666666]
+    },
+    "altSpellings": [
+      "Republic of San Marino",
+      "Republic of San Marino",
+      "Repubblica di San Marino"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": ["Italian"],
+    "borders": ["Italy"],
+    "area": 61,
+    "population": 33938,
+    "map": "https://goo.gl/maps/rxCVJjm8dVY93RPY8",
+    "flag": "https://flagcdn.com/w320/sm.png"
+  },
+  {
+    "name": "Netherlands",
+    "code": "NLD",
+    "capital": { "name": "Amsterdam", "latlng": [52.5, 5.75] },
+    "altSpellings": [
+      "Kingdom of the Netherlands",
+      "Holland",
+      "Nederland",
+      "The Netherlands"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": ["Dutch"],
+    "borders": ["Belgium", "Germany"],
+    "area": 41850,
+    "population": 16655799,
+    "map": "https://goo.gl/maps/Hv6zQswGhFxoVVBm6",
+    "flag": "https://flagcdn.com/w320/nl.png"
+  },
+  {
+    "name": "Greenland",
+    "code": "GRL",
+    "capital": { "name": "Nuuk", "latlng": [72, -40] },
+    "altSpellings": ["Greenland", "Grønland"],
+    "region": "Americas",
+    "subregion": "North America",
+    "languages": ["Greenlandic"],
+    "area": 2166086,
+    "population": 56367,
+    "map": "https://goo.gl/maps/j3289UPEQXt1ceSy8",
+    "flag": "https://flagcdn.com/w320/gl.png"
+  },
+  {
+    "name": "Norway",
+    "code": "NOR",
+    "capital": { "name": "Oslo", "latlng": [62, 10] },
+    "altSpellings": [
+      "Kingdom of Norway",
+      "Norge",
+      "Noreg",
+      "Kingdom of Norway",
+      "Kongeriket Norge",
+      "Kongeriket Noreg"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": ["Norwegian Nynorsk", "Norwegian Bokmål", "Sami"],
+    "borders": ["Finland", "Sweden", "Russia"],
+    "area": 323802,
+    "population": 5379475,
+    "map": "https://goo.gl/maps/htWRrphA7vNgQNdSA",
+    "flag": "https://flagcdn.com/w320/no.png"
+  },
+  {
+    "name": "Tuvalu",
+    "code": "TUV",
+    "capital": { "name": "Funafuti", "latlng": [-8, 178] },
+    "altSpellings": ["Tuvalu"],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": ["English", "Tuvaluan"],
+    "area": 26,
+    "population": 11792,
+    "map": "https://goo.gl/maps/LbuUxtkgm1dfN1Pn6",
+    "flag": "https://flagcdn.com/w320/tv.png"
+  },
+  {
+    "name": "Lebanon",
+    "code": "LBN",
+    "capital": { "name": "Beirut", "latlng": [33.83333333, 35.83333333] },
+    "altSpellings": [
+      "Lebanese Republic",
+      "Lebanese Republic",
+      "Al-Jumhūrīyah Al-Libnānīyah"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": ["Arabic", "French"],
+    "borders": ["Israel", "Syria"],
+    "area": 10452,
+    "population": 6825442,
+    "map": "https://goo.gl/maps/Sz5VCU8UFBqMyTdc9",
+    "flag": "https://flagcdn.com/w320/lb.png"
+  },
+  {
+    "name": "Burkina Faso",
+    "code": "BFA",
+    "capital": { "name": "Ouagadougou", "latlng": [13, -2] },
+    "altSpellings": ["Burkina Faso"],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": ["French"],
+    "borders": ["Benin", "Ivory Coast", "Ghana", "Mali", "Niger", "Togo"],
+    "area": 272967,
+    "population": 20903278,
+    "map": "https://goo.gl/maps/rKRmpcMbFher2ozb7",
+    "flag": "https://flagcdn.com/w320/bf.png"
+  },
+  {
+    "name": "Cape Verde",
+    "code": "CPV",
+    "capital": { "name": "Praia", "latlng": [16, -24] },
+    "altSpellings": [
+      "Republic of Cabo Verde",
+      "Republic of Cabo Verde",
+      "República de Cabo Verde"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": ["Portuguese"],
+    "area": 4033,
+    "population": 555988,
+    "map": "https://goo.gl/maps/Kc9vy5ChjuiAgMfXA",
+    "flag": "https://flagcdn.com/w320/cv.png"
+  },
+  {
+    "name": "Gibraltar",
+    "code": "GIB",
+    "capital": { "name": "Gibraltar", "latlng": [36.13333333, -5.35] },
+    "altSpellings": ["Gibraltar"],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": ["English"],
+    "borders": ["Spain"],
+    "area": 6,
+    "population": 33691,
+    "map": "https://goo.gl/maps/CEoHAs1t6byCBhHFA",
+    "flag": "https://flagcdn.com/w320/gi.png"
+  },
+  {
+    "name": "Algeria",
+    "code": "DZA",
+    "capital": { "name": "Algiers", "latlng": [28, 3] },
+    "altSpellings": [
+      "People's Democratic Republic of Algeria",
+      "Dzayer",
+      "Algérie"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "languages": ["Arabic"],
+    "borders": [
+      "Tunisia",
+      "Libya",
+      "Niger",
+      "Western Sahara",
+      "Mauritania",
+      "Mali",
+      "Morocco"
+    ],
+    "area": 2381741,
+    "population": 44700000,
+    "map": "https://goo.gl/maps/RsAyAfyaiNVb8DpW8",
+    "flag": "https://flagcdn.com/w320/dz.png"
+  },
+  {
+    "name": "Georgia",
+    "code": "GEO",
+    "capital": { "name": "Tbilisi", "latlng": [42, 43.5] },
+    "altSpellings": ["Georgia", "Sakartvelo"],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": ["Georgian"],
+    "borders": ["Armenia", "Azerbaijan", "Russia", "Turkey"],
+    "area": 69700,
+    "population": 3714000,
+    "map": "https://goo.gl/maps/bvCaGBePR1ZEDK5cA",
+    "flag": "https://flagcdn.com/w320/ge.png"
+  },
+  {
+    "name": "Mongolia",
+    "code": "MNG",
+    "capital": { "name": "Ulan Bator", "latlng": [46, 105] },
+    "altSpellings": ["Mongolia"],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "languages": ["Mongolian"],
+    "borders": ["China", "Russia"],
+    "area": 1564110,
+    "population": 3278292,
+    "map": "https://goo.gl/maps/A1X7bMCKThBDNjzH6",
+    "flag": "https://flagcdn.com/w320/mn.png"
+  },
+  {
+    "name": "Iran",
+    "code": "IRN",
+    "capital": { "name": "Tehran", "latlng": [32, 53] },
+    "altSpellings": [
+      "Islamic Republic of Iran",
+      "Islamic Republic of Iran",
+      "Iran, Islamic Republic of",
+      "Jomhuri-ye Eslāmi-ye Irān"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": ["Persian (Farsi)"],
+    "borders": [
+      "Afghanistan",
+      "Armenia",
+      "Azerbaijan",
+      "Iraq",
+      "Pakistan",
+      "Turkey",
+      "Turkmenistan"
+    ],
+    "area": 1648195,
+    "population": 83992953,
+    "map": "https://goo.gl/maps/dMgEGuacBPGYQnjY7",
+    "flag": "https://flagcdn.com/w320/ir.png"
+  },
+  {
+    "name": "Tokelau",
+    "code": "TKL",
+    "capital": { "name": "Fakaofo", "latlng": [-9, -172] },
+    "altSpellings": ["Tokelau"],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": ["English", "Samoan", "Tokelauan"],
+    "area": 12,
+    "population": 1411,
+    "map": "https://goo.gl/maps/Ap5qN8qien6pT9UN6",
+    "flag": "https://flagcdn.com/w320/tk.png"
+  },
+  {
+    "name": "Singapore",
+    "code": "SGP",
+    "capital": { "name": "Singapore", "latlng": [1.36666666, 103.8] },
+    "altSpellings": [
+      "Republic of Singapore",
+      "Singapura",
+      "Republik Singapura",
+      "新加坡共和国"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": ["Chinese", "English", "Malay", "Tamil"],
+    "area": 710,
+    "population": 5685807,
+    "map": "https://goo.gl/maps/QbQt9Y9b5KFzsahV6",
+    "flag": "https://flagcdn.com/w320/sg.png"
+  },
+  {
+    "name": "French Guiana",
+    "code": "GUF",
+    "capital": { "name": "Cayenne", "latlng": [4, -53] },
+    "altSpellings": ["Guiana", "Guiana", "Guyane"],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": ["French"],
+    "borders": ["Brazil", "Suriname"],
+    "area": 83534,
+    "population": 254541,
+    "map": "https://goo.gl/maps/NJawFwMzG7YtCrVP7",
+    "flag": "https://flagcdn.com/w320/gf.png"
+  },
+  {
+    "name": "Martinique",
+    "code": "MTQ",
+    "capital": { "name": "Fort-de-France", "latlng": [14.666667, -61] },
+    "altSpellings": ["Martinique"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["French"],
+    "area": 1128,
+    "population": 378243,
+    "map": "https://goo.gl/maps/87ER7sDAFU7JjcvR6",
+    "flag": "https://flagcdn.com/w320/mq.png"
+  },
+  {
+    "name": "British Virgin Islands",
+    "code": "VGB",
+    "capital": { "name": "Road Town", "latlng": [18.431383, -64.62305] },
+    "altSpellings": ["Virgin Islands", "Virgin Islands, British"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English"],
+    "area": 151,
+    "population": 30237,
+    "map": "https://goo.gl/maps/49C9cSesNVAR9DQk8",
+    "flag": "https://flagcdn.com/w320/vg.png"
+  },
+  {
+    "name": "Nicaragua",
+    "code": "NIC",
+    "capital": { "name": "Managua", "latlng": [13, -85] },
+    "altSpellings": [
+      "Republic of Nicaragua",
+      "Republic of Nicaragua",
+      "República de Nicaragua"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": ["Spanish"],
+    "borders": ["Costa Rica", "Honduras"],
+    "area": 130373,
+    "population": 6624554,
+    "map": "https://goo.gl/maps/P77LaEVkKJKXneRC6",
+    "flag": "https://flagcdn.com/w320/ni.png"
+  },
+  {
+    "name": "Moldova",
+    "code": "MDA",
+    "capital": { "name": "Chișinău", "latlng": [47, 29] },
+    "altSpellings": [
+      "Republic of Moldova",
+      "Moldova, Republic of",
+      "Republic of Moldova",
+      "Republica Moldova"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "languages": ["Romanian"],
+    "borders": ["Romania", "Ukraine"],
+    "area": 33846,
+    "population": 2617820,
+    "map": "https://goo.gl/maps/JjmyUuULujnDeFPf7",
+    "flag": "https://flagcdn.com/w320/md.png"
+  },
+  {
+    "name": "Yemen",
+    "code": "YEM",
+    "capital": { "name": "Sana'a", "latlng": [15, 48] },
+    "altSpellings": [
+      "Republic of Yemen",
+      "Yemeni Republic",
+      "al-Jumhūriyyah al-Yamaniyyah"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": ["Arabic"],
+    "borders": ["Oman", "Saudi Arabia"],
+    "area": 527968,
+    "population": 29825968,
+    "map": "https://goo.gl/maps/WCmE76HKcLideQQw7",
+    "flag": "https://flagcdn.com/w320/ye.png"
+  },
+  {
+    "name": "Gambia",
+    "code": "GMB",
+    "capital": { "name": "Banjul", "latlng": [13.46666666, -16.56666666] },
+    "altSpellings": ["Republic of the Gambia", "Republic of the Gambia"],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": ["English"],
+    "borders": ["Senegal"],
+    "area": 10689,
+    "population": 2416664,
+    "map": "https://goo.gl/maps/bbGBCxxtfD2A9Z4m6",
+    "flag": "https://flagcdn.com/w320/gm.png"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "code": "KGZ",
+    "capital": { "name": "Bishkek", "latlng": [41, 75] },
+    "altSpellings": [
+      "Kyrgyz Republic",
+      "Киргизия",
+      "Kyrgyz Republic",
+      "Кыргыз Республикасы",
+      "Kyrgyz Respublikasy"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "languages": ["Kyrgyz", "Russian"],
+    "borders": ["China", "Kazakhstan", "Tajikistan", "Uzbekistan"],
+    "area": 199951,
+    "population": 6591600,
+    "map": "https://goo.gl/maps/SKG8BSMMQVvxkRkB7",
+    "flag": "https://flagcdn.com/w320/kg.png"
+  },
+  {
+    "name": "Cuba",
+    "code": "CUB",
+    "capital": { "name": "Havana", "latlng": [21.5, -80] },
+    "altSpellings": [
+      "Republic of Cuba",
+      "Republic of Cuba",
+      "República de Cuba"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["Spanish"],
+    "area": 109884,
+    "population": 11326616,
+    "map": "https://goo.gl/maps/1dDw1QfZspfMUTm99",
+    "flag": "https://flagcdn.com/w320/cu.png"
+  },
+  {
+    "name": "Eritrea",
+    "code": "ERI",
+    "capital": { "name": "Asmara", "latlng": [15, 39] },
+    "altSpellings": [
+      "State of Eritrea",
+      "State of Eritrea",
+      "ሃገረ ኤርትራ",
+      "Dawlat Iritriyá",
+      "ʾErtrā",
+      "Iritriyā"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["Arabic", "English", "Tigrinya"],
+    "borders": ["Djibouti", "Ethiopia", "Sudan"],
+    "area": 117600,
+    "population": 5352000,
+    "map": "https://goo.gl/maps/HRyqUpnPwwG6jY5j6",
+    "flag": "https://flagcdn.com/w320/er.png"
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "code": "SJM",
+    "capital": { "name": "Longyearbyen", "latlng": [78, 20] },
+    "altSpellings": ["Svalbard og Jan Mayen", "Svalbard and Jan Mayen Islands"],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": ["Norwegian"],
+    "area": -1,
+    "population": 2562,
+    "map": "https://goo.gl/maps/L2wyyn3cQ16PzQ5J8",
+    "flag": "https://flagcdn.com/w320/sj.png"
+  },
+  {
+    "name": "El Salvador",
+    "code": "SLV",
+    "capital": {
+      "name": "San Salvador",
+      "latlng": [13.83333333, -88.91666666]
+    },
+    "altSpellings": [
+      "Republic of El Salvador",
+      "Republic of El Salvador",
+      "República de El Salvador"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": ["Spanish"],
+    "borders": ["Guatemala", "Honduras"],
+    "area": 21041,
+    "population": 6486201,
+    "map": "https://goo.gl/maps/cZnCEi5sEMQtKKcB7",
+    "flag": "https://flagcdn.com/w320/sv.png"
+  },
+  {
+    "name": "Timor-Leste",
+    "code": "TLS",
+    "capital": { "name": "Dili", "latlng": [-8.83333333, 125.91666666] },
+    "altSpellings": [
+      "Democratic Republic of Timor-Leste",
+      "East Timor",
+      "Democratic Republic of Timor-Leste",
+      "República Democrática de Timor-Leste",
+      "Repúblika Demokrátika Timór-Leste",
+      "Timór Lorosa'e",
+      "Timor Lorosae"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": ["Portuguese", "Tetum"],
+    "borders": ["Indonesia"],
+    "area": 14874,
+    "population": 1318442,
+    "map": "https://goo.gl/maps/sFqBC9zjgUXPR1iTA",
+    "flag": "https://flagcdn.com/w320/tl.png"
+  },
+  {
+    "name": "South Korea",
+    "code": "KOR",
+    "capital": { "name": "Seoul", "latlng": [37, 127.5] },
+    "altSpellings": [
+      "Republic of Korea",
+      "Korea, Republic of",
+      "Republic of Korea"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "languages": ["Korean"],
+    "borders": ["North Korea"],
+    "area": 100210,
+    "population": 51780579,
+    "map": "https://goo.gl/maps/7ecjaJXefjAQhxjGA",
+    "flag": "https://flagcdn.com/w320/kr.png"
+  },
+  {
+    "name": "Mali",
+    "code": "MLI",
+    "capital": { "name": "Bamako", "latlng": [17, -4] },
+    "altSpellings": [
+      "Republic of Mali",
+      "Republic of Mali",
+      "République du Mali"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": ["French"],
+    "borders": [
+      "Algeria",
+      "Burkina Faso",
+      "Guinea",
+      "Ivory Coast",
+      "Mauritania",
+      "Niger",
+      "Senegal"
+    ],
+    "area": 1240192,
+    "population": 20250834,
+    "map": "https://goo.gl/maps/u9mYJkCB19wyuzh27",
+    "flag": "https://flagcdn.com/w320/ml.png"
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "code": "TCA",
+    "capital": { "name": "Cockburn Town", "latlng": [21.75, -71.58333333] },
+    "altSpellings": ["Turks and Caicos Islands"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English"],
+    "area": 948,
+    "population": 38718,
+    "map": "https://goo.gl/maps/R8VUDQfwZiFtvmyn8",
+    "flag": "https://flagcdn.com/w320/tc.png"
+  },
+  {
+    "name": "Ghana",
+    "code": "GHA",
+    "capital": { "name": "Accra", "latlng": [8, -2] },
+    "altSpellings": ["Republic of Ghana"],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": ["English"],
+    "borders": ["Burkina Faso", "Ivory Coast", "Togo"],
+    "area": 238533,
+    "population": 31072945,
+    "map": "https://goo.gl/maps/Avy5RSmdsXFBaiXq8",
+    "flag": "https://flagcdn.com/w320/gh.png"
+  },
+  {
+    "name": "Egypt",
+    "code": "EGY",
+    "capital": { "name": "Cairo", "latlng": [27, 30] },
+    "altSpellings": ["Arab Republic of Egypt", "Arab Republic of Egypt"],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "languages": ["Arabic"],
+    "borders": ["Israel", "Libya", "Palestine", "Sudan"],
+    "area": 1002450,
+    "population": 102334403,
+    "map": "https://goo.gl/maps/uoDRhXbsqjG6L7VG7",
+    "flag": "https://flagcdn.com/w320/eg.png"
+  },
+  {
+    "name": "Gabon",
+    "code": "GAB",
+    "capital": { "name": "Libreville", "latlng": [-1, 11.75] },
+    "altSpellings": [
+      "Gabonese Republic",
+      "Gabonese Republic",
+      "République Gabonaise"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": ["French"],
+    "borders": ["Cameroon", "Republic of the Congo", "Equatorial Guinea"],
+    "area": 267668,
+    "population": 2225728,
+    "map": "https://goo.gl/maps/vyRSkqw1H1fnq4ry6",
+    "flag": "https://flagcdn.com/w320/ga.png"
+  },
+  {
+    "name": "Togo",
+    "code": "TGO",
+    "capital": { "name": "Lomé", "latlng": [8, 1.16666666] },
+    "altSpellings": [
+      "Togolese Republic",
+      "Togolese",
+      "Togolese Republic",
+      "République Togolaise"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": ["French"],
+    "borders": ["Benin", "Burkina Faso", "Ghana"],
+    "area": 56785,
+    "population": 8278737,
+    "map": "https://goo.gl/maps/jzAa9feXuXPrKVb89",
+    "flag": "https://flagcdn.com/w320/tg.png"
+  },
+  {
+    "name": "Taiwan",
+    "code": "TWN",
+    "capital": { "name": "Taipei", "latlng": [23.5, 121] },
+    "altSpellings": [
+      "Republic of China (Taiwan)",
+      "Táiwān",
+      "Republic of China",
+      "中華民國",
+      "Zhōnghuá Mínguó",
+      "Chinese Taipei"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "languages": ["Chinese"],
+    "area": 36193,
+    "population": 23503349,
+    "map": "https://goo.gl/maps/HgMKFQjNadF3Wa6B6",
+    "flag": "https://flagcdn.com/w320/tw.png"
+  },
+  {
+    "name": "Cook Islands",
+    "code": "COK",
+    "capital": { "name": "Avarua", "latlng": [-21.23333333, -159.76666666] },
+    "altSpellings": ["Cook Islands", "Kūki 'Āirani"],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": ["English", "Cook Islands Māori"],
+    "area": 236,
+    "population": 18100,
+    "map": "https://goo.gl/maps/nrGZrvWRGB4WHgDC9",
+    "flag": "https://flagcdn.com/w320/ck.png"
+  },
+  {
+    "name": "Eswatini",
+    "code": "SWZ",
+    "capital": { "name": "Mbabane", "latlng": [-26.5, 31.5] },
+    "altSpellings": [
+      "Kingdom of Eswatini",
+      "Swaziland",
+      "weSwatini",
+      "Swatini",
+      "Ngwane",
+      "Kingdom of Eswatini",
+      "Umbuso weSwatini"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "languages": ["English", "Swazi"],
+    "borders": ["Mozambique", "South Africa"],
+    "area": 17364,
+    "population": 1160164,
+    "map": "https://goo.gl/maps/cUY79eqQihFSE8hV6",
+    "flag": "https://flagcdn.com/w320/sz.png"
+  },
+  {
+    "name": "Oman",
+    "code": "OMN",
+    "capital": { "name": "Muscat", "latlng": [21, 57] },
+    "altSpellings": [
+      "Sultanate of Oman",
+      "Sultanate of Oman",
+      "Salṭanat ʻUmān"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": ["Arabic"],
+    "borders": ["Saudi Arabia", "United Arab Emirates", "Yemen"],
+    "area": 309500,
+    "population": 5106622,
+    "map": "https://goo.gl/maps/L2BoXoAwDDwWecnw5",
+    "flag": "https://flagcdn.com/w320/om.png"
+  },
+  {
+    "name": "Central African Republic",
+    "code": "CAF",
+    "capital": { "name": "Bangui", "latlng": [7, 21] },
+    "altSpellings": [
+      "Central African Republic",
+      "Central African Republic",
+      "République centrafricaine"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": ["French", "Sango"],
+    "borders": [
+      "Cameroon",
+      "Chad",
+      "DR Congo",
+      "Republic of the Congo",
+      "South Sudan",
+      "Sudan"
+    ],
+    "area": 622984,
+    "population": 4829764,
+    "map": "https://goo.gl/maps/51V8dsi2rGYC9n3c9",
+    "flag": "https://flagcdn.com/w320/cf.png"
+  },
+  {
+    "name": "Italy",
+    "code": "ITA",
+    "capital": { "name": "Rome", "latlng": [42.83333333, 12.83333333] },
+    "altSpellings": [
+      "Italian Republic",
+      "Italian Republic",
+      "Repubblica italiana"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": ["Italian"],
+    "borders": [
+      "Austria",
+      "France",
+      "San Marino",
+      "Slovenia",
+      "Switzerland",
+      "Vatican City"
+    ],
+    "area": 301336,
+    "population": 59554023,
+    "map": "https://goo.gl/maps/8M1K27TDj7StTRTq8",
+    "flag": "https://flagcdn.com/w320/it.png"
+  },
+  {
+    "name": "Uruguay",
+    "code": "URY",
+    "capital": { "name": "Montevideo", "latlng": [-33, -56] },
+    "altSpellings": [
+      "Oriental Republic of Uruguay",
+      "Oriental Republic of Uruguay",
+      "República Oriental del Uruguay"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": ["Spanish"],
+    "borders": ["Argentina", "Brazil"],
+    "area": 181034,
+    "population": 3473727,
+    "map": "https://goo.gl/maps/tiQ9Baekb1jQtDSD9",
+    "flag": "https://flagcdn.com/w320/uy.png"
+  },
+  {
+    "name": "Bahamas",
+    "code": "BHS",
+    "capital": { "name": "Nassau", "latlng": [24.25, -76] },
+    "altSpellings": [
+      "Commonwealth of the Bahamas",
+      "Commonwealth of the Bahamas"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English"],
+    "area": 13943,
+    "population": 393248,
+    "map": "https://goo.gl/maps/1YzRs1BZrG8p8pmVA",
+    "flag": "https://flagcdn.com/w320/bs.png"
+  },
+  {
+    "name": "Brazil",
+    "code": "BRA",
+    "capital": { "name": "Brasília", "latlng": [-10, -55] },
+    "altSpellings": [
+      "Federative Republic of Brazil",
+      "Brasil",
+      "Federative Republic of Brazil",
+      "República Federativa do Brasil"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": ["Portuguese"],
+    "borders": [
+      "Argentina",
+      "Bolivia",
+      "Colombia",
+      "French Guiana",
+      "Guyana",
+      "Paraguay",
+      "Peru",
+      "Suriname",
+      "Uruguay",
+      "Venezuela"
+    ],
+    "area": 8515767,
+    "population": 212559409,
+    "map": "https://goo.gl/maps/waCKk21HeeqFzkNC9",
+    "flag": "https://flagcdn.com/w320/br.png"
+  },
+  {
+    "name": "Myanmar",
+    "code": "MMR",
+    "capital": { "name": "Naypyidaw", "latlng": [22, 98] },
+    "altSpellings": [
+      "Republic of the Union of Myanmar",
+      "Burma",
+      "Republic of the Union of Myanmar",
+      "Pyidaunzu Thanmăda Myăma Nainngandaw"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": ["Burmese"],
+    "borders": ["Bangladesh", "China", "India", "Laos", "Thailand"],
+    "area": 676578,
+    "population": 54409794,
+    "map": "https://goo.gl/maps/4jrZyJkDERUfHyp26",
+    "flag": "https://flagcdn.com/w320/mm.png"
+  },
+  {
+    "name": "Vatican City",
+    "code": "VAT",
+    "capital": { "name": "Vatican City", "latlng": [41.9, 12.45] },
+    "altSpellings": [
+      "Vatican City State",
+      "Holy See (Vatican City State)",
+      "Vatican City State",
+      "Stato della Città del Vaticano"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": ["Italian", "Latin"],
+    "borders": ["Italy"],
+    "area": 0.44,
+    "population": 451,
+    "map": "https://goo.gl/maps/DTKvw5Bd1QZaDZmE8",
+    "flag": "https://flagcdn.com/w320/va.png"
+  },
+  {
+    "name": "Sweden",
+    "code": "SWE",
+    "capital": { "name": "Stockholm", "latlng": [62, 15] },
+    "altSpellings": [
+      "Kingdom of Sweden",
+      "Kingdom of Sweden",
+      "Konungariket Sverige"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": ["Swedish"],
+    "borders": ["Finland", "Norway"],
+    "area": 450295,
+    "population": 10353442,
+    "map": "https://goo.gl/maps/iqygE491ADVgnBW39",
+    "flag": "https://flagcdn.com/w320/se.png"
+  },
+  {
+    "name": "Vietnam",
+    "code": "VNM",
+    "capital": { "name": "Hanoi", "latlng": [16.16666666, 107.83333333] },
+    "altSpellings": [
+      "Socialist Republic of Vietnam",
+      "Socialist Republic of Vietnam",
+      "Cộng hòa Xã hội chủ nghĩa Việt Nam",
+      "Viet Nam"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": ["Vietnamese"],
+    "borders": ["Cambodia", "China", "Laos"],
+    "area": 331212,
+    "population": 97338583,
+    "map": "https://goo.gl/maps/PCpVt9WzdJ9A9nEZ9",
+    "flag": "https://flagcdn.com/w320/vn.png"
+  },
+  {
+    "name": "Estonia",
+    "code": "EST",
+    "capital": { "name": "Tallinn", "latlng": [59, 26] },
+    "altSpellings": [
+      "Republic of Estonia",
+      "Eesti",
+      "Republic of Estonia",
+      "Eesti Vabariik"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": ["Estonian"],
+    "borders": ["Latvia", "Russia"],
+    "area": 45227,
+    "population": 1331057,
+    "map": "https://goo.gl/maps/6SsynwGUodL1sDvq8",
+    "flag": "https://flagcdn.com/w320/ee.png"
+  },
+  {
+    "name": "Guinea-Bissau",
+    "code": "GNB",
+    "capital": { "name": "Bissau", "latlng": [12, -15] },
+    "altSpellings": [
+      "Republic of Guinea-Bissau",
+      "Republic of Guinea-Bissau",
+      "República da Guiné-Bissau"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": ["Portuguese", "Upper Guinea Creole"],
+    "borders": ["Guinea", "Senegal"],
+    "area": 36125,
+    "population": 1967998,
+    "map": "https://goo.gl/maps/5Wyaz17miUc1zLc67",
+    "flag": "https://flagcdn.com/w320/gw.png"
+  },
+  {
+    "name": "Aruba",
+    "code": "ABW",
+    "capital": { "name": "Oranjestad", "latlng": [12.5, -69.96666666] },
+    "altSpellings": ["Aruba"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["Dutch", "Papiamento"],
+    "area": 180,
+    "population": 106766,
+    "map": "https://goo.gl/maps/8hopbQqifHAgyZyg8",
+    "flag": "https://flagcdn.com/w320/aw.png"
+  },
+  {
+    "name": "Palestine",
+    "code": "PSE",
+    "capital": { "name": "Ramallah", "latlng": [31.9, 35.2] },
+    "altSpellings": [
+      "State of Palestine",
+      "Palestine, State of",
+      "State of Palestine",
+      "Dawlat Filasṭin"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": ["Arabic"],
+    "borders": ["Israel", "Egypt", "Jordan"],
+    "area": 6220,
+    "population": 4803269,
+    "map": "https://goo.gl/maps/QvTbkRdmdWEoYAmt5",
+    "flag": "https://flagcdn.com/w320/ps.png"
+  },
+  {
+    "name": "Peru",
+    "code": "PER",
+    "capital": { "name": "Lima", "latlng": [-10, -76] },
+    "altSpellings": [
+      "Republic of Peru",
+      "Republic of Peru",
+      "República del Perú"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": ["Aymara", "Quechua", "Spanish"],
+    "borders": ["Bolivia", "Brazil", "Chile", "Colombia", "Ecuador"],
+    "area": 1285216,
+    "population": 32971846,
+    "map": "https://goo.gl/maps/uDWEUaXNcZTng1fP6",
+    "flag": "https://flagcdn.com/w320/pe.png"
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "code": "ATG",
+    "capital": { "name": "Saint John's", "latlng": [17.05, -61.8] },
+    "altSpellings": ["Antigua and Barbuda"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English"],
+    "area": 442,
+    "population": 97928,
+    "map": "https://goo.gl/maps/fnye4wGJ1RzC9jpX9",
+    "flag": "https://flagcdn.com/w320/ag.png"
+  },
+  {
+    "name": "Heard Island and McDonald Islands",
+    "code": "HMD",
+    "capital": { "latlng": [-53.1, 72.51666666] },
+    "altSpellings": [
+      "Heard Island and McDonald Islands",
+      "Heard Island and McDonald Islands"
+    ],
+    "region": "Antarctic",
+    "languages": ["English"],
+    "area": 412,
+    "population": 0,
+    "map": "https://goo.gl/maps/k5FBAiVaVyozuYeA7",
+    "flag": "https://flagcdn.com/w320/hm.png"
+  },
+  {
+    "name": "Burundi",
+    "code": "BDI",
+    "capital": { "name": "Gitega", "latlng": [-3.5, 30] },
+    "altSpellings": [
+      "Republic of Burundi",
+      "Republic of Burundi",
+      "Republika y'Uburundi",
+      "République du Burundi"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["French", "Kirundi"],
+    "borders": ["DR Congo", "Rwanda", "Tanzania"],
+    "area": 27834,
+    "population": 11890781,
+    "map": "https://goo.gl/maps/RXPWoRrB9tfrJpUG7",
+    "flag": "https://flagcdn.com/w320/bi.png"
+  },
+  {
+    "name": "Jordan",
+    "code": "JOR",
+    "capital": { "name": "Amman", "latlng": [31, 36] },
+    "altSpellings": [
+      "Hashemite Kingdom of Jordan",
+      "Hashemite Kingdom of Jordan",
+      "al-Mamlakah al-Urdunīyah al-Hāshimīyah"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": ["Arabic"],
+    "borders": ["Iraq", "Israel", "Palestine", "Saudi Arabia", "Syria"],
+    "area": 89342,
+    "population": 10203140,
+    "map": "https://goo.gl/maps/ko1dzSDKg8Gsi9A98",
+    "flag": "https://flagcdn.com/w320/jo.png"
+  },
+  {
+    "name": "Pitcairn Islands",
+    "code": "PCN",
+    "capital": { "name": "Adamstown", "latlng": [-25.06666666, -130.1] },
+    "altSpellings": [
+      "Pitcairn Group of Islands",
+      "Pitcairn",
+      "Pitcairn Henderson Ducie and Oeno Islands"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": ["English"],
+    "area": 47,
+    "population": 56,
+    "map": "https://goo.gl/maps/XGJMnMAigXjXcxSa7",
+    "flag": "https://flagcdn.com/w320/pn.png"
+  },
+  {
+    "name": "Guatemala",
+    "code": "GTM",
+    "capital": { "name": "Guatemala City", "latlng": [15.5, -90.25] },
+    "altSpellings": ["Republic of Guatemala"],
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": ["Spanish"],
+    "borders": ["Belize", "El Salvador", "Honduras", "Mexico"],
+    "area": 108889,
+    "population": 16858333,
+    "map": "https://goo.gl/maps/JoRAbem4Hxb9FYbVA",
+    "flag": "https://flagcdn.com/w320/gt.png"
+  },
+  {
+    "name": "French Polynesia",
+    "code": "PYF",
+    "capital": { "name": "Papeetē", "latlng": [-15, -140] },
+    "altSpellings": [
+      "French Polynesia",
+      "Polynésie française",
+      "French Polynesia",
+      "Pōrīnetia Farāni"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": ["French"],
+    "area": 4167,
+    "population": 280904,
+    "map": "https://goo.gl/maps/xgg6BQTRyeQg4e1m6",
+    "flag": "https://flagcdn.com/w320/pf.png"
+  },
+  {
+    "name": "South Georgia",
+    "code": "SGS",
+    "capital": { "name": "King Edward Point", "latlng": [-54.5, -37] },
+    "altSpellings": [
+      "South Georgia and the South Sandwich Islands",
+      "South Georgia and the South Sandwich Islands"
+    ],
+    "region": "Antarctic",
+    "languages": ["English"],
+    "area": 3903,
+    "population": 30,
+    "map": "https://goo.gl/maps/mJzdaBwKBbm2B81q9",
+    "flag": "https://flagcdn.com/w320/gs.png"
+  },
+  {
+    "name": "Laos",
+    "code": "LAO",
+    "capital": { "name": "Vientiane", "latlng": [18, 105] },
+    "altSpellings": [
+      "Lao People's Democratic Republic",
+      "Lao People's Democratic Republic",
+      "Sathalanalat Paxathipatai Paxaxon Lao"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": ["Lao"],
+    "borders": ["Myanmar", "Cambodia", "China", "Thailand", "Vietnam"],
+    "area": 236800,
+    "population": 7275556,
+    "map": "https://goo.gl/maps/F3asVB7sRKgSnwbE7",
+    "flag": "https://flagcdn.com/w320/la.png"
+  },
+  {
+    "name": "Sierra Leone",
+    "code": "SLE",
+    "capital": { "name": "Freetown", "latlng": [8.5, -11.5] },
+    "altSpellings": ["Republic of Sierra Leone", "Republic of Sierra Leone"],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": ["English"],
+    "borders": ["Guinea", "Liberia"],
+    "area": 71740,
+    "population": 7976985,
+    "map": "https://goo.gl/maps/jhacar85oq9QaeKB7",
+    "flag": "https://flagcdn.com/w320/sl.png"
+  },
+  {
+    "name": "India",
+    "code": "IND",
+    "capital": { "name": "New Delhi", "latlng": [20, 77] },
+    "altSpellings": [
+      "Republic of India",
+      "Bhārat",
+      "Republic of India",
+      "Bharat Ganrajya",
+      "இந்தியா"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": ["English", "Hindi", "Tamil"],
+    "borders": [
+      "Bangladesh",
+      "Bhutan",
+      "Myanmar",
+      "China",
+      "Nepal",
+      "Pakistan"
+    ],
+    "area": 3287590,
+    "population": 1380004385,
+    "map": "https://goo.gl/maps/WSk3fLwG4vtPQetp7",
+    "flag": "https://flagcdn.com/w320/in.png"
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "code": "IOT",
+    "capital": { "name": "Diego Garcia", "latlng": [-6, 71.5] },
+    "altSpellings": ["British Indian Ocean Territory"],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["English"],
+    "area": 60,
+    "population": 3000,
+    "map": "https://goo.gl/maps/bheNucgekVEYozoi6",
+    "flag": "https://flagcdn.com/w320/io.png"
+  },
+  {
+    "name": "Jamaica",
+    "code": "JAM",
+    "capital": { "name": "Kingston", "latlng": [18.25, -77.5] },
+    "altSpellings": ["Jamaica"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English", "Jamaican Patois"],
+    "area": 10991,
+    "population": 2961161,
+    "map": "https://goo.gl/maps/Z8mQ6jxnRQKFwJy9A",
+    "flag": "https://flagcdn.com/w320/jm.png"
+  },
+  {
+    "name": "North Macedonia",
+    "code": "MKD",
+    "capital": { "name": "Skopje", "latlng": [41.83333333, 22] },
+    "altSpellings": [
+      "Republic of North Macedonia",
+      "The former Yugoslav Republic of Macedonia",
+      "Republic of North Macedonia",
+      "Macedonia, The Former Yugoslav Republic of",
+      "Република Северна Македонија"
+    ],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "languages": ["Macedonian"],
+    "borders": ["Albania", "Bulgaria", "Greece", "Kosovo", "Serbia"],
+    "area": 25713,
+    "population": 2077132,
+    "map": "https://goo.gl/maps/55Q8MEnF6ACdu3q79",
+    "flag": "https://flagcdn.com/w320/mk.png"
+  },
+  {
+    "name": "Canada",
+    "code": "CAN",
+    "capital": { "name": "Ottawa", "latlng": [60, -95] },
+    "altSpellings": ["Canada"],
+    "region": "Americas",
+    "subregion": "North America",
+    "languages": ["English", "French"],
+    "borders": ["United States"],
+    "area": 9984670,
+    "population": 38005238,
+    "map": "https://goo.gl/maps/jmEVLugreeqiZXxbA",
+    "flag": "https://flagcdn.com/w320/ca.png"
+  },
+  {
+    "name": "Guam",
+    "code": "GUM",
+    "capital": { "name": "Hagåtña", "latlng": [13.46666666, 144.78333333] },
+    "altSpellings": ["Guam", "Guåhån"],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": ["Chamorro", "English", "Spanish"],
+    "area": 549,
+    "population": 168783,
+    "map": "https://goo.gl/maps/Xfnq2i279b18cH3C9",
+    "flag": "https://flagcdn.com/w320/gu.png"
+  },
+  {
+    "name": "Norfolk Island",
+    "code": "NFK",
+    "capital": { "name": "Kingston", "latlng": [-29.03333333, 167.95] },
+    "altSpellings": [
+      "Territory of Norfolk Island",
+      "Territory of Norfolk Island",
+      "Teratri of Norf'k Ailen"
+    ],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "languages": ["English", "Norfuk"],
+    "area": 36,
+    "population": 2302,
+    "map": "https://goo.gl/maps/pbvtm6XYd1iZbjky5",
+    "flag": "https://flagcdn.com/w320/nf.png"
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "code": "KNA",
+    "capital": { "name": "Basseterre", "latlng": [17.33333333, -62.75] },
+    "altSpellings": [
+      "Federation of Saint Christopher and Nevis",
+      "Federation of Saint Christopher and Nevis"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English"],
+    "area": 261,
+    "population": 53192,
+    "map": "https://goo.gl/maps/qiaVwcLVTXX3eoTNA",
+    "flag": "https://flagcdn.com/w320/kn.png"
+  },
+  {
+    "name": "Grenada",
+    "code": "GRD",
+    "capital": {
+      "name": "St. George's",
+      "latlng": [12.11666666, -61.66666666]
+    },
+    "altSpellings": ["Grenada"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English"],
+    "area": 344,
+    "population": 112519,
+    "map": "https://goo.gl/maps/rqWyfUAt4xhvk1Zy9",
+    "flag": "https://flagcdn.com/w320/gd.png"
+  },
+  {
+    "name": "Liberia",
+    "code": "LBR",
+    "capital": { "name": "Monrovia", "latlng": [6.5, -9.5] },
+    "altSpellings": ["Republic of Liberia", "Republic of Liberia"],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": ["English"],
+    "borders": ["Guinea", "Ivory Coast", "Sierra Leone"],
+    "area": 111369,
+    "population": 5057677,
+    "map": "https://goo.gl/maps/4VsHsc2oeGeRL3wg6",
+    "flag": "https://flagcdn.com/w320/lr.png"
+  },
+  {
+    "name": "United States",
+    "code": "USA",
+    "capital": { "name": "Washington, D.C.", "latlng": [38, -97] },
+    "altSpellings": ["United States of America", "United States of America"],
+    "region": "Americas",
+    "subregion": "North America",
+    "languages": ["English"],
+    "borders": ["Canada", "Mexico"],
+    "area": 9372610,
+    "population": 329484123,
+    "map": "https://goo.gl/maps/e8M246zY4BSjkjAv6",
+    "flag": "https://flagcdn.com/w320/us.png"
+  },
+  {
+    "name": "Bahrain",
+    "code": "BHR",
+    "capital": { "name": "Manama", "latlng": [26, 50.55] },
+    "altSpellings": [
+      "Kingdom of Bahrain",
+      "Kingdom of Bahrain",
+      "Mamlakat al-Baḥrayn"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": ["Arabic"],
+    "area": 765,
+    "population": 1701583,
+    "map": "https://goo.gl/maps/5Zue99Zc6vFBHxzJ7",
+    "flag": "https://flagcdn.com/w320/bh.png"
+  },
+  {
+    "name": "Germany",
+    "code": "DEU",
+    "capital": { "name": "Berlin", "latlng": [51, 9] },
+    "altSpellings": [
+      "Federal Republic of Germany",
+      "Federal Republic of Germany",
+      "Bundesrepublik Deutschland"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": ["German"],
+    "borders": [
+      "Austria",
+      "Belgium",
+      "Czechia",
+      "Denmark",
+      "France",
+      "Luxembourg",
+      "Netherlands",
+      "Poland",
+      "Switzerland"
+    ],
+    "area": 357114,
+    "population": 83240525,
+    "map": "https://goo.gl/maps/mD9FBMq1nvXUBrkv6",
+    "flag": "https://flagcdn.com/w320/de.png"
+  },
+  {
+    "name": "Bermuda",
+    "code": "BMU",
+    "capital": { "name": "Hamilton", "latlng": [32.33333333, -64.75] },
+    "altSpellings": [
+      "Bermuda",
+      "The Islands of Bermuda",
+      "The Bermudas",
+      "Somers Isles"
+    ],
+    "region": "Americas",
+    "subregion": "North America",
+    "languages": ["English"],
+    "area": 54,
+    "population": 63903,
+    "map": "https://goo.gl/maps/NLsRGNjTzDghTtAJA",
+    "flag": "https://flagcdn.com/w320/bm.png"
+  },
+  {
+    "name": "Malaysia",
+    "code": "MYS",
+    "capital": { "name": "Kuala Lumpur", "latlng": [2.5, 112.5] },
+    "altSpellings": ["Malaysia"],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": ["English", "Malay"],
+    "borders": ["Brunei", "Indonesia", "Thailand"],
+    "area": 330803,
+    "population": 32365998,
+    "map": "https://goo.gl/maps/qrY1PNeUXGyXDcPy6",
+    "flag": "https://flagcdn.com/w320/my.png"
+  },
+  {
+    "name": "Kiribati",
+    "code": "KIR",
+    "capital": { "name": "South Tarawa", "latlng": [1.41666666, 173] },
+    "altSpellings": [
+      "Independent and Sovereign Republic of Kiribati",
+      "Republic of Kiribati",
+      "Ribaberiki Kiribati"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": ["English", "Gilbertese"],
+    "area": 811,
+    "population": 119446,
+    "map": "https://goo.gl/maps/NBfYvrndW4skAimw9",
+    "flag": "https://flagcdn.com/w320/ki.png"
+  },
+  {
+    "name": "Ukraine",
+    "code": "UKR",
+    "capital": { "name": "Kyiv", "latlng": [49, 32] },
+    "altSpellings": ["Ukraine", "Ukrayina"],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "languages": ["Ukrainian"],
+    "borders": [
+      "Belarus",
+      "Hungary",
+      "Moldova",
+      "Poland",
+      "Romania",
+      "Russia",
+      "Slovakia"
+    ],
+    "area": 603500,
+    "population": 44134693,
+    "map": "https://goo.gl/maps/DvgJMiPJ7aozKFZv7",
+    "flag": "https://flagcdn.com/w320/ua.png"
+  },
+  {
+    "name": "Faroe Islands",
+    "code": "FRO",
+    "capital": { "name": "Tórshavn", "latlng": [62, -7] },
+    "altSpellings": ["Faroe Islands", "Føroyar", "Færøerne"],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": ["Danish", "Faroese"],
+    "area": 1393,
+    "population": 48865,
+    "map": "https://goo.gl/maps/6sTru4SmHdEVcNkM6",
+    "flag": "https://flagcdn.com/w320/fo.png"
+  },
+  {
+    "name": "Afghanistan",
+    "code": "AFG",
+    "capital": { "name": "Kabul", "latlng": [33, 65] },
+    "altSpellings": ["Islamic Republic of Afghanistan", "Afġānistān"],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": ["Dari", "Pashto", "Turkmen"],
+    "borders": [
+      "Iran",
+      "Pakistan",
+      "Turkmenistan",
+      "Uzbekistan",
+      "Tajikistan",
+      "China"
+    ],
+    "area": 652230,
+    "population": 40218234,
+    "map": "https://goo.gl/maps/BXBGw7yUUFknCfva9",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png"
+  },
+  {
+    "name": "São Tomé and Príncipe",
+    "code": "STP",
+    "capital": { "name": "São Tomé", "latlng": [1, 7] },
+    "altSpellings": [
+      "Democratic Republic of São Tomé and Príncipe",
+      "Democratic Republic of São Tomé and Príncipe",
+      "Sao Tome and Principe",
+      "República Democrática de São Tomé e Príncipe"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": ["Portuguese"],
+    "area": 964,
+    "population": 219161,
+    "map": "https://goo.gl/maps/9EUppm13RtPX9oF46",
+    "flag": "https://flagcdn.com/w320/st.png"
+  },
+  {
+    "name": "Kuwait",
+    "code": "KWT",
+    "capital": { "name": "Kuwait City", "latlng": [29.5, 45.75] },
+    "altSpellings": ["State of Kuwait", "State of Kuwait", "Dawlat al-Kuwait"],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": ["Arabic"],
+    "borders": ["Iraq", "Saudi Arabia"],
+    "area": 17818,
+    "population": 4270563,
+    "map": "https://goo.gl/maps/aqr3aNQjS1BAvksJ7",
+    "flag": "https://flagcdn.com/w320/kw.png"
+  },
+  {
+    "name": "Poland",
+    "code": "POL",
+    "capital": { "name": "Warsaw", "latlng": [52, 20] },
+    "altSpellings": [
+      "Republic of Poland",
+      "Republic of Poland",
+      "Rzeczpospolita Polska"
+    ],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "languages": ["Polish"],
+    "borders": [
+      "Belarus",
+      "Czechia",
+      "Germany",
+      "Lithuania",
+      "Russia",
+      "Slovakia",
+      "Ukraine"
+    ],
+    "area": 312679,
+    "population": 37950802,
+    "map": "https://goo.gl/maps/gY9Xw4Sf4415P4949",
+    "flag": "https://flagcdn.com/w320/pl.png"
+  },
+  {
+    "name": "Vanuatu",
+    "code": "VUT",
+    "capital": { "name": "Port Vila", "latlng": [-16, 167] },
+    "altSpellings": [
+      "Republic of Vanuatu",
+      "Republic of Vanuatu",
+      "Ripablik blong Vanuatu",
+      "République de Vanuatu"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "languages": ["Bislama", "English", "French"],
+    "area": 12189,
+    "population": 307150,
+    "map": "https://goo.gl/maps/hwAjehcT7VfvP5zJ8",
+    "flag": "https://flagcdn.com/w320/vu.png"
+  },
+  {
+    "name": "Comoros",
+    "code": "COM",
+    "capital": { "name": "Moroni", "latlng": [-12.16666666, 44.25] },
+    "altSpellings": [
+      "Union of the Comoros",
+      "Union of the Comoros",
+      "Union des Comores",
+      "Udzima wa Komori",
+      "al-Ittiḥād al-Qumurī"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["Arabic", "French", "Comorian"],
+    "area": 1862,
+    "population": 869595,
+    "map": "https://goo.gl/maps/eas4GP28C1GyStnu6",
+    "flag": "https://flagcdn.com/w320/km.png"
+  },
+  {
+    "name": "American Samoa",
+    "code": "ASM",
+    "capital": { "name": "Pago Pago", "latlng": [-14.33333333, -170] },
+    "altSpellings": [
+      "American Samoa",
+      "Amerika Sāmoa",
+      "Amelika Sāmoa",
+      "Sāmoa Amelika"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": ["English", "Samoan"],
+    "area": 199,
+    "population": 55197,
+    "map": "https://goo.gl/maps/Re9ePMjwP1sFCBFA6",
+    "flag": "https://flagcdn.com/w320/as.png"
+  },
+  {
+    "name": "Niue",
+    "code": "NIU",
+    "capital": { "name": "Alofi", "latlng": [-19.03333333, -169.86666666] },
+    "altSpellings": ["Niue"],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": ["English", "Niuean"],
+    "area": 260,
+    "population": 1470,
+    "map": "https://goo.gl/maps/xFgdzs3E55Rk1y8P9",
+    "flag": "https://flagcdn.com/w320/nu.png"
+  },
+  {
+    "name": "China",
+    "code": "CHN",
+    "capital": { "name": "Beijing", "latlng": [35, 105] },
+    "altSpellings": [
+      "People's Republic of China",
+      "Zhōngguó",
+      "Zhongguo",
+      "Zhonghua",
+      "People's Republic of China",
+      "中华人民共和国",
+      "Zhōnghuá Rénmín Gònghéguó"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "languages": ["Chinese"],
+    "borders": [
+      "Afghanistan",
+      "Bhutan",
+      "Myanmar",
+      "Hong Kong",
+      "India",
+      "Kazakhstan",
+      "Nepal",
+      "North Korea",
+      "Kyrgyzstan",
+      "Laos",
+      "Macau",
+      "Mongolia",
+      "Pakistan",
+      "Russia",
+      "Tajikistan",
+      "Vietnam"
+    ],
+    "area": 9706961,
+    "population": 1402112000,
+    "map": "https://goo.gl/maps/p9qC6vgiFRRXzvGi7",
+    "flag": "https://flagcdn.com/w320/cn.png"
+  },
+  {
+    "name": "Western Sahara",
+    "code": "ESH",
+    "capital": { "name": "El Aaiún", "latlng": [24.5, -13] },
+    "altSpellings": ["Sahrawi Arab Democratic Republic", "Taneẓroft Tutrimt"],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "languages": ["Berber", "Hassaniya", "Spanish"],
+    "borders": ["Algeria", "Mauritania", "Morocco"],
+    "area": 266000,
+    "population": 510713,
+    "map": "https://goo.gl/maps/7nU3mB69vP6zQp7A8",
+    "flag": "https://flagcdn.com/w320/eh.png"
+  },
+  {
+    "name": "Panama",
+    "code": "PAN",
+    "capital": { "name": "Panama City", "latlng": [9, -80] },
+    "altSpellings": [
+      "Republic of Panama",
+      "Republic of Panama",
+      "República de Panamá"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": ["Spanish"],
+    "borders": ["Colombia", "Costa Rica"],
+    "area": 75417,
+    "population": 4314768,
+    "map": "https://goo.gl/maps/sEN7sKqeawa5oPNLA",
+    "flag": "https://flagcdn.com/w320/pa.png"
+  },
+  {
+    "name": "Solomon Islands",
+    "code": "SLB",
+    "capital": { "name": "Honiara", "latlng": [-8, 159] },
+    "altSpellings": ["Solomon Islands"],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "languages": ["English"],
+    "area": 28896,
+    "population": 686878,
+    "map": "https://goo.gl/maps/JbPkx86Ywjv8C1n8A",
+    "flag": "https://flagcdn.com/w320/sb.png"
+  },
+  {
+    "name": "Costa Rica",
+    "code": "CRI",
+    "capital": { "name": "San José", "latlng": [10, -84] },
+    "altSpellings": [
+      "Republic of Costa Rica",
+      "Republic of Costa Rica",
+      "República de Costa Rica"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": ["Spanish"],
+    "borders": ["Nicaragua", "Panama"],
+    "area": 51100,
+    "population": 5094114,
+    "map": "https://goo.gl/maps/RFiwytjvNrpfKN7k6",
+    "flag": "https://flagcdn.com/w320/cr.png"
+  },
+  {
+    "name": "Papua New Guinea",
+    "code": "PNG",
+    "capital": { "name": "Port Moresby", "latlng": [-6, 147] },
+    "altSpellings": [
+      "Independent State of Papua New Guinea",
+      "Independent State of Papua New Guinea",
+      "Independen Stet bilong Papua Niugini"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "languages": ["English", "Hiri Motu", "Tok Pisin"],
+    "borders": ["Indonesia"],
+    "area": 462840,
+    "population": 8947027,
+    "map": "https://goo.gl/maps/ChGmzZBjZ3vnBwR2A",
+    "flag": "https://flagcdn.com/w320/pg.png"
+  },
+  {
+    "name": "Japan",
+    "code": "JPN",
+    "capital": { "name": "Tokyo", "latlng": [36, 138] },
+    "altSpellings": ["Japan", "Nippon", "Nihon"],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "languages": ["Japanese"],
+    "area": 377930,
+    "population": 125836021,
+    "map": "https://goo.gl/maps/NGTLSCSrA8bMrvnX9",
+    "flag": "https://flagcdn.com/w320/jp.png"
+  },
+  {
+    "name": "South Sudan",
+    "code": "SSD",
+    "capital": { "name": "Juba", "latlng": [7, 30] },
+    "altSpellings": ["Republic of South Sudan"],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": ["English"],
+    "borders": [
+      "Central African Republic",
+      "DR Congo",
+      "Ethiopia",
+      "Kenya",
+      "Sudan",
+      "Uganda"
+    ],
+    "area": 619745,
+    "population": 11193729,
+    "map": "https://goo.gl/maps/Zm1AYCXb9HSNF1P27",
+    "flag": "https://flagcdn.com/w320/ss.png"
+  },
+  {
+    "name": "Marshall Islands",
+    "code": "MHL",
+    "capital": { "name": "Majuro", "latlng": [9, 168] },
+    "altSpellings": [
+      "Republic of the Marshall Islands",
+      "Republic of the Marshall Islands",
+      "Aolepān Aorōkin M̧ajeļ"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": ["English", "Marshallese"],
+    "area": 181,
+    "population": 59194,
+    "map": "https://goo.gl/maps/A4xLi1XvcX88gi3W8",
+    "flag": "https://flagcdn.com/w320/mh.png"
+  },
+  {
+    "name": "Monaco",
+    "code": "MCO",
+    "capital": { "name": "Monaco", "latlng": [43.73333333, 7.4] },
+    "altSpellings": [
+      "Principality of Monaco",
+      "Principality of Monaco",
+      "Principauté de Monaco"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": ["French"],
+    "borders": ["France"],
+    "area": 2.02,
+    "population": 39244,
+    "map": "https://goo.gl/maps/DGpndDot28bYdXYn7",
+    "flag": "https://flagcdn.com/w320/mc.png"
+  },
+  {
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "code": "SHN",
+    "capital": { "name": "Jamestown", "latlng": [-15.95, -5.72] },
+    "altSpellings": [
+      "Saint Helena, Ascension and Tristan da Cunha",
+      "Saint Helena",
+      "St. Helena, Ascension and Tristan da Cunha"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": ["English"],
+    "area": 394,
+    "population": 53192,
+    "map": "https://goo.gl/maps/iv4VxnPzHkjLCJuc6",
+    "flag": "https://flagcdn.com/w320/sh.png"
+  },
+  {
+    "name": "Sint Maarten",
+    "code": "SXM",
+    "capital": { "name": "Philipsburg", "latlng": [18.033333, -63.05] },
+    "altSpellings": ["Sint Maarten", "Sint Maarten (Dutch part)"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English", "French", "Dutch"],
+    "borders": ["Saint Martin"],
+    "area": 34,
+    "population": 40812,
+    "map": "https://goo.gl/maps/DjvcESy1a1oGEZuNA",
+    "flag": "https://flagcdn.com/w320/sx.png"
+  },
+  {
+    "name": "Venezuela",
+    "code": "VEN",
+    "capital": { "name": "Caracas", "latlng": [8, -66] },
+    "altSpellings": [
+      "Bolivarian Republic of Venezuela",
+      "Bolivarian Republic of Venezuela",
+      "Venezuela, Bolivarian Republic of",
+      "República Bolivariana de Venezuela"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": ["Spanish"],
+    "borders": ["Brazil", "Colombia", "Guyana"],
+    "area": 916445,
+    "population": 28435943,
+    "map": "https://goo.gl/maps/KLCwDN8sec7z2kse9",
+    "flag": "https://flagcdn.com/w320/ve.png"
+  },
+  {
+    "name": "Micronesia",
+    "code": "FSM",
+    "capital": { "name": "Palikir", "latlng": [6.91666666, 158.25] },
+    "altSpellings": [
+      "Federated States of Micronesia",
+      "Federated States of Micronesia",
+      "Micronesia, Federated States of"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": ["English"],
+    "area": 702,
+    "population": 115021,
+    "map": "https://goo.gl/maps/LLcnofC5LxZsJXTo8",
+    "flag": "https://flagcdn.com/w320/fm.png"
+  },
+  {
+    "name": "Montserrat",
+    "code": "MSR",
+    "capital": { "name": "Plymouth", "latlng": [16.75, -62.2] },
+    "altSpellings": ["Montserrat"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English"],
+    "area": 102,
+    "population": 4922,
+    "map": "https://goo.gl/maps/CSbe7UmxPmiwQB7GA",
+    "flag": "https://flagcdn.com/w320/ms.png"
+  },
+  {
+    "name": "Thailand",
+    "code": "THA",
+    "capital": { "name": "Bangkok", "latlng": [15, 100] },
+    "altSpellings": [
+      "Kingdom of Thailand",
+      "Prathet",
+      "Thai",
+      "Kingdom of Thailand",
+      "ราชอาณาจักรไทย",
+      "Ratcha Anachak Thai"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": ["Thai"],
+    "borders": ["Myanmar", "Cambodia", "Laos", "Malaysia"],
+    "area": 513120,
+    "population": 69799978,
+    "map": "https://goo.gl/maps/qeU6uqsfW4nCCwzw9",
+    "flag": "https://flagcdn.com/w320/th.png"
+  },
+  {
+    "name": "Bouvet Island",
+    "code": "BVT",
+    "capital": { "latlng": [-54.43333333, 3.4] },
+    "altSpellings": ["Bouvet Island", "Bouvetøya", "Bouvet-øya"],
+    "region": "Antarctic",
+    "languages": ["Norwegian"],
+    "area": 49,
+    "population": 0,
+    "map": "https://goo.gl/maps/7WRQAEKZb4uK36yi9",
+    "flag": "https://flagcdn.com/w320/bv.png"
+  },
+  {
+    "name": "Anguilla",
+    "code": "AIA",
+    "capital": { "name": "The Valley", "latlng": [18.25, -63.16666666] },
+    "altSpellings": ["Anguilla"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English"],
+    "area": 91,
+    "population": 13452,
+    "map": "https://goo.gl/maps/3KgLnEyN7amdno2p9",
+    "flag": "https://flagcdn.com/w320/ai.png"
+  },
+  {
+    "name": "Philippines",
+    "code": "PHL",
+    "capital": { "name": "Manila", "latlng": [13, 122] },
+    "altSpellings": [
+      "Republic of the Philippines",
+      "Republic of the Philippines",
+      "Repúblika ng Pilipinas"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": ["English", "Filipino"],
+    "area": 342353,
+    "population": 109581085,
+    "map": "https://goo.gl/maps/k8T2fb5VMUfsWFX6A",
+    "flag": "https://flagcdn.com/w320/ph.png"
+  },
+  {
+    "name": "New Zealand",
+    "code": "NZL",
+    "capital": { "name": "Wellington", "latlng": [-41, 174] },
+    "altSpellings": ["New Zealand", "Aotearoa"],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "languages": ["English", "Māori", "New Zealand Sign Language"],
+    "area": 270467,
+    "population": 5084300,
+    "map": "https://goo.gl/maps/xXiDQo65dwdpw9iu8",
+    "flag": "https://flagcdn.com/w320/nz.png"
+  },
+  {
+    "name": "Saint Barthélemy",
+    "code": "BLM",
+    "capital": { "name": "Gustavia", "latlng": [18.5, -63.41666666] },
+    "altSpellings": [
+      "Collectivity of Saint Barthélemy",
+      "St. Barthelemy",
+      "Collectivity of Saint Barthélemy",
+      "Collectivité de Saint-Barthélemy"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["French"],
+    "area": 21,
+    "population": 4255,
+    "map": "https://goo.gl/maps/Mc7GqH466S7AAk297",
+    "flag": "https://flagcdn.com/w320/bl.png"
+  },
+  {
+    "name": "Brunei",
+    "code": "BRN",
+    "capital": { "name": "Bandar Seri Begawan", "latlng": [4.5, 114.66666666] },
+    "altSpellings": [
+      "Nation of Brunei, Abode of Peace",
+      "Brunei Darussalam",
+      "Nation of Brunei",
+      "the Abode of Peace"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": ["Malay"],
+    "borders": ["Malaysia"],
+    "area": 5765,
+    "population": 437483,
+    "map": "https://goo.gl/maps/4jb4CqBXhr8vNh579",
+    "flag": "https://flagcdn.com/w320/bn.png"
+  },
+  {
+    "name": "Slovakia",
+    "code": "SVK",
+    "capital": { "name": "Bratislava", "latlng": [48.66666666, 19.5] },
+    "altSpellings": [
+      "Slovak Republic",
+      "Slovak Republic",
+      "Slovenská republika"
+    ],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "languages": ["Slovak"],
+    "borders": ["Austria", "Czechia", "Hungary", "Poland", "Ukraine"],
+    "area": 49037,
+    "population": 5458827,
+    "map": "https://goo.gl/maps/uNSH2wW4bLoZVYJj7",
+    "flag": "https://flagcdn.com/w320/sk.png"
+  },
+  {
+    "name": "Republic of the Congo",
+    "code": "COG",
+    "capital": { "name": "Brazzaville", "latlng": [-1, 15] },
+    "altSpellings": ["Republic of the Congo", "Congo", "Congo-Brazzaville"],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": ["French", "Kikongo", "Lingala"],
+    "borders": [
+      "Angola",
+      "Cameroon",
+      "Central African Republic",
+      "DR Congo",
+      "Gabon"
+    ],
+    "area": 342000,
+    "population": 5657000,
+    "map": "https://goo.gl/maps/Phf5dDDKdfCtuBTb6",
+    "flag": "https://flagcdn.com/w320/cg.png"
+  },
+  {
+    "name": "Wallis and Futuna",
+    "code": "WLF",
+    "capital": { "name": "Mata-Utu", "latlng": [-13.3, -176.2] },
+    "altSpellings": [
+      "Territory of the Wallis and Futuna Islands",
+      "Territory of the Wallis and Futuna Islands",
+      "Territoire des îles Wallis et Futuna"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": ["French"],
+    "area": 142,
+    "population": 11750,
+    "map": "https://goo.gl/maps/CzVqK74QYtbHv65r5",
+    "flag": "https://flagcdn.com/w320/wf.png"
+  },
+  {
+    "name": "New Caledonia",
+    "code": "NCL",
+    "capital": { "name": "Nouméa", "latlng": [-21.5, 165.5] },
+    "altSpellings": ["New Caledonia"],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "languages": ["French"],
+    "area": 18575,
+    "population": 271960,
+    "map": "https://goo.gl/maps/cBhtCeMdob4U7FRU9",
+    "flag": "https://flagcdn.com/w320/nc.png"
+  },
+  {
+    "name": "Montenegro",
+    "code": "MNE",
+    "capital": { "name": "Podgorica", "latlng": [42.5, 19.3] },
+    "altSpellings": ["Montenegro", "Crna Gora"],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "languages": ["Montenegrin"],
+    "borders": [
+      "Albania",
+      "Bosnia and Herzegovina",
+      "Croatia",
+      "Kosovo",
+      "Serbia"
+    ],
+    "area": 13812,
+    "population": 621718,
+    "map": "https://goo.gl/maps/4THX1fM7WqANuPbB8",
+    "flag": "https://flagcdn.com/w320/me.png"
+  },
+  {
+    "name": "French Southern and Antarctic Lands",
+    "code": "ATF",
+    "capital": { "name": "Port-aux-Français", "latlng": [-49.25, 69.167] },
+    "altSpellings": [
+      "Territory of the French Southern and Antarctic Lands",
+      "French Southern Territories"
+    ],
+    "region": "Antarctic",
+    "languages": ["French"],
+    "area": 7747,
+    "population": 400,
+    "map": "https://goo.gl/maps/6ua6CX1m4w1xF2Em7",
+    "flag": "https://flagcdn.com/w320/tf.png"
+  },
+  {
+    "name": "Finland",
+    "code": "FIN",
+    "capital": { "name": "Helsinki", "latlng": [64, 26] },
+    "altSpellings": [
+      "Republic of Finland",
+      "Suomi",
+      "Republic of Finland",
+      "Suomen tasavalta",
+      "Republiken Finland"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": ["Finnish", "Swedish"],
+    "borders": ["Norway", "Sweden", "Russia"],
+    "area": 338424,
+    "population": 5530719,
+    "map": "https://goo.gl/maps/HjgWDCNKRAYHrkMn8",
+    "flag": "https://flagcdn.com/w320/fi.png"
+  },
+  {
+    "name": "Liechtenstein",
+    "code": "LIE",
+    "capital": { "name": "Vaduz", "latlng": [47.26666666, 9.53333333] },
+    "altSpellings": [
+      "Principality of Liechtenstein",
+      "Principality of Liechtenstein",
+      "Fürstentum Liechtenstein"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": ["German"],
+    "borders": ["Austria", "Switzerland"],
+    "area": 160,
+    "population": 38137,
+    "map": "https://goo.gl/maps/KNuHeiJzAPodwM7y6",
+    "flag": "https://flagcdn.com/w320/li.png"
+  },
+  {
+    "name": "Colombia",
+    "code": "COL",
+    "capital": { "name": "Bogotá", "latlng": [4, -72] },
+    "altSpellings": [
+      "Republic of Colombia",
+      "Republic of Colombia",
+      "República de Colombia"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": ["Spanish"],
+    "borders": ["Brazil", "Ecuador", "Panama", "Peru", "Venezuela"],
+    "area": 1141748,
+    "population": 50882884,
+    "map": "https://goo.gl/maps/RdwTG8e7gPwS62oR6",
+    "flag": "https://flagcdn.com/w320/co.png"
+  },
+  {
+    "name": "Andorra",
+    "code": "AND",
+    "capital": { "name": "Andorra la Vella", "latlng": [42.5, 1.5] },
+    "altSpellings": [
+      "Principality of Andorra",
+      "Principality of Andorra",
+      "Principat d'Andorra"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": ["Catalan"],
+    "borders": ["France", "Spain"],
+    "area": 468,
+    "population": 77265,
+    "map": "https://goo.gl/maps/JqAnacWE2qEznKgw7",
+    "flag": "https://flagcdn.com/w320/ad.png"
+  },
+  {
+    "name": "Belize",
+    "code": "BLZ",
+    "capital": { "name": "Belmopan", "latlng": [17.25, -88.75] },
+    "altSpellings": ["Belize"],
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": ["Belizean Creole", "English", "Spanish"],
+    "borders": ["Guatemala", "Mexico"],
+    "area": 22966,
+    "population": 397621,
+    "map": "https://goo.gl/maps/jdCccpdLodm1uTmo9",
+    "flag": "https://flagcdn.com/w320/bz.png"
+  },
+  {
+    "name": "Bolivia",
+    "code": "BOL",
+    "capital": { "name": "Sucre", "latlng": [-17, -65] },
+    "altSpellings": [
+      "Plurinational State of Bolivia",
+      "Buliwya",
+      "Wuliwya",
+      "Bolivia, Plurinational State of",
+      "Plurinational State of Bolivia",
+      "Estado Plurinacional de Bolivia",
+      "Buliwya Mamallaqta",
+      "Wuliwya Suyu",
+      "Tetã Volívia"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": ["Aymara", "Guaraní", "Quechua", "Spanish"],
+    "borders": ["Argentina", "Brazil", "Chile", "Paraguay", "Peru"],
+    "area": 1098581,
+    "population": 11673029,
+    "map": "https://goo.gl/maps/9DfnyfbxNM2g5U9b9",
+    "flag": "https://flagcdn.com/w320/bo.png"
+  },
+  {
+    "name": "Niger",
+    "code": "NER",
+    "capital": { "name": "Niamey", "latlng": [16, 8] },
+    "altSpellings": ["Republic of Niger", "Nijar"],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": ["French"],
+    "borders": [
+      "Algeria",
+      "Benin",
+      "Burkina Faso",
+      "Chad",
+      "Libya",
+      "Mali",
+      "Nigeria"
+    ],
+    "area": 1267000,
+    "population": 24206636,
+    "map": "https://goo.gl/maps/VKNU2TLsZcgxM49c8",
+    "flag": "https://flagcdn.com/w320/ne.png"
+  },
+  {
+    "name": "Russia",
+    "code": "RUS",
+    "capital": { "name": "Moscow", "latlng": [60, 100] },
+    "altSpellings": [
+      "Russian Federation",
+      "Russian Federation",
+      "Российская Федерация"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "languages": ["Russian"],
+    "borders": [
+      "Azerbaijan",
+      "Belarus",
+      "China",
+      "Estonia",
+      "Finland",
+      "Georgia",
+      "Kazakhstan",
+      "North Korea",
+      "Latvia",
+      "Lithuania",
+      "Mongolia",
+      "Norway",
+      "Poland",
+      "Ukraine"
+    ],
+    "area": 17098242,
+    "population": 144104080,
+    "map": "https://goo.gl/maps/4F4PpDhGJgVvLby57",
+    "flag": "https://flagcdn.com/w320/ru.png"
+  },
+  {
+    "name": "Caribbean Netherlands",
+    "code": "BES",
+    "capital": { "name": "Kralendijk", "latlng": [12.18, -68.25] },
+    "altSpellings": ["Bonaire, Sint Eustatius and Saba", "BES islands"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English", "Dutch", "Papiamento"],
+    "area": 328,
+    "population": 25987,
+    "map": "https://goo.gl/maps/4XVes1P6uEDTz77WA",
+    "flag": "https://flagcdn.com/w320/bq.png"
+  },
+  {
+    "name": "Tanzania",
+    "code": "TZA",
+    "capital": { "name": "Dodoma", "latlng": [-6, 35] },
+    "altSpellings": [
+      "United Republic of Tanzania",
+      "Tanzania, United Republic of",
+      "United Republic of Tanzania",
+      "Jamhuri ya Muungano wa Tanzania"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["English", "Swahili"],
+    "borders": [
+      "Burundi",
+      "DR Congo",
+      "Kenya",
+      "Malawi",
+      "Mozambique",
+      "Rwanda",
+      "Uganda",
+      "Zambia"
+    ],
+    "area": 945087,
+    "population": 59734213,
+    "map": "https://goo.gl/maps/NWYMqZYXte4zGZ2Q8",
+    "flag": "https://flagcdn.com/w320/tz.png"
+  },
+  {
+    "name": "Zimbabwe",
+    "code": "ZWE",
+    "capital": { "name": "Harare", "latlng": [-20, 30] },
+    "altSpellings": ["Republic of Zimbabwe", "Republic of Zimbabwe"],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "languages": [
+      "Chibarwe",
+      "English",
+      "Kalanga",
+      "Khoisan",
+      "Ndau",
+      "Northern Ndebele",
+      "Chewa",
+      "Shona",
+      "Sotho",
+      "Tonga",
+      "Tswana",
+      "Tsonga",
+      "Venda",
+      "Xhosa",
+      "Zimbabwean Sign Language"
+    ],
+    "borders": ["Botswana", "Mozambique", "South Africa", "Zambia"],
+    "area": 390757,
+    "population": 14862927,
+    "map": "https://goo.gl/maps/M26BqdwQctqxXS65A",
+    "flag": "https://flagcdn.com/w320/zw.png"
+  },
+  {
+    "name": "Antarctica",
+    "code": "ATA",
+    "capital": { "latlng": [-90, 0] },
+    "altSpellings": ["Antarctica"],
+    "region": "Antarctic",
+    "languages": [],
+    "area": 14000000,
+    "population": 1000,
+    "map": "https://goo.gl/maps/kyBuJriu4itiXank7",
+    "flag": "https://flagcdn.com/w320/aq.png"
+  },
+  {
+    "name": "Azerbaijan",
+    "code": "AZE",
+    "capital": { "name": "Baku", "latlng": [40.5, 47.5] },
+    "altSpellings": [
+      "Republic of Azerbaijan",
+      "Republic of Azerbaijan",
+      "Azərbaycan Respublikası"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": ["Azerbaijani", "Russian"],
+    "borders": ["Armenia", "Georgia", "Iran", "Russia", "Turkey"],
+    "area": 86600,
+    "population": 10110116,
+    "map": "https://goo.gl/maps/az3Zz7ar2aoB9AUc6",
+    "flag": "https://flagcdn.com/w320/az.png"
+  },
+  {
+    "name": "Mauritius",
+    "code": "MUS",
+    "capital": { "name": "Port Louis", "latlng": [-20.28333333, 57.55] },
+    "altSpellings": [
+      "Republic of Mauritius",
+      "Republic of Mauritius",
+      "République de Maurice"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["English", "French", "Mauritian Creole"],
+    "area": 2040,
+    "population": 1265740,
+    "map": "https://goo.gl/maps/PpKtZ4W3tir5iGrz7",
+    "flag": "https://flagcdn.com/w320/mu.png"
+  },
+  {
+    "name": "Armenia",
+    "code": "ARM",
+    "capital": { "name": "Yerevan", "latlng": [40, 45] },
+    "altSpellings": [
+      "Republic of Armenia",
+      "Hayastan",
+      "Republic of Armenia",
+      "Հայաստանի Հանրապետություն"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": ["Armenian"],
+    "borders": ["Azerbaijan", "Georgia", "Iran", "Turkey"],
+    "area": 29743,
+    "population": 2963234,
+    "map": "https://goo.gl/maps/azWUtK9bUQYEyccbA",
+    "flag": "https://flagcdn.com/w320/am.png"
+  },
+  {
+    "name": "Czechia",
+    "code": "CZE",
+    "capital": { "name": "Prague", "latlng": [49.75, 15.5] },
+    "altSpellings": ["Czech Republic", "Česká republika", "Česko"],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "languages": ["Czech", "Slovak"],
+    "borders": ["Austria", "Germany", "Poland", "Slovakia"],
+    "area": 78865,
+    "population": 10698896,
+    "map": "https://goo.gl/maps/47dmgeXMZyhDHyQW8",
+    "flag": "https://flagcdn.com/w320/cz.png"
+  },
+  {
+    "name": "Haiti",
+    "code": "HTI",
+    "capital": { "name": "Port-au-Prince", "latlng": [19, -72.41666666] },
+    "altSpellings": [
+      "Republic of Haiti",
+      "Republic of Haiti",
+      "République d'Haïti",
+      "Repiblik Ayiti"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["French", "Haitian Creole"],
+    "borders": ["Dominican Republic"],
+    "area": 27750,
+    "population": 11402533,
+    "map": "https://goo.gl/maps/9o13xtjuUdqFnHbn9",
+    "flag": "https://flagcdn.com/w320/ht.png"
+  },
+  {
+    "name": "Sri Lanka",
+    "code": "LKA",
+    "capital": { "name": "Sri Jayawardenepura Kotte", "latlng": [7, 81] },
+    "altSpellings": [
+      "Democratic Socialist Republic of Sri Lanka",
+      "ilaṅkai",
+      "Democratic Socialist Republic of Sri Lanka"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": ["Sinhala", "Tamil"],
+    "borders": ["India"],
+    "area": 65610,
+    "population": 21919000,
+    "map": "https://goo.gl/maps/VkPHoeFSfgzRQCDv8",
+    "flag": "https://flagcdn.com/w320/lk.png"
+  },
+  {
+    "name": "Albania",
+    "code": "ALB",
+    "capital": { "name": "Tirana", "latlng": [41, 20] },
+    "altSpellings": [
+      "Republic of Albania",
+      "Shqipëri",
+      "Shqipëria",
+      "Shqipnia"
+    ],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "languages": ["Albanian"],
+    "borders": ["Montenegro", "Greece", "North Macedonia", "Kosovo"],
+    "area": 28748,
+    "population": 2837743,
+    "map": "https://goo.gl/maps/BzN9cTuj68ZA8SyZ8",
+    "flag": "https://flagcdn.com/w320/al.png"
+  },
+  {
+    "name": "Morocco",
+    "code": "MAR",
+    "capital": { "name": "Rabat", "latlng": [32, -5] },
+    "altSpellings": [
+      "Kingdom of Morocco",
+      "Kingdom of Morocco",
+      "Al-Mamlakah al-Maġribiyah"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "languages": ["Arabic", "Berber"],
+    "borders": ["Algeria", "Western Sahara", "Spain"],
+    "area": 446550,
+    "population": 36910558,
+    "map": "https://goo.gl/maps/6oMv3dyBZg3iaXQ5A",
+    "flag": "https://flagcdn.com/w320/ma.png"
+  },
+  {
+    "name": "United States Virgin Islands",
+    "code": "VIR",
+    "capital": { "name": "Charlotte Amalie", "latlng": [18.35, -64.933333] },
+    "altSpellings": [
+      "Virgin Islands of the United States",
+      "Virgin Islands, U.S."
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English"],
+    "area": 347,
+    "population": 106290,
+    "map": "https://goo.gl/maps/mBfreywj8dor6q4m9",
+    "flag": "https://flagcdn.com/w320/vi.png"
+  },
+  {
+    "name": "Syria",
+    "code": "SYR",
+    "capital": { "name": "Damascus", "latlng": [35, 38] },
+    "altSpellings": [
+      "Syrian Arab Republic",
+      "Syrian Arab Republic",
+      "Al-Jumhūrīyah Al-ʻArabīyah As-Sūrīyah"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": ["Arabic"],
+    "borders": ["Iraq", "Israel", "Jordan", "Lebanon", "Turkey"],
+    "area": 185180,
+    "population": 17500657,
+    "map": "https://goo.gl/maps/Xe3VnFbwdb4nv2SM9",
+    "flag": "https://flagcdn.com/w320/sy.png"
+  },
+  {
+    "name": "Bhutan",
+    "code": "BTN",
+    "capital": { "name": "Thimphu", "latlng": [27.5, 90.5] },
+    "altSpellings": ["Kingdom of Bhutan", "Kingdom of Bhutan"],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": ["Dzongkha"],
+    "borders": ["China", "India"],
+    "area": 38394,
+    "population": 771612,
+    "map": "https://goo.gl/maps/VEfXXBftTFLUpNgp8",
+    "flag": "https://flagcdn.com/w320/bt.png"
+  },
+  {
+    "name": "Jersey",
+    "code": "JEY",
+    "capital": { "name": "Saint Helier", "latlng": [49.25, -2.16666666] },
+    "altSpellings": [
+      "Bailiwick of Jersey",
+      "Bailiwick of Jersey",
+      "Bailliage de Jersey",
+      "Bailliage dé Jèrri"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": ["English", "French", "Jèrriais"],
+    "area": 116,
+    "population": 100800,
+    "map": "https://goo.gl/maps/rXG8GZZtsqK92kTCA",
+    "flag": "https://flagcdn.com/w320/je.png"
+  },
+  {
+    "name": "Senegal",
+    "code": "SEN",
+    "capital": { "name": "Dakar", "latlng": [14, -14] },
+    "altSpellings": [
+      "Republic of Senegal",
+      "Republic of Senegal",
+      "République du Sénégal"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": ["French"],
+    "borders": ["Gambia", "Guinea", "Guinea-Bissau", "Mali", "Mauritania"],
+    "area": 196722,
+    "population": 16743930,
+    "map": "https://goo.gl/maps/o5f1uD5nyihCL3HCA",
+    "flag": "https://flagcdn.com/w320/sn.png"
+  },
+  {
+    "name": "Réunion",
+    "code": "REU",
+    "capital": { "name": "Saint-Denis", "latlng": [-21.15, 55.5] },
+    "altSpellings": ["Réunion Island", "Reunion"],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["French"],
+    "area": 2511,
+    "population": 840974,
+    "map": "https://goo.gl/maps/wWpBrXsp8UHVbah29",
+    "flag": "https://flagcdn.com/w320/re.png"
+  },
+  {
+    "name": "Tunisia",
+    "code": "TUN",
+    "capital": { "name": "Tunis", "latlng": [34, 9] },
+    "altSpellings": [
+      "Tunisian Republic",
+      "Republic of Tunisia",
+      "al-Jumhūriyyah at-Tūnisiyyah"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "languages": ["Arabic"],
+    "borders": ["Algeria", "Libya"],
+    "area": 163610,
+    "population": 11818618,
+    "map": "https://goo.gl/maps/KgUmpZdUuNRaougs8",
+    "flag": "https://flagcdn.com/w320/tn.png"
+  },
+  {
+    "name": "Switzerland",
+    "code": "CHE",
+    "capital": { "name": "Bern", "latlng": [47, 8] },
+    "altSpellings": [
+      "Swiss Confederation",
+      "Swiss Confederation",
+      "Schweiz",
+      "Suisse",
+      "Svizzera",
+      "Svizra"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": ["French", "Swiss German", "Italian", "Romansh"],
+    "borders": ["Austria", "France", "Italy", "Liechtenstein", "Germany"],
+    "area": 41284,
+    "population": 8654622,
+    "map": "https://goo.gl/maps/uVuZcXaxSx5jLyEC9",
+    "flag": "https://flagcdn.com/w320/ch.png"
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "code": "SPM",
+    "capital": {
+      "name": "Saint-Pierre",
+      "latlng": [46.83333333, -56.33333333]
+    },
+    "altSpellings": [
+      "Saint Pierre and Miquelon",
+      "Collectivité territoriale de Saint-Pierre-et-Miquelon"
+    ],
+    "region": "Americas",
+    "subregion": "North America",
+    "languages": ["French"],
+    "area": 242,
+    "population": 6069,
+    "map": "https://goo.gl/maps/bUM8Yc8pA8ghyhmt6",
+    "flag": "https://flagcdn.com/w320/pm.png"
+  },
+  {
+    "name": "Luxembourg",
+    "code": "LUX",
+    "capital": { "name": "Luxembourg", "latlng": [49.75, 6.16666666] },
+    "altSpellings": [
+      "Grand Duchy of Luxembourg",
+      "Grand Duchy of Luxembourg",
+      "Grand-Duché de Luxembourg",
+      "Großherzogtum Luxemburg",
+      "Groussherzogtum Lëtzebuerg"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": ["German", "French", "Luxembourgish"],
+    "borders": ["Belgium", "France", "Germany"],
+    "area": 2586,
+    "population": 632275,
+    "map": "https://goo.gl/maps/L6b2AgndgHprt2Ko9",
+    "flag": "https://flagcdn.com/w320/lu.png"
+  },
+  {
+    "name": "Samoa",
+    "code": "WSM",
+    "capital": { "name": "Apia", "latlng": [-13.58333333, -172.33333333] },
+    "altSpellings": [
+      "Independent State of Samoa",
+      "Independent State of Samoa",
+      "Malo Saʻoloto Tutoʻatasi o Sāmoa"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": ["English", "Samoan"],
+    "area": 2842,
+    "population": 198410,
+    "map": "https://goo.gl/maps/CFC9fEFP9cfkYUBF9",
+    "flag": "https://flagcdn.com/w320/ws.png"
+  },
+  {
+    "name": "Austria",
+    "code": "AUT",
+    "capital": { "name": "Vienna", "latlng": [47.33333333, 13.33333333] },
+    "altSpellings": ["Republic of Austria", "Osterreich", "Oesterreich"],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "languages": ["Austro-Bavarian German"],
+    "borders": [
+      "Czechia",
+      "Germany",
+      "Hungary",
+      "Italy",
+      "Liechtenstein",
+      "Slovakia",
+      "Slovenia",
+      "Switzerland"
+    ],
+    "area": 83871,
+    "population": 8917205,
+    "map": "https://goo.gl/maps/pCWpWQhznHyRzQcu9",
+    "flag": "https://flagcdn.com/w320/at.png"
+  },
+  {
+    "name": "Turkey",
+    "code": "TUR",
+    "capital": { "name": "Ankara", "latlng": [39, 35] },
+    "altSpellings": [
+      "Republic of Turkey",
+      "Turkiye",
+      "Republic of Turkey",
+      "Türkiye Cumhuriyeti"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": ["Turkish"],
+    "borders": [
+      "Armenia",
+      "Azerbaijan",
+      "Bulgaria",
+      "Georgia",
+      "Greece",
+      "Iran",
+      "Iraq",
+      "Syria"
+    ],
+    "area": 783562,
+    "population": 84339067,
+    "map": "https://goo.gl/maps/dXFFraiUDfcB6Quk6",
+    "flag": "https://flagcdn.com/w320/tr.png"
+  },
+  {
+    "name": "Latvia",
+    "code": "LVA",
+    "capital": { "name": "Riga", "latlng": [57, 25] },
+    "altSpellings": [
+      "Republic of Latvia",
+      "Republic of Latvia",
+      "Latvijas Republika"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": ["Latvian"],
+    "borders": ["Belarus", "Estonia", "Lithuania", "Russia"],
+    "area": 64559,
+    "population": 1901548,
+    "map": "https://goo.gl/maps/iQpUkH7ghq31ZtXe9",
+    "flag": "https://flagcdn.com/w320/lv.png"
+  },
+  {
+    "name": "United Arab Emirates",
+    "code": "ARE",
+    "capital": { "name": "Abu Dhabi", "latlng": [24, 54] },
+    "altSpellings": ["United Arab Emirates", "Emirates"],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": ["Arabic"],
+    "borders": ["Oman", "Saudi Arabia"],
+    "area": 83600,
+    "population": 9890400,
+    "map": "https://goo.gl/maps/AZZTDA6GzVAnKMVd8",
+    "flag": "https://flagcdn.com/w320/ae.png"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "code": "BIH",
+    "capital": { "name": "Sarajevo", "latlng": [44, 18] },
+    "altSpellings": [
+      "Bosnia and Herzegovina",
+      "Bosnia-Herzegovina",
+      "Босна и Херцеговина"
+    ],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "languages": ["Bosnian", "Croatian", "Serbian"],
+    "borders": ["Croatia", "Montenegro", "Serbia"],
+    "area": 51209,
+    "population": 3280815,
+    "map": "https://www.google.com/maps/place/Bosnia+and+Herzegovina",
+    "flag": "https://flagcdn.com/w320/ba.png"
+  },
+  {
+    "name": "Botswana",
+    "code": "BWA",
+    "capital": { "name": "Gaborone", "latlng": [-22, 24] },
+    "altSpellings": [
+      "Republic of Botswana",
+      "Republic of Botswana",
+      "Lefatshe la Botswana"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "languages": ["English", "Tswana"],
+    "borders": ["Namibia", "South Africa", "Zambia", "Zimbabwe"],
+    "area": 582000,
+    "population": 2351625,
+    "map": "https://goo.gl/maps/E364KeLy6N4JwxwQ8",
+    "flag": "https://flagcdn.com/w320/bw.png"
+  },
+  {
+    "name": "Guernsey",
+    "code": "GGY",
+    "capital": {
+      "name": "St. Peter Port",
+      "latlng": [49.46666666, -2.58333333]
+    },
+    "altSpellings": [
+      "Bailiwick of Guernsey",
+      "Bailiwick of Guernsey",
+      "Bailliage de Guernesey"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": ["English", "French", "Guernésiais"],
+    "area": 78,
+    "population": 62999,
+    "map": "https://goo.gl/maps/6kXnQU5QvEZMD9VB7",
+    "flag": "https://flagcdn.com/w320/gg.png"
+  },
+  {
+    "name": "Seychelles",
+    "code": "SYC",
+    "capital": { "name": "Victoria", "latlng": [-4.58333333, 55.66666666] },
+    "altSpellings": [
+      "Republic of Seychelles",
+      "Republic of Seychelles",
+      "Repiblik Sesel",
+      "République des Seychelles"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["Seychellois Creole", "English", "French"],
+    "area": 452,
+    "population": 98462,
+    "map": "https://goo.gl/maps/aqCcy2TKh5TV5MAX8",
+    "flag": "https://flagcdn.com/w320/sc.png"
+  },
+  {
+    "name": "Angola",
+    "code": "AGO",
+    "capital": { "name": "Luanda", "latlng": [-12.5, 18.5] },
+    "altSpellings": [
+      "Republic of Angola",
+      "República de Angola",
+      "ʁɛpublika de an'ɡɔla"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": ["Portuguese"],
+    "borders": ["Republic of the Congo", "DR Congo", "Zambia", "Namibia"],
+    "area": 1246700,
+    "population": 32866268,
+    "map": "https://goo.gl/maps/q42Qbf1BmQL3fuZg9",
+    "flag": "https://flagcdn.com/w320/ao.png"
+  },
+  {
+    "name": "Australia",
+    "code": "AUS",
+    "capital": { "name": "Canberra", "latlng": [-27, 133] },
+    "altSpellings": ["Commonwealth of Australia"],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "languages": ["English"],
+    "area": 7692024,
+    "population": 25687041,
+    "map": "https://goo.gl/maps/DcjaDa7UbhnZTndH6",
+    "flag": "https://flagcdn.com/w320/au.png"
+  },
+  {
+    "name": "Qatar",
+    "code": "QAT",
+    "capital": { "name": "Doha", "latlng": [25.5, 51.25] },
+    "altSpellings": ["State of Qatar", "State of Qatar", "Dawlat Qaṭar"],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": ["Arabic"],
+    "borders": ["Saudi Arabia"],
+    "area": 11586,
+    "population": 2881060,
+    "map": "https://goo.gl/maps/ZV76Y49z7LLUZ2KQ6",
+    "flag": "https://flagcdn.com/w320/qa.png"
+  },
+  {
+    "name": "Slovenia",
+    "code": "SVN",
+    "capital": { "name": "Ljubljana", "latlng": [46.11666666, 14.81666666] },
+    "altSpellings": [
+      "Republic of Slovenia",
+      "Republic of Slovenia",
+      "Republika Slovenija"
+    ],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "languages": ["Slovene"],
+    "borders": ["Austria", "Croatia", "Italy", "Hungary"],
+    "area": 20273,
+    "population": 2100126,
+    "map": "https://goo.gl/maps/7zgFmswcCJh5L5D49",
+    "flag": "https://flagcdn.com/w320/si.png"
+  },
+  {
+    "name": "Namibia",
+    "code": "NAM",
+    "capital": { "name": "Windhoek", "latlng": [-22, 17] },
+    "altSpellings": ["Republic of Namibia", "Namibië", "Republic of Namibia"],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "languages": [
+      "Afrikaans",
+      "German",
+      "English",
+      "Herero",
+      "Khoekhoe",
+      "Kwangali",
+      "Lozi",
+      "Ndonga",
+      "Tswana"
+    ],
+    "borders": ["Angola", "Botswana", "South Africa", "Zambia"],
+    "area": 825615,
+    "population": 2540916,
+    "map": "https://goo.gl/maps/oR1i8BFEYX3EY83WA",
+    "flag": "https://flagcdn.com/w320/na.png"
+  },
+  {
+    "name": "Saint Martin",
+    "code": "MAF",
+    "capital": { "name": "Marigot", "latlng": [18.08333333, -63.95] },
+    "altSpellings": [
+      "Saint Martin",
+      "Collectivity of Saint Martin",
+      "Collectivité de Saint-Martin",
+      "Saint Martin (French part)"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["French"],
+    "borders": ["Sint Maarten"],
+    "area": 53,
+    "population": 38659,
+    "map": "https://goo.gl/maps/P9ho9QuJ9EAR28JEA",
+    "flag": "https://flagcdn.com/w320/mf.png"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "code": "GNQ",
+    "capital": { "name": "Malabo", "latlng": [2, 10] },
+    "altSpellings": [
+      "Republic of Equatorial Guinea",
+      "Republic of Equatorial Guinea",
+      "República de Guinea Ecuatorial",
+      "République de Guinée équatoriale",
+      "República da Guiné Equatorial"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": ["French", "Portuguese", "Spanish"],
+    "borders": ["Cameroon", "Gabon"],
+    "area": 28051,
+    "population": 1402985,
+    "map": "https://goo.gl/maps/ucWfFd8aW1FbGMva9",
+    "flag": "https://flagcdn.com/w320/gq.png"
+  },
+  {
+    "name": "Christmas Island",
+    "code": "CXR",
+    "capital": { "name": "Flying Fish Cove", "latlng": [-10.5, 105.66666666] },
+    "altSpellings": [
+      "Territory of Christmas Island",
+      "Territory of Christmas Island"
+    ],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "languages": ["English"],
+    "area": 135,
+    "population": 2072,
+    "map": "https://goo.gl/maps/ZC17hHsQZpShN5wk9",
+    "flag": "https://flagcdn.com/w320/cx.png"
+  },
+  {
+    "name": "Cambodia",
+    "code": "KHM",
+    "capital": { "name": "Phnom Penh", "latlng": [13, 105] },
+    "altSpellings": ["Kingdom of Cambodia", "Kingdom of Cambodia"],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": ["Khmer"],
+    "borders": ["Laos", "Thailand", "Vietnam"],
+    "area": 181035,
+    "population": 16718971,
+    "map": "https://goo.gl/maps/nztQtFSrUXZymJaW8",
+    "flag": "https://flagcdn.com/w320/kh.png"
+  },
+  {
+    "name": "Guinea",
+    "code": "GIN",
+    "capital": { "name": "Conakry", "latlng": [11, -10] },
+    "altSpellings": [
+      "Republic of Guinea",
+      "Republic of Guinea",
+      "République de Guinée"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": ["French"],
+    "borders": [
+      "Ivory Coast",
+      "Guinea-Bissau",
+      "Liberia",
+      "Mali",
+      "Senegal",
+      "Sierra Leone"
+    ],
+    "area": 245857,
+    "population": 13132792,
+    "map": "https://goo.gl/maps/8J5oM5sA4Ayr1ZYGA",
+    "flag": "https://flagcdn.com/w320/gn.png"
+  },
+  {
+    "name": "Dominica",
+    "code": "DMA",
+    "capital": { "name": "Roseau", "latlng": [15.41666666, -61.33333333] },
+    "altSpellings": [
+      "Commonwealth of Dominica",
+      "Dominique",
+      "Wai‘tu kubuli",
+      "Commonwealth of Dominica"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English"],
+    "area": 751,
+    "population": 71991,
+    "map": "https://goo.gl/maps/HSKdHYpFC8oHHuyV7",
+    "flag": "https://flagcdn.com/w320/dm.png"
+  },
+  {
+    "name": "Cyprus",
+    "code": "CYP",
+    "capital": { "name": "Nicosia", "latlng": [35, 33] },
+    "altSpellings": [
+      "Republic of Cyprus",
+      "Kýpros",
+      "Kıbrıs",
+      "Republic of Cyprus",
+      "Κυπριακή Δημοκρατία",
+      "Kıbrıs Cumhuriyeti"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": ["Greek", "Turkish"],
+    "area": 9251,
+    "population": 1207361,
+    "map": "https://goo.gl/maps/77hPBRdLid8yD5Bm7",
+    "flag": "https://flagcdn.com/w320/cy.png"
+  },
+  {
+    "name": "Israel",
+    "code": "ISR",
+    "capital": { "name": "Jerusalem", "latlng": [31.47, 35.13] },
+    "altSpellings": ["State of Israel", "State of Israel", "Medīnat Yisrā'el"],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": ["Arabic", "Hebrew"],
+    "borders": ["Egypt", "Jordan", "Lebanon", "Palestine", "Syria"],
+    "area": 20770,
+    "population": 9216900,
+    "map": "https://goo.gl/maps/6UY1AH8XeafVwdC97",
+    "flag": "https://flagcdn.com/w320/il.png"
+  },
+  {
+    "name": "Ivory Coast",
+    "code": "CIV",
+    "capital": { "name": "Yamoussoukro", "latlng": [8, -5] },
+    "altSpellings": [
+      "Republic of Côte d'Ivoire",
+      "Côte d'Ivoire",
+      "Ivory Coast",
+      "Republic of Côte d'Ivoire",
+      "République de Côte d'Ivoire"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": ["French"],
+    "borders": ["Burkina Faso", "Ghana", "Guinea", "Liberia", "Mali"],
+    "area": 322463,
+    "population": 26378275,
+    "map": "https://goo.gl/maps/wKsmN7f5qAeNtGjP6",
+    "flag": "https://flagcdn.com/w320/ci.png"
+  },
+  {
+    "name": "Uzbekistan",
+    "code": "UZB",
+    "capital": { "name": "Tashkent", "latlng": [41, 64] },
+    "altSpellings": [
+      "Republic of Uzbekistan",
+      "Republic of Uzbekistan",
+      "O‘zbekiston Respublikasi",
+      "Ўзбекистон Республикаси"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "languages": ["Russian", "Uzbek"],
+    "borders": [
+      "Afghanistan",
+      "Kazakhstan",
+      "Kyrgyzstan",
+      "Tajikistan",
+      "Turkmenistan"
+    ],
+    "area": 447400,
+    "population": 34232050,
+    "map": "https://goo.gl/maps/AJpo6MjMx23qSWCz8",
+    "flag": "https://flagcdn.com/w320/uz.png"
+  },
+  {
+    "name": "Zambia",
+    "code": "ZMB",
+    "capital": { "name": "Lusaka", "latlng": [-15, 30] },
+    "altSpellings": ["Republic of Zambia", "Republic of Zambia"],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["English"],
+    "borders": [
+      "Angola",
+      "Botswana",
+      "DR Congo",
+      "Malawi",
+      "Mozambique",
+      "Namibia",
+      "Tanzania",
+      "Zimbabwe"
+    ],
+    "area": 752612,
+    "population": 18383956,
+    "map": "https://goo.gl/maps/mweBcqvW8TppZW6q9",
+    "flag": "https://flagcdn.com/w320/zm.png"
+  },
+  {
+    "name": "Somalia",
+    "code": "SOM",
+    "capital": { "name": "Mogadishu", "latlng": [10, 49] },
+    "altSpellings": [
+      "Federal Republic of Somalia",
+      "aṣ-Ṣūmāl",
+      "Federal Republic of Somalia",
+      "Jamhuuriyadda Federaalka Soomaaliya",
+      "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["Arabic", "Somali"],
+    "borders": ["Djibouti", "Ethiopia", "Kenya"],
+    "area": 637657,
+    "population": 15893219,
+    "map": "https://goo.gl/maps/8of8q7D1a8p7R6Fc9",
+    "flag": "https://flagcdn.com/w320/so.png"
+  },
+  {
+    "name": "Bulgaria",
+    "code": "BGR",
+    "capital": { "name": "Sofia", "latlng": [43, 25] },
+    "altSpellings": [
+      "Republic of Bulgaria",
+      "Republic of Bulgaria",
+      "Република България"
+    ],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "languages": ["Bulgarian"],
+    "borders": ["Greece", "North Macedonia", "Romania", "Serbia", "Turkey"],
+    "area": 110879,
+    "population": 6927288,
+    "map": "https://goo.gl/maps/F5uAhDGWzc3BrHfm9",
+    "flag": "https://flagcdn.com/w320/bg.png"
+  },
+  {
+    "name": "Rwanda",
+    "code": "RWA",
+    "capital": { "name": "Kigali", "latlng": [-2, 30] },
+    "altSpellings": [
+      "Republic of Rwanda",
+      "Republic of Rwanda",
+      "Repubulika y'u Rwanda",
+      "République du Rwanda"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["English", "French", "Kinyarwanda"],
+    "borders": ["Burundi", "DR Congo", "Tanzania", "Uganda"],
+    "area": 26338,
+    "population": 12952209,
+    "map": "https://goo.gl/maps/j5xb5r7CLqjYbyP86",
+    "flag": "https://flagcdn.com/w320/rw.png"
+  },
+  {
+    "name": "Belgium",
+    "code": "BEL",
+    "capital": { "name": "Brussels", "latlng": [50.83333333, 4] },
+    "altSpellings": [
+      "Kingdom of Belgium",
+      "België",
+      "Belgie",
+      "Belgien",
+      "Belgique",
+      "Kingdom of Belgium",
+      "Koninkrijk België",
+      "Royaume de Belgique",
+      "Königreich Belgien"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": ["German", "French", "Dutch"],
+    "borders": ["France", "Germany", "Luxembourg", "Netherlands"],
+    "area": 30528,
+    "population": 11555997,
+    "map": "https://goo.gl/maps/UQQzat85TCtPRXAL8",
+    "flag": "https://flagcdn.com/w320/be.png"
+  },
+  {
+    "name": "Guyana",
+    "code": "GUY",
+    "capital": { "name": "Georgetown", "latlng": [5, -59] },
+    "altSpellings": [
+      "Co-operative Republic of Guyana",
+      "Co-operative Republic of Guyana"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": ["English"],
+    "borders": ["Brazil", "Suriname", "Venezuela"],
+    "area": 214969,
+    "population": 786559,
+    "map": "https://goo.gl/maps/DFsme2xEeugUAsCx5",
+    "flag": "https://flagcdn.com/w320/gy.png"
+  },
+  {
+    "name": "Kosovo",
+    "code": "UNK",
+    "capital": { "name": "Pristina", "latlng": [42.666667, 21.166667] },
+    "altSpellings": ["Republic of Kosovo", "Република Косово"],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "languages": ["Albanian", "Serbian"],
+    "borders": ["Albania", "North Macedonia", "Montenegro", "Serbia"],
+    "area": 10908,
+    "population": 1775378,
+    "map": "https://goo.gl/maps/CSC4Yc8SWPgburuD9",
+    "flag": "https://flagcdn.com/w320/xk.png"
+  },
+  {
+    "name": "Mexico",
+    "code": "MEX",
+    "capital": { "name": "Mexico City", "latlng": [23, -102] },
+    "altSpellings": [
+      "United Mexican States",
+      "Mexicanos",
+      "United Mexican States",
+      "Estados Unidos Mexicanos"
+    ],
+    "region": "Americas",
+    "subregion": "North America",
+    "languages": ["Spanish"],
+    "borders": ["Belize", "Guatemala", "United States"],
+    "area": 1964375,
+    "population": 128932753,
+    "map": "https://goo.gl/maps/s5g7imNPMDEePxzbA",
+    "flag": "https://flagcdn.com/w320/mx.png"
+  },
+  {
+    "name": "Denmark",
+    "code": "DNK",
+    "capital": { "name": "Copenhagen", "latlng": [56, 10] },
+    "altSpellings": [
+      "Kingdom of Denmark",
+      "Danmark",
+      "Kingdom of Denmark",
+      "Kongeriget Danmark"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": ["Danish"],
+    "borders": ["Germany"],
+    "area": 43094,
+    "population": 5831404,
+    "map": "https://goo.gl/maps/UddGPN7hAyrtpFiT6",
+    "flag": "https://flagcdn.com/w320/dk.png"
+  },
+  {
+    "name": "DR Congo",
+    "code": "COD",
+    "capital": { "name": "Kinshasa", "latlng": [0, 25] },
+    "altSpellings": [
+      "Democratic Republic of the Congo",
+      "DR Congo",
+      "Congo-Kinshasa",
+      "Congo, the Democratic Republic of the"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": ["French", "Kikongo", "Lingala", "Tshiluba", "Swahili"],
+    "borders": [
+      "Angola",
+      "Burundi",
+      "Central African Republic",
+      "Republic of the Congo",
+      "Rwanda",
+      "South Sudan",
+      "Tanzania",
+      "Uganda",
+      "Zambia"
+    ],
+    "area": 2344858,
+    "population": 108407721,
+    "map": "https://goo.gl/maps/KfhNVn6VqdZXWu8n9",
+    "flag": "https://flagcdn.com/w320/cd.png"
+  },
+  {
+    "name": "Curaçao",
+    "code": "CUW",
+    "capital": { "name": "Willemstad", "latlng": [12.116667, -68.933333] },
+    "altSpellings": [
+      "Country of Curaçao",
+      "Curacao",
+      "Kòrsou",
+      "Country of Curaçao",
+      "Land Curaçao",
+      "Pais Kòrsou"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English", "Dutch", "Papiamento"],
+    "area": 444,
+    "population": 155014,
+    "map": "https://goo.gl/maps/9D3hTeA3qKaRT7S16",
+    "flag": "https://flagcdn.com/w320/cw.png"
+  },
+  {
+    "name": "Ethiopia",
+    "code": "ETH",
+    "capital": { "name": "Addis Ababa", "latlng": [8, 38] },
+    "altSpellings": [
+      "Federal Democratic Republic of Ethiopia",
+      "ʾĪtyōṗṗyā",
+      "Federal Democratic Republic of Ethiopia",
+      "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["Amharic"],
+    "borders": [
+      "Djibouti",
+      "Eritrea",
+      "Kenya",
+      "Somalia",
+      "South Sudan",
+      "Sudan"
+    ],
+    "area": 1104300,
+    "population": 114963583,
+    "map": "https://goo.gl/maps/2Q4hQWCbhuZLj3fG6",
+    "flag": "https://flagcdn.com/w320/et.png"
+  },
+  {
+    "name": "Macau",
+    "code": "MAC",
+    "capital": { "latlng": [22.16666666, 113.55] },
+    "altSpellings": [
+      "Macao Special Administrative Region of the People's Republic of China",
+      "Macao",
+      "Macao Special Administrative Region of the People's Republic of China",
+      "中華人民共和國澳門特別行政區",
+      "Região Administrativa Especial de Macau da República Popular da China"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "languages": ["Portuguese", "Chinese"],
+    "borders": ["China"],
+    "area": 30,
+    "population": 649342,
+    "map": "https://goo.gl/maps/whymRdk3dZFfAAs4A",
+    "flag": "https://flagcdn.com/w320/mo.png"
+  },
+  {
+    "name": "Pakistan",
+    "code": "PAK",
+    "capital": { "name": "Islamabad", "latlng": [30, 70] },
+    "altSpellings": [
+      "Islamic Republic of Pakistan",
+      "Pākistān",
+      "Islamic Republic of Pakistan",
+      "Islāmī Jumhūriya'eh Pākistān"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": ["English", "Urdu"],
+    "borders": ["Afghanistan", "China", "India", "Iran"],
+    "area": 881912,
+    "population": 220892331,
+    "map": "https://goo.gl/maps/5LYujdfR5yLUXoERA",
+    "flag": "https://flagcdn.com/w320/pk.png"
+  },
+  {
+    "name": "Indonesia",
+    "code": "IDN",
+    "capital": { "name": "Jakarta", "latlng": [-5, 120] },
+    "altSpellings": [
+      "Republic of Indonesia",
+      "Republic of Indonesia",
+      "Republik Indonesia"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": ["Indonesian"],
+    "borders": ["Timor-Leste", "Malaysia", "Papua New Guinea"],
+    "area": 1904569,
+    "population": 273523621,
+    "map": "https://goo.gl/maps/9gfPupm5bffixiFJ6",
+    "flag": "https://flagcdn.com/w320/id.png"
+  },
+  {
+    "name": "Nauru",
+    "code": "NRU",
+    "capital": { "name": "Yaren", "latlng": [-0.53333333, 166.91666666] },
+    "altSpellings": [
+      "Republic of Nauru",
+      "Naoero",
+      "Pleasant Island",
+      "Republic of Nauru",
+      "Ripublik Naoero"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": ["English", "Nauru"],
+    "area": 21,
+    "population": 10834,
+    "map": "https://goo.gl/maps/kyAGw6XEJgjSMsTK7",
+    "flag": "https://flagcdn.com/w320/nr.png"
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "code": "MNP",
+    "capital": { "name": "Saipan", "latlng": [15.2, 145.75] },
+    "altSpellings": [
+      "Commonwealth of the Northern Mariana Islands",
+      "Commonwealth of the Northern Mariana Islands",
+      "Sankattan Siha Na Islas Mariånas"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": ["Carolinian", "Chamorro", "English"],
+    "area": 464,
+    "population": 57557,
+    "map": "https://goo.gl/maps/cpZ67knoRAcfu1417",
+    "flag": "https://flagcdn.com/w320/mp.png"
+  },
+  {
+    "name": "United Kingdom",
+    "code": "GBR",
+    "capital": { "name": "London", "latlng": [54, -2] },
+    "altSpellings": [
+      "United Kingdom of Great Britain and Northern Ireland",
+      "Great Britain"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": ["English"],
+    "borders": ["Ireland"],
+    "area": 242900,
+    "population": 67215293,
+    "map": "https://goo.gl/maps/FoDtc3UKMkFsXAjHA",
+    "flag": "https://flagcdn.com/w320/gb.png"
+  },
+  {
+    "name": "Argentina",
+    "code": "ARG",
+    "capital": { "name": "Buenos Aires", "latlng": [-34, -64] },
+    "altSpellings": [
+      "Argentine Republic",
+      "Argentine Republic",
+      "República Argentina"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": ["Guaraní", "Spanish"],
+    "borders": ["Bolivia", "Brazil", "Chile", "Paraguay", "Uruguay"],
+    "area": 2780400,
+    "population": 45376763,
+    "map": "https://goo.gl/maps/Z9DXNxhf2o93kvyc6",
+    "flag": "https://flagcdn.com/w320/ar.png"
+  },
+  {
+    "name": "Cameroon",
+    "code": "CMR",
+    "capital": { "name": "Yaoundé", "latlng": [6, 12] },
+    "altSpellings": [
+      "Republic of Cameroon",
+      "Republic of Cameroon",
+      "République du Cameroun"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": ["English", "French"],
+    "borders": [
+      "Central African Republic",
+      "Chad",
+      "Republic of the Congo",
+      "Equatorial Guinea",
+      "Gabon",
+      "Nigeria"
+    ],
+    "area": 475442,
+    "population": 26545864,
+    "map": "https://goo.gl/maps/JqiipHgFboG3rBJh9",
+    "flag": "https://flagcdn.com/w320/cm.png"
+  },
+  {
+    "name": "Romania",
+    "code": "ROU",
+    "capital": { "name": "Bucharest", "latlng": [46, 25] },
+    "altSpellings": ["Romania", "Rumania", "Roumania", "România"],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "languages": ["Romanian"],
+    "borders": ["Bulgaria", "Hungary", "Moldova", "Serbia", "Ukraine"],
+    "area": 238391,
+    "population": 19286123,
+    "map": "https://goo.gl/maps/845hAgCf1mDkN3vr7",
+    "flag": "https://flagcdn.com/w320/ro.png"
+  },
+  {
+    "name": "Uganda",
+    "code": "UGA",
+    "capital": { "name": "Kampala", "latlng": [1, 32] },
+    "altSpellings": [
+      "Republic of Uganda",
+      "Republic of Uganda",
+      "Jamhuri ya Uganda"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["English", "Swahili"],
+    "borders": ["DR Congo", "Kenya", "Rwanda", "South Sudan", "Tanzania"],
+    "area": 241550,
+    "population": 45741000,
+    "map": "https://goo.gl/maps/Y7812hFiGa8LD9N68",
+    "flag": "https://flagcdn.com/w320/ug.png"
+  },
+  {
+    "name": "France",
+    "code": "FRA",
+    "capital": { "name": "Paris", "latlng": [46, 2] },
+    "altSpellings": [
+      "French Republic",
+      "French Republic",
+      "République française"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": ["French"],
+    "borders": [
+      "Andorra",
+      "Belgium",
+      "Germany",
+      "Italy",
+      "Luxembourg",
+      "Monaco",
+      "Spain",
+      "Switzerland"
+    ],
+    "area": 551695,
+    "population": 67391582,
+    "map": "https://goo.gl/maps/g7QxxSFsWyTPKuzd7",
+    "flag": "https://flagcdn.com/w320/fr.png"
+  },
+  {
+    "name": "Suriname",
+    "code": "SUR",
+    "capital": { "name": "Paramaribo", "latlng": [4, -56] },
+    "altSpellings": [
+      "Republic of Suriname",
+      "Sarnam",
+      "Sranangron",
+      "Republic of Suriname",
+      "Republiek Suriname"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": ["Dutch"],
+    "borders": ["Brazil", "French Guiana", "Guyana"],
+    "area": 163820,
+    "population": 586634,
+    "map": "https://goo.gl/maps/iy7TuQLSi4qgoBoG7",
+    "flag": "https://flagcdn.com/w320/sr.png"
+  },
+  {
+    "name": "Maldives",
+    "code": "MDV",
+    "capital": { "name": "Malé", "latlng": [3.25, 73] },
+    "altSpellings": [
+      "Republic of the Maldives",
+      "Maldive Islands",
+      "Republic of the Maldives",
+      "Dhivehi Raajjeyge Jumhooriyya"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": ["Maldivian"],
+    "area": 300,
+    "population": 540542,
+    "map": "https://goo.gl/maps/MNAWGq9vEdbZ9vUV7",
+    "flag": "https://flagcdn.com/w320/mv.png"
+  },
+  {
+    "name": "Fiji",
+    "code": "FJI",
+    "capital": { "name": "Suva", "latlng": [-18, 175] },
+    "altSpellings": [
+      "Republic of Fiji",
+      "Viti",
+      "Republic of Fiji",
+      "Matanitu ko Viti",
+      "Fijī Gaṇarājya"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "languages": ["English", "Fijian", "Fiji Hindi"],
+    "area": 18272,
+    "population": 896444,
+    "map": "https://goo.gl/maps/r9fhDqoLZdg1zmE99",
+    "flag": "https://flagcdn.com/w320/fj.png"
+  },
+  {
+    "name": "Greece",
+    "code": "GRC",
+    "capital": { "name": "Athens", "latlng": [39, 22] },
+    "altSpellings": [
+      "Hellenic Republic",
+      "Elláda",
+      "Hellenic Republic",
+      "Ελληνική Δημοκρατία"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": ["Greek"],
+    "borders": ["Albania", "Bulgaria", "Turkey", "North Macedonia"],
+    "area": 131990,
+    "population": 10715549,
+    "map": "https://goo.gl/maps/LHGcAvuRyD2iKECC6",
+    "flag": "https://flagcdn.com/w320/gr.png"
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "code": "TTO",
+    "capital": { "name": "Port of Spain", "latlng": [11, -61] },
+    "altSpellings": [
+      "Republic of Trinidad and Tobago",
+      "Republic of Trinidad and Tobago"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English"],
+    "area": 5130,
+    "population": 1399491,
+    "map": "https://goo.gl/maps/NrRfDEWoG8FGZqWY7",
+    "flag": "https://flagcdn.com/w320/tt.png"
+  },
+  {
+    "name": "Mauritania",
+    "code": "MRT",
+    "capital": { "name": "Nouakchott", "latlng": [20, -12] },
+    "altSpellings": [
+      "Islamic Republic of Mauritania",
+      "Islamic Republic of Mauritania",
+      "al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": ["Arabic"],
+    "borders": ["Algeria", "Mali", "Senegal", "Western Sahara"],
+    "area": 1030700,
+    "population": 4649660,
+    "map": "https://goo.gl/maps/im2MmQ5jFjzxWBks5",
+    "flag": "https://flagcdn.com/w320/mr.png"
+  },
+  {
+    "name": "Tonga",
+    "code": "TON",
+    "capital": { "name": "Nuku'alofa", "latlng": [-20, -175] },
+    "altSpellings": ["Kingdom of Tonga"],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": ["English", "Tongan"],
+    "area": 747,
+    "population": 105697,
+    "map": "https://goo.gl/maps/p5YALBY2QdEzswRo7",
+    "flag": "https://flagcdn.com/w320/to.png"
+  },
+  {
+    "name": "Chile",
+    "code": "CHL",
+    "capital": { "name": "Santiago", "latlng": [-30, -71] },
+    "altSpellings": [
+      "Republic of Chile",
+      "Republic of Chile",
+      "República de Chile"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": ["Spanish"],
+    "borders": ["Argentina", "Bolivia", "Peru"],
+    "area": 756102,
+    "population": 19116209,
+    "map": "https://goo.gl/maps/XboxyNHh2fAjCPNn9",
+    "flag": "https://flagcdn.com/w320/cl.png"
+  },
+  {
+    "name": "Benin",
+    "code": "BEN",
+    "capital": { "name": "Porto-Novo", "latlng": [9.5, 2.25] },
+    "altSpellings": [
+      "Republic of Benin",
+      "Republic of Benin",
+      "République du Bénin"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": ["French"],
+    "borders": ["Burkina Faso", "Niger", "Nigeria", "Togo"],
+    "area": 112622,
+    "population": 12123198,
+    "map": "https://goo.gl/maps/uMw1BsHEXQYgVFFu6",
+    "flag": "https://flagcdn.com/w320/bj.png"
+  },
+  {
+    "name": "Sudan",
+    "code": "SDN",
+    "capital": { "name": "Khartoum", "latlng": [15, 30] },
+    "altSpellings": [
+      "Republic of the Sudan",
+      "Republic of the Sudan",
+      "Jumhūrīyat as-Sūdān"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "languages": ["Arabic", "English"],
+    "borders": [
+      "Central African Republic",
+      "Chad",
+      "Egypt",
+      "Eritrea",
+      "Ethiopia",
+      "Libya",
+      "South Sudan"
+    ],
+    "area": 1886068,
+    "population": 43849269,
+    "map": "https://goo.gl/maps/bNW7YUJCaqR8zcXn7",
+    "flag": "https://flagcdn.com/w320/sd.png"
+  },
+  {
+    "name": "Chad",
+    "code": "TCD",
+    "capital": { "name": "N'Djamena", "latlng": [15, 19] },
+    "altSpellings": [
+      "Republic of Chad",
+      "Tchad",
+      "Republic of Chad",
+      "République du Tchad"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": ["Arabic", "French"],
+    "borders": [
+      "Cameroon",
+      "Central African Republic",
+      "Libya",
+      "Niger",
+      "Nigeria",
+      "Sudan"
+    ],
+    "area": 1284000,
+    "population": 16425859,
+    "map": "https://goo.gl/maps/ziUdAZ8skuNfx5Hx7",
+    "flag": "https://flagcdn.com/w320/td.png"
+  },
+  {
+    "name": "Lesotho",
+    "code": "LSO",
+    "capital": { "name": "Maseru", "latlng": [-29.5, 28.5] },
+    "altSpellings": [
+      "Kingdom of Lesotho",
+      "Kingdom of Lesotho",
+      "Muso oa Lesotho"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "languages": ["English", "Sotho"],
+    "borders": ["South Africa"],
+    "area": 30355,
+    "population": 2142252,
+    "map": "https://goo.gl/maps/H8gJi5mL4Cmd1SF28",
+    "flag": "https://flagcdn.com/w320/ls.png"
+  },
+  {
+    "name": "Saint Lucia",
+    "code": "LCA",
+    "capital": { "name": "Castries", "latlng": [13.88333333, -60.96666666] },
+    "altSpellings": ["Saint Lucia"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English"],
+    "area": 616,
+    "population": 183629,
+    "map": "https://goo.gl/maps/4HhJ2jkPdSL9BPRcA",
+    "flag": "https://flagcdn.com/w320/lc.png"
+  },
+  {
+    "name": "Falkland Islands",
+    "code": "FLK",
+    "capital": { "name": "Stanley", "latlng": [-51.75, -59] },
+    "altSpellings": [
+      "Falkland Islands",
+      "Islas Malvinas",
+      "Falkland Islands (Malvinas)"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": ["English"],
+    "area": 12173,
+    "population": 2563,
+    "map": "https://goo.gl/maps/TZH1x7AGanQKifNk7",
+    "flag": "https://flagcdn.com/w320/fk.png"
+  },
+  {
+    "name": "Lithuania",
+    "code": "LTU",
+    "capital": { "name": "Vilnius", "latlng": [56, 24] },
+    "altSpellings": [
+      "Republic of Lithuania",
+      "Republic of Lithuania",
+      "Lietuvos Respublika"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": ["Lithuanian"],
+    "borders": ["Belarus", "Latvia", "Poland", "Russia"],
+    "area": 65300,
+    "population": 2794700,
+    "map": "https://goo.gl/maps/dd1s9rrLjrK2G8yY6",
+    "flag": "https://flagcdn.com/w320/lt.png"
+  },
+  {
+    "name": "Mozambique",
+    "code": "MOZ",
+    "capital": { "name": "Maputo", "latlng": [-18.25, 35] },
+    "altSpellings": [
+      "Republic of Mozambique",
+      "Republic of Mozambique",
+      "República de Moçambique"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["Portuguese"],
+    "borders": [
+      "Malawi",
+      "South Africa",
+      "Eswatini",
+      "Tanzania",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "area": 801590,
+    "population": 31255435,
+    "map": "https://goo.gl/maps/xCLcY9fzU6x4Pueu5",
+    "flag": "https://flagcdn.com/w320/mz.png"
+  },
+  {
+    "name": "Tajikistan",
+    "code": "TJK",
+    "capital": { "name": "Dushanbe", "latlng": [39, 71] },
+    "altSpellings": [
+      "Republic of Tajikistan",
+      "Toçikiston",
+      "Republic of Tajikistan",
+      "Ҷумҳурии Тоҷикистон",
+      "Çumhuriyi Toçikiston"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "languages": ["Russian", "Tajik"],
+    "borders": ["Afghanistan", "China", "Kyrgyzstan", "Uzbekistan"],
+    "area": 143100,
+    "population": 9537642,
+    "map": "https://goo.gl/maps/8rQgW88jEXijhVb58",
+    "flag": "https://flagcdn.com/w320/tj.png"
+  },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "code": "CCK",
+    "capital": { "name": "West Island", "latlng": [-12.5, 96.83333333] },
+    "altSpellings": [
+      "Territory of the Cocos (Keeling) Islands",
+      "Keeling Islands",
+      "Cocos Islands"
+    ],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "languages": ["English"],
+    "area": 14,
+    "population": 544,
+    "map": "https://goo.gl/maps/3eCdKVpVfMcZyKcK6",
+    "flag": "https://flagcdn.com/w320/cc.png"
+  },
+  {
+    "name": "North Korea",
+    "code": "PRK",
+    "capital": { "name": "Pyongyang", "latlng": [40, 127] },
+    "altSpellings": [
+      "Democratic People's Republic of Korea",
+      "Democratic People's Republic of Korea",
+      "DPRK",
+      "조선민주주의인민공화국",
+      "Chosŏn Minjujuŭi Inmin Konghwaguk",
+      "Korea, Democratic People's Republic of"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "languages": ["Korean"],
+    "borders": ["China", "South Korea", "Russia"],
+    "area": 120538,
+    "population": 25778815,
+    "map": "https://goo.gl/maps/9q5T2DMeH5JL7Tky6",
+    "flag": "https://flagcdn.com/w320/kp.png"
+  },
+  {
+    "name": "Serbia",
+    "code": "SRB",
+    "capital": { "name": "Belgrade", "latlng": [44, 21] },
+    "altSpellings": [
+      "Republic of Serbia",
+      "Srbija",
+      "Republic of Serbia",
+      "Република Србија",
+      "Republika Srbija"
+    ],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "languages": ["Serbian"],
+    "borders": [
+      "Bosnia and Herzegovina",
+      "Bulgaria",
+      "Croatia",
+      "Hungary",
+      "Kosovo",
+      "North Macedonia",
+      "Montenegro",
+      "Romania"
+    ],
+    "area": 88361,
+    "population": 6908224,
+    "map": "https://goo.gl/maps/2Aqof7aV2Naq8YEK8",
+    "flag": "https://flagcdn.com/w320/rs.png"
+  },
+  {
+    "name": "United States Minor Outlying Islands",
+    "code": "UMI",
+    "capital": { "name": "Washington DC", "latlng": [19.3, 166.633333] },
+    "altSpellings": ["United States Minor Outlying Islands"],
+    "region": "Americas",
+    "subregion": "North America",
+    "languages": ["English"],
+    "area": 34.2,
+    "population": 300,
+    "map": "https://goo.gl/maps/hZKnrzgeK69dDyPF8",
+    "flag": "https://flagcdn.com/w320/um.png"
+  },
+  {
+    "name": "Puerto Rico",
+    "code": "PRI",
+    "capital": { "name": "San Juan", "latlng": [18.25, -66.5] },
+    "altSpellings": [
+      "Commonwealth of Puerto Rico",
+      "Commonwealth of Puerto Rico",
+      "Estado Libre Asociado de Puerto Rico"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English", "Spanish"],
+    "area": 8870,
+    "population": 3194034,
+    "map": "https://goo.gl/maps/sygfDbtwn389wu8x5",
+    "flag": "https://flagcdn.com/w320/pr.png"
+  },
+  {
+    "name": "Honduras",
+    "code": "HND",
+    "capital": { "name": "Tegucigalpa", "latlng": [15, -86.5] },
+    "altSpellings": [
+      "Republic of Honduras",
+      "Republic of Honduras",
+      "República de Honduras"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": ["Spanish"],
+    "borders": ["Guatemala", "El Salvador", "Nicaragua"],
+    "area": 112492,
+    "population": 9904608,
+    "map": "https://goo.gl/maps/BbeJK8Sk2VkMHbdF8",
+    "flag": "https://flagcdn.com/w320/hn.png"
+  },
+  {
+    "name": "Kenya",
+    "code": "KEN",
+    "capital": { "name": "Nairobi", "latlng": [1, 38] },
+    "altSpellings": [
+      "Republic of Kenya",
+      "Republic of Kenya",
+      "Jamhuri ya Kenya"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["English", "Swahili"],
+    "borders": ["Ethiopia", "Somalia", "South Sudan", "Tanzania", "Uganda"],
+    "area": 580367,
+    "population": 53771300,
+    "map": "https://goo.gl/maps/Ni9M7wcCxf8bJHLX8",
+    "flag": "https://flagcdn.com/w320/ke.png"
+  },
+  {
+    "name": "Portugal",
+    "code": "PRT",
+    "capital": { "name": "Lisbon", "latlng": [39.5, -8] },
+    "altSpellings": [
+      "Portuguese Republic",
+      "Portuguesa",
+      "Portuguese Republic",
+      "República Portuguesa"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": ["Portuguese"],
+    "borders": ["Spain"],
+    "area": 92090,
+    "population": 10305564,
+    "map": "https://goo.gl/maps/BaTBSyc4GWMmbAKB8",
+    "flag": "https://flagcdn.com/w320/pt.png"
+  },
+  {
+    "name": "Belarus",
+    "code": "BLR",
+    "capital": { "name": "Minsk", "latlng": [53, 28] },
+    "altSpellings": [
+      "Republic of Belarus",
+      "Bielaruś",
+      "Republic of Belarus",
+      "Белоруссия",
+      "Республика Белоруссия"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "languages": ["Belarusian", "Russian"],
+    "borders": ["Latvia", "Lithuania", "Poland", "Russia", "Ukraine"],
+    "area": 207600,
+    "population": 9398861,
+    "map": "https://goo.gl/maps/PJUDU3EBPSszCQcu6",
+    "flag": "https://flagcdn.com/w320/by.png"
+  },
+  {
+    "name": "Dominican Republic",
+    "code": "DOM",
+    "capital": { "name": "Santo Domingo", "latlng": [19, -70.66666666] },
+    "altSpellings": ["Dominican Republic"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["Spanish"],
+    "borders": ["Haiti"],
+    "area": 48671,
+    "population": 10847904,
+    "map": "https://goo.gl/maps/soxooTHxEeiAbn3UA",
+    "flag": "https://flagcdn.com/w320/do.png"
+  },
+  {
+    "name": "Mayotte",
+    "code": "MYT",
+    "capital": { "name": "Mamoudzou", "latlng": [-12.83333333, 45.16666666] },
+    "altSpellings": [
+      "Department of Mayotte",
+      "Department of Mayotte",
+      "Département de Mayotte"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": ["French"],
+    "area": 374,
+    "population": 226915,
+    "map": "https://goo.gl/maps/1e7MXmfBwQv3TQGF7",
+    "flag": "https://flagcdn.com/w320/yt.png"
+  },
+  {
+    "name": "Palau",
+    "code": "PLW",
+    "capital": { "name": "Ngerulmud", "latlng": [7.5, 134.5] },
+    "altSpellings": [
+      "Republic of Palau",
+      "Republic of Palau",
+      "Beluu er a Belau"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": ["English", "Palauan"],
+    "area": 459,
+    "population": 18092,
+    "map": "https://goo.gl/maps/MVasQBbUkQP7qQDR9",
+    "flag": "https://flagcdn.com/w320/pw.png"
+  },
+  {
+    "name": "Saudi Arabia",
+    "code": "SAU",
+    "capital": { "name": "Riyadh", "latlng": [25, 45] },
+    "altSpellings": [
+      "Kingdom of Saudi Arabia",
+      "Saudi",
+      "Kingdom of Saudi Arabia",
+      "Al-Mamlakah al-‘Arabiyyah as-Su‘ūdiyyah"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": ["Arabic"],
+    "borders": [
+      "Iraq",
+      "Jordan",
+      "Kuwait",
+      "Oman",
+      "Qatar",
+      "United Arab Emirates",
+      "Yemen"
+    ],
+    "area": 2149690,
+    "population": 34813867,
+    "map": "https://goo.gl/maps/5PSjvdJ1AyaLFRrG9",
+    "flag": "https://flagcdn.com/w320/sa.png"
+  },
+  {
+    "name": "Bangladesh",
+    "code": "BGD",
+    "capital": { "name": "Dhaka", "latlng": [24, 90] },
+    "altSpellings": [
+      "People's Republic of Bangladesh",
+      "People's Republic of Bangladesh",
+      "Gônôprôjatôntri Bangladesh"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": ["Bengali"],
+    "borders": ["Myanmar", "India"],
+    "area": 147570,
+    "population": 164689383,
+    "map": "https://goo.gl/maps/op6gmLbHcvv6rLhH6",
+    "flag": "https://flagcdn.com/w320/bd.png"
+  },
+  {
+    "name": "Barbados",
+    "code": "BRB",
+    "capital": { "name": "Bridgetown", "latlng": [13.16666666, -59.53333333] },
+    "altSpellings": ["Barbados"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English"],
+    "area": 430,
+    "population": 287371,
+    "map": "https://goo.gl/maps/2m36v8STvbGAWd9c7",
+    "flag": "https://flagcdn.com/w320/bb.png"
+  },
+  {
+    "name": "Isle of Man",
+    "code": "IMN",
+    "capital": { "name": "Douglas", "latlng": [54.25, -4.5] },
+    "altSpellings": ["Isle of Man", "Ellan Vannin", "Mann", "Mannin"],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": ["English", "Manx"],
+    "area": 572,
+    "population": 85032,
+    "map": "https://goo.gl/maps/4DqVHDgVaFgnh8ZV8",
+    "flag": "https://flagcdn.com/w320/im.png"
+  },
+  {
+    "name": "Kazakhstan",
+    "code": "KAZ",
+    "capital": { "name": "Nur-Sultan", "latlng": [48, 68] },
+    "altSpellings": [
+      "Republic of Kazakhstan",
+      "Qazaqstan",
+      "Казахстан",
+      "Republic of Kazakhstan",
+      "Қазақстан Республикасы",
+      "Qazaqstan Respublïkası",
+      "Республика Казахстан",
+      "Respublika Kazakhstan"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "languages": ["Kazakh", "Russian"],
+    "borders": ["China", "Kyrgyzstan", "Russia", "Turkmenistan", "Uzbekistan"],
+    "area": 2724900,
+    "population": 18754440,
+    "map": "https://goo.gl/maps/8VohJGu7ShuzZYyeA",
+    "flag": "https://flagcdn.com/w320/kz.png"
+  },
+  {
+    "name": "Libya",
+    "code": "LBY",
+    "capital": { "name": "Tripoli", "latlng": [25, 17] },
+    "altSpellings": ["State of Libya", "State of Libya", "Dawlat Libya"],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "languages": ["Arabic"],
+    "borders": ["Algeria", "Chad", "Egypt", "Niger", "Sudan", "Tunisia"],
+    "area": 1759540,
+    "population": 6871287,
+    "map": "https://goo.gl/maps/eLgGnaQWcJEdYRMy5",
+    "flag": "https://flagcdn.com/w320/ly.png"
+  },
+  {
+    "name": "Cayman Islands",
+    "code": "CYM",
+    "capital": { "name": "George Town", "latlng": [19.5, -80.5] },
+    "altSpellings": ["Cayman Islands"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English"],
+    "area": 264,
+    "population": 65720,
+    "map": "https://goo.gl/maps/P3ZVXX3LH63t91hL8",
+    "flag": "https://flagcdn.com/w320/ky.png"
+  },
+  {
+    "name": "Nigeria",
+    "code": "NGA",
+    "capital": { "name": "Abuja", "latlng": [10, 8] },
+    "altSpellings": [
+      "Federal Republic of Nigeria",
+      "Nijeriya",
+      "Naíjíríà",
+      "Federal Republic of Nigeria"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": ["English"],
+    "borders": ["Benin", "Cameroon", "Chad", "Niger"],
+    "area": 923768,
+    "population": 206139587,
+    "map": "https://goo.gl/maps/LTn417qWwBPFszuV9",
+    "flag": "https://flagcdn.com/w320/ng.png"
+  },
+  {
+    "name": "Ireland",
+    "code": "IRL",
+    "capital": { "name": "Dublin", "latlng": [53, -8] },
+    "altSpellings": [
+      "Republic of Ireland",
+      "Éire",
+      "Republic of Ireland",
+      "Poblacht na hÉireann"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": ["English", "Irish"],
+    "borders": ["United Kingdom"],
+    "area": 70273,
+    "population": 4994724,
+    "map": "https://goo.gl/maps/hxd1BKxgpchStzQC6",
+    "flag": "https://flagcdn.com/w320/ie.png"
+  },
+  {
+    "name": "South Africa",
+    "code": "ZAF",
+    "capital": { "name": "Pretoria", "latlng": [-29, 24] },
+    "altSpellings": [
+      "Republic of South Africa",
+      "Suid-Afrika",
+      "Republic of South Africa"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "languages": [
+      "Afrikaans",
+      "English",
+      "Southern Ndebele",
+      "Northern Sotho",
+      "Southern Sotho",
+      "Swazi",
+      "Tswana",
+      "Tsonga",
+      "Venda",
+      "Xhosa",
+      "Zulu"
+    ],
+    "borders": [
+      "Botswana",
+      "Lesotho",
+      "Mozambique",
+      "Namibia",
+      "Eswatini",
+      "Zimbabwe"
+    ],
+    "area": 1221037,
+    "population": 59308690,
+    "map": "https://goo.gl/maps/CLCZ1R8Uz1KpYhRv6",
+    "flag": "https://flagcdn.com/w320/za.png"
+  },
+  {
+    "name": "Ecuador",
+    "code": "ECU",
+    "capital": { "name": "Quito", "latlng": [-2, -77.5] },
+    "altSpellings": [
+      "Republic of Ecuador",
+      "Republic of Ecuador",
+      "República del Ecuador"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": ["Spanish"],
+    "borders": ["Colombia", "Peru"],
+    "area": 276841,
+    "population": 17643060,
+    "map": "https://goo.gl/maps/TbX8hUW4gcbRPZiK7",
+    "flag": "https://flagcdn.com/w320/ec.png"
+  },
+  {
+    "name": "Guadeloupe",
+    "code": "GLP",
+    "capital": { "name": "Basse-Terre", "latlng": [16.25, -61.583333] },
+    "altSpellings": ["Guadeloupe", "Gwadloup"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["French"],
+    "area": 1628,
+    "population": 400132,
+    "map": "https://goo.gl/maps/Dy9R2EufJtoWm8UN9",
+    "flag": "https://flagcdn.com/w320/gp.png"
+  },
+  {
+    "name": "Åland Islands",
+    "code": "ALA",
+    "capital": { "name": "Mariehamn", "latlng": [60.116667, 19.9] },
+    "altSpellings": ["Åland Islands", "Aaland", "Aland", "Ahvenanmaa"],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": ["Swedish"],
+    "area": 1580,
+    "population": 29458,
+    "map": "https://goo.gl/maps/ewFb3vYsfUmVCoSb8",
+    "flag": "https://flagcdn.com/w320/ax.png"
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "code": "VCT",
+    "capital": { "name": "Kingstown", "latlng": [13.25, -61.2] },
+    "altSpellings": ["Saint Vincent and the Grenadines"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": ["English"],
+    "area": 389,
+    "population": 110947,
+    "map": "https://goo.gl/maps/wMbnMqjG37FMnrwf7",
+    "flag": "https://flagcdn.com/w320/vc.png"
+  },
+  {
+    "name": "Croatia",
+    "code": "HRV",
+    "capital": { "name": "Zagreb", "latlng": [45.16666666, 15.5] },
+    "altSpellings": [
+      "Republic of Croatia",
+      "Hrvatska",
+      "Republic of Croatia",
+      "Republika Hrvatska"
+    ],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "languages": ["Croatian"],
+    "borders": [
+      "Bosnia and Herzegovina",
+      "Hungary",
+      "Montenegro",
+      "Serbia",
+      "Slovenia"
+    ],
+    "area": 56594,
+    "population": 4047200,
+    "map": "https://goo.gl/maps/qSG6xTKUmrYpwmGQ6",
+    "flag": "https://flagcdn.com/w320/hr.png"
+  },
+  {
+    "name": "Hungary",
+    "code": "HUN",
+    "capital": { "name": "Budapest", "latlng": [47, 20] },
+    "altSpellings": ["Hungary"],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "languages": ["Hungarian"],
+    "borders": [
+      "Austria",
+      "Croatia",
+      "Romania",
+      "Serbia",
+      "Slovakia",
+      "Slovenia",
+      "Ukraine"
+    ],
+    "area": 93028,
+    "population": 9749763,
+    "map": "https://goo.gl/maps/9gfPupm5bffixiFJ6",
+    "flag": "https://flagcdn.com/w320/hu.png"
+  },
+  {
+    "name": "Turkmenistan",
+    "code": "TKM",
+    "capital": { "name": "Ashgabat", "latlng": [40, 60] },
+    "altSpellings": ["Turkmenistan"],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "languages": ["Russian", "Turkmen"],
+    "borders": ["Afghanistan", "Iran", "Kazakhstan", "Uzbekistan"],
+    "area": 488100,
+    "population": 6031187,
+    "map": "https://goo.gl/maps/cgfUcaQHSWKuqeKk9",
+    "flag": "https://flagcdn.com/w320/tm.png"
+  }
+]
