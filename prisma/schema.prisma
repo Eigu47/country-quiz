@@ -14,10 +14,6 @@ datasource db {
     url      = env("DATABASE_URL")
 }
 
-model Example {
-    id String @id @default(cuid())
-}
-
 // Necessary for Next auth
 model Account {
     id                String  @id @default(cuid())
@@ -64,74 +60,30 @@ model VerificationToken {
 }
 
 model Country {
-    name         String      @id
-    code         String      @unique
-    capital      Capital?
+    name         String    @id
+    code         String    @unique
+    latlng       Float[]
+    capital      String
     altSpellings String[]
-    region       Region      @relation(fields: [regionId], references: [name], onUpdate: Cascade, onDelete: Cascade)
-    regionId     RegionEnum
-    subregion    Subregion[]
+    region       Region    @relation(fields: [regionId], references: [name], onUpdate: Cascade, onDelete: Cascade)
+    regionId     String
+    subregion    Subregion @relation(fields: [subregionId], references: [name], onUpdate: Cascade, onDelete: Cascade)
+    subregionId  String
     languages    String[]
-    borders      Country[]   @relation("CountryBorders")
-    borderBy     Country[]   @relation("CountryBorders")
+    borders      Country[] @relation("CountryToCountry")
+    bordersBy    Country[] @relation("CountryToCountry")
     area         Float
     population   Int
     map          String
     flag         String
 }
 
-model Capital {
-    country   Country @relation(fields: [countryId], references: [name], onDelete: Cascade)
-    countryId String  @unique
-    name      String
-    latlng    Float[]
-
-    @@id([name, countryId])
-}
-
 model Region {
-    name      RegionEnum @id
+    name      String    @id
     countries Country[]
-}
-
-enum RegionEnum {
-    Africa
-    Americas
-    Asia
-    Europe
-    NorthAmerica @map("North America")
-    Oceania
-    SouthAmerica @map("South America")
 }
 
 model Subregion {
-    name      SubregionEnum @id
+    name      String    @id
     countries Country[]
-}
-
-enum SubregionEnum {
-    AustraliaAndNewZealand @map("Australia and New Zealand")
-    Caribbean
-    CentralAmerica         @map("Central America")
-    CentralAsia            @map("Central Asia")
-    CentralEurope          @map("Central Europe")
-    EasternAfrica          @map("Eastern Africa")
-    EasternAsia            @map("Eastern Asia")
-    EasternEurope          @map("Eastern Europe")
-    Melanesia
-    Micronesia
-    MiddleAfrica           @map("Middle Africa")
-    NorthAmerica           @map("North America")
-    NorthernAfrica         @map("Northern Africa")
-    NorthernEurope         @map("Northern Europe")
-    Polynesia
-    SouthAmerica           @map("South America")
-    SouthEasternAsia       @map("South-Eastern Asia")
-    SoutheastEurope        @map("Southeast Europe")
-    SouthernAfrica         @map("Southern Africa")
-    SouthernAsia           @map("Southern Asia")
-    SouthernEurope         @map("Southern Europe")
-    WesternAfrica          @map("Western Africa")
-    WesternAsia            @map("Western Asia")
-    WesternEurope          @map("Western Europe")
 }

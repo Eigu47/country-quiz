@@ -1,51 +1,80 @@
+import { useState } from "react";
+
 import type { NextPage } from "next";
-import rawAfrica from "../constants/raw-africa.json";
-import allCountries from "../constants/raw-all-countries.json";
-import type { RawCountry } from "../types/raw-country";
+
+import { FLAT_REGIONS } from "../constants/countries";
+import formatedCountries from "../constants/formated-countries.json";
+import rawCountries from "../constants/raw-countries.json";
+import { trpc } from "../utils/trpc";
 
 const Script: NextPage = () => {
-  const subregionFlat = Array.from(
-    new Set(allCountries.flatMap((country) => country.subregion))
-  ).sort();
+  const [region, setRegion] = useState<string>();
 
-  const regionFlat = Array.from(
-    new Set(allCountries.flatMap((country) => country.region))
-  ).sort();
+  const { mutate } = trpc.useMutation("script.post");
+  const { data } = trpc.useQuery(["script.get", region], {
+    enabled: !!region,
+  });
 
   return (
     <div className="container mx-auto h-full">
-      <textarea className="my-10 h-2/6 w-full">
-        {JSON.stringify(formatCountry(allCountries))}
-      </textarea>
+      <textarea
+        className="my-10 h-2/6 w-full"
+        value={JSON.stringify(formatCountry(rawCountries))}
+        readOnly
+      />
+      <button
+        className="w-full rounded-xl bg-cyan-400 p-2"
+        onClick={() => mutate(formatedCountries)}
+      >
+        Post
+      </button>
+      <textarea
+        className="my-10 h-2/6 w-full"
+        value={JSON.stringify(data)}
+        readOnly
+      />
+      <div className="flex gap-2">
+        {FLAT_REGIONS.map((region) => (
+          <button
+            key={region}
+            className="w-full rounded-xl bg-cyan-400 p-2"
+            onClick={() => setRegion(region)}
+          >
+            {region}
+          </button>
+        ))}
+      </div>
     </div>
   );
 };
 
 export default Script;
 
-function formatCountry(raw: RawCountry[]) {
+function formatCountry(raw: typeof rawCountries) {
   return raw.map((country) => {
     return {
       name: country.name.common,
       code: country.cca3,
-      capital: {
-        name: country.capital ? country.capital[0] : undefined,
-        latlng: country.latlng,
-      },
+      latlng: country.latlng,
+      capital: country.capital?.length
+        ? country.capital[0]
+        : country.name.common,
       altSpellings: [
         country.name.official,
         ...country.altSpellings.filter((alt) => alt.length > 3),
       ],
-      region: country.region,
-      subregion: country.subregion,
+      regionId: country.region,
+      subregionId: country.subregion ?? "Antarctic",
       languages: country.languages ? Object.values(country.languages) : [],
-      borders: country.borders?.map(
-        (border) => allCountries.find((c) => c.cca3 === border)?.name.common
-      ),
+      borders: country.borders
+        ? country.borders?.map(
+            (border) => rawCountries.find((c) => c.cca3 === border)?.name.common
+          )
+        : [],
       area: country.area,
       population: country.population,
       map: country.maps.googleMaps,
-      flag: country.flags.png,
+      flag: country.flags.svg,
     };
   });
 }

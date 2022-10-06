@@ -1,14 +1,16 @@
+import { useState } from "react";
+
 import type { NextPage } from "next";
 import Image from "next/image";
-import { useState } from "react";
 import { useQuery } from "react-query";
-import { RawCountry } from "../types/raw-country";
+
+import { CountryType } from "../types/countryTypes";
 import getRandomCountry from "../utils/getRandomCountry";
 
 const Flag: NextPage = () => {
   const [randomCountry] = useState(() => getRandomCountry());
 
-  const { data, isLoading } = useQuery<[RawCountry]>(
+  const { data, isLoading } = useQuery<[CountryType]>(
     ["flag", randomCountry],
     () =>
       fetch(`https://restcountries.com/v3.1/name/${randomCountry}`).then(

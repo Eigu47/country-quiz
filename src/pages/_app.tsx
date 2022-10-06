@@ -7,6 +7,7 @@ import { SessionProvider } from "next-auth/react";
 import type { AppType } from "next/app";
 import Head from "next/head";
 import superjson from "superjson";
+
 import type { AppRouter } from "../server/router";
 import "../styles/globals.css";
 
@@ -57,6 +58,15 @@ export default withTRPC<AppRouter>({
        * @link https://react-query.tanstack.com/reference/QueryClient
        */
       // queryClientConfig: { defaultOptions: { queries: { staleTime: 60 } } },
+      queryClientConfig: {
+        defaultOptions: {
+          queries: {
+            refetchOnWindowFocus: false,
+            refetchOnReconnect: false,
+            refetchOnMount: false,
+          },
+        },
+      },
 
       // To use SSR properly you need to forward the client's headers to the server
       // headers: () => {
