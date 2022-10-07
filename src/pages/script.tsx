@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import type { NextPage } from "next";
 
-import { FLAT_REGIONS } from "../constants/countries";
+import { FLAT_REGIONS } from "../constants/countries-const";
 import formatedCountries from "../constants/formated-countries.json";
 import rawCountries from "../constants/raw-countries.json";
 import { trpc } from "../utils/trpc";

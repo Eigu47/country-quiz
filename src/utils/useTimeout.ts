@@ -3,6 +3,7 @@ import { useEffect, useRef } from "react";
 export default function useTimeout(
   callback: () => void,
   delay: number | null,
+  start = true,
   type: "timeout" | "interval" = "timeout"
 ) {
   const savedCallback = useRef(callback);
@@ -13,7 +14,7 @@ export default function useTimeout(
   }, [callback]);
   // Set up the interval.
   useEffect(() => {
-    if (delay === null) return;
+    if (!start || delay === null) return;
 
     if (typeRef.current === "interval") {
       const id = setInterval(() => savedCallback.current(), delay);
@@ -22,5 +23,5 @@ export default function useTimeout(
       const id = setTimeout(() => savedCallback.current(), delay);
       return () => clearTimeout(id);
     }
-  }, [delay]);
+  }, [delay, start]);
 }

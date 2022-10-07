@@ -1,6 +1,10 @@
 import React from "react";
 
-import { BsCircle, BsCircleFill, BsCheck2Circle } from "react-icons/bs";
+import {
+  BsCircle,
+  BsFillCheckCircleFill,
+  BsFillXCircleFill,
+} from "react-icons/bs";
 
 type Props = {
   options: string[];
@@ -15,7 +19,7 @@ export default function QuizChoices({ options }: Props) {
           className="flex items-center justify-between rounded-xl py-3 px-10 ring-2 ring-slate-50 hover:ring-emerald-500 [&_svg]:hover:text-emerald-500"
         >
           <p>{option}</p>
-          <BsCircle className="text-3xl" />
+          <BsCircle className="text-2xl" />
         </button>
       ))}
     </section>
