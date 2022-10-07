@@ -7,17 +7,22 @@ import QuizCardTimer from "./QuizCardTimer";
 type Props = {
   gameName: string;
   round: number | undefined;
-  timer: number;
+  initialTimer: number;
   children: React.ReactNode;
 };
 
-export default function QuizCard({ gameName, round, timer, children }: Props) {
+export default function QuizCard({
+  gameName,
+  round,
+  initialTimer,
+  children,
+}: Props) {
   const [imageParent] = useAutoAnimate<HTMLDivElement>();
   const [roundParent] = useAutoAnimate<HTMLDivElement>();
 
   return (
     <section className="relative mx-auto mt-40 rounded-xl bg-indigo-50 sm:w-4/6">
-      <QuizCardTimer round={round} timer={timer} />
+      <QuizCardTimer initialTimer={initialTimer} />
       <div
         ref={roundParent}
         className="my-4 mx-4 flex justify-between text-xl text-black"

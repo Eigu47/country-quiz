@@ -1,25 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 
-import useTimeout from "../../utils/useTimeout";
+import { useTimerStore } from "../../utils/store";
 
 type Props = {
-  round: number | undefined;
-  timer: number;
+  initialTimer: number;
 };
 
-export default function QuizCardTimer({ round, timer }: Props) {
-  const [timeLeft, setTimeLeft] = useState(timer);
+export default function QuizCardTimer({ initialTimer }: Props) {
+  const timer = useTimerStore((state) => state.timer);
 
-  useTimeout(
-    () => {
-      setTimeLeft((prev) => prev - 1);
-    },
-    1000,
-    round !== undefined && timeLeft > 0,
-    "interval"
-  );
-
-  const rotation = ((timer - timeLeft) * 180 * 2) / timer;
+  const rotation = ((initialTimer - timer) * 180 * 2) / initialTimer;
 
   return (
     <>
@@ -27,13 +17,13 @@ export default function QuizCardTimer({ round, timer }: Props) {
         <div className="absolute flex h-[120px] w-[120px] overflow-hidden rounded-full">
           <div
             className={`h-full w-1/2 origin-right bg-emerald-500 transition-all ${
-              timeLeft >= timer / 2 ? "block" : "hidden"
+              timer >= initialTimer / 2 ? "block" : "hidden"
             }`}
             style={{ rotate: `-${rotation}deg` }}
           />
           <div
             className={`h-full w-1/2 origin-right transition-all ${
-              timeLeft !== 0 && "bg-emerald-500"
+              timer !== 0 && "bg-emerald-500"
             }`}
             style={{
               rotate: `-${rotation}deg`,
@@ -41,7 +31,7 @@ export default function QuizCardTimer({ round, timer }: Props) {
           />
           <div
             className={`absolute h-full w-1/2 origin-right ${
-              timeLeft >= timer / 2
+              timer >= initialTimer / 2
                 ? "rotate-180 bg-emerald-500"
                 : "bg-indigo-50"
             }`}
@@ -50,7 +40,7 @@ export default function QuizCardTimer({ round, timer }: Props) {
         <div className="absolute h-28 w-28 rounded-full bg-indigo-50" />
       </div>
       <p className="absolute -top-5 left-[calc(50%-40px)] mx-auto w-20 text-4xl">
-        {timeLeft}
+        {timer}
       </p>
     </>
   );

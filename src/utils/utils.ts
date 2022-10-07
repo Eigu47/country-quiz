@@ -14,7 +14,6 @@ export function getRandomCountryIndexes() {
   for (let i = indexes.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
 
-    //@ts-ignore
     [indexes[i], indexes[j]] = [indexes[j], indexes[i]];
   }
 
