@@ -20,7 +20,7 @@ type TimerState = {
 };
 
 export const useTimerStore = create<TimerState>((set, get) => ({
-  timer: 10,
+  timer: 0,
 
   setTimer: (number: number) => {
     if (number <= 0) return;
@@ -44,13 +44,13 @@ export const useTimerStore = create<TimerState>((set, get) => ({
     set({ timerIsRunning: true });
 
     const newInterval = setInterval(() => {
+      set((state) => ({ timer: state.timer - 1 }));
       if (get().timer === 0) {
         clear();
         set({ isTimeOver: true });
 
         return;
       }
-      set((state) => ({ timer: state.timer - 1 }));
     }, 1000);
 
     set({ interval: newInterval });
