@@ -6,42 +6,39 @@ import Image from "next/image";
 import Modal from "../components/portal/Modal";
 import QuizCard from "../components/quiz/QuizCard";
 import QuizChoices from "../components/quiz/QuizChoices";
-import countriesList from "../constants/countries.json";
+import COUNTRIES_LIST from "../constants/countries.json";
+import { TIME_LIMIT } from "../constants/game-const";
 import { useRoundStore, useTimerStore } from "../utils/store";
 import { getRandomCountryIndexes } from "../utils/utils";
-
-const TIME_LIMIT = 10;
-const OPTIONS = ["Option 1", "Option 2", "Option 3", "Option 4"];
 
 const Flag: NextPage = () => {
   const [randomCountryIndexes, setRandomCountryIndexes] = useState(() =>
     getRandomCountryIndexes()
   );
 
-  const { round, nextRound, resetRound } = useRoundStore();
-  const playTimer = useTimerStore((state) => state.playTimer);
-  const setTimer = useTimerStore((state) => state.setTimer);
+  const { round, nextRound, resetRound, score, resetScore } = useRoundStore();
+  const startTimer = useTimerStore((state) => state.startTimer);
   const isTimerRunning = useTimerStore((state) => state.isTimerRunning);
-  const isTimeOver = useTimerStore((state) => state.isTimeOver);
-
-  const currentCountry =
-    round !== 0 ? countriesList[randomCountryIndexes[round]] : undefined;
+  const isTimeLeft = useTimerStore((state) => state.isTimeLeft);
 
   function nextCountry() {
-    setTimer(TIME_LIMIT);
-    playTimer(true);
+    startTimer(true);
     nextRound();
   }
 
   function playAgain() {
     setRandomCountryIndexes(getRandomCountryIndexes());
+    startTimer(false, TIME_LIMIT);
     resetRound();
-    setTimer(TIME_LIMIT);
+    resetScore();
   }
+
+  const currentCountry =
+    round !== 0 ? COUNTRIES_LIST[randomCountryIndexes[round]] : undefined;
 
   return (
     <main className="container mx-auto flex h-full flex-col text-center">
-      <QuizCard gameName="Guess by flag" round={round} timeLimit={TIME_LIMIT}>
+      <QuizCard gameName="Guess by flag">
         {currentCountry && (
           <Image
             src={currentCountry.flag}
@@ -60,16 +57,16 @@ const Flag: NextPage = () => {
           </button>
         )}
       </QuizCard>
-      <QuizChoices options={OPTIONS} />
-      {!isTimerRunning && isTimeOver && (
+      <QuizChoices randomCountryIndexes={randomCountryIndexes} />
+      {!isTimerRunning && !isTimeLeft && (
         <Modal>
           <div className="my-10 flex w-full flex-col justify-between text-center">
-            <p className="text-3xl">Your score: {round}</p>
+            <p className="text-3xl">Your score: {score - 1}</p>
             <button
-              className="my-10 mx-auto w-min whitespace-nowrap rounded-xl bg-cyan-500 px-3 py-6 text-3xl shadow ring-1 ring-black/30 duration-100 hover:scale-105 active:scale-95"
+              className="my-10 mx-auto w-min whitespace-nowrap rounded-xl bg-cyan-500 px-3 py-6 text-3xl shadow ring-1 ring-black/20 duration-100 hover:scale-105 active:scale-95"
               onClick={playAgain}
             >
-              Play Again?
+              Try Again?
             </button>
           </div>
         </Modal>

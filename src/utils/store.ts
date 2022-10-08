@@ -1,9 +1,11 @@
 import create from "zustand";
 
+import { TIME_LIMIT } from "../constants/game-const";
+
 type TimerState = {
   timeLeft: number;
   isTimerRunning: boolean;
-  isTimeOver: boolean;
+  isTimeLeft: boolean;
   playTimer: (play: boolean) => void;
   setTimer: (timeLimit: number) => void;
   startTimer: (start: boolean, timeLimit?: number) => void;
@@ -13,15 +15,15 @@ type TimerState = {
 let interval: NodeJS.Timeout | null = null;
 
 export const useTimerStore = create<TimerState>((set, get) => ({
-  timeLeft: 0,
+  timeLeft: TIME_LIMIT,
 
   isTimerRunning: false,
 
-  isTimeOver: false,
+  isTimeLeft: true,
 
   playTimer: (play) => {
     function clear() {
-      if (get().timeLeft === 0) set({ isTimeOver: true });
+      if (get().timeLeft === 0) set({ isTimeLeft: false });
       if (interval === null) return;
       clearInterval(interval);
       set({ isTimerRunning: false });
@@ -39,7 +41,7 @@ export const useTimerStore = create<TimerState>((set, get) => ({
 
       set((state) => ({ timeLeft: state.timeLeft - 1 }));
 
-      if (get().timeLeft === 0) set({ isTimeOver: true });
+      if (get().timeLeft === 0) set({ isTimeLeft: false });
     }, 1000);
 
     interval = newInterval;
@@ -47,7 +49,7 @@ export const useTimerStore = create<TimerState>((set, get) => ({
 
   setTimer: (timeLimit) => {
     if (timeLimit < 0) return;
-    if (timeLimit > 0) set({ isTimeOver: false });
+    if (timeLimit > 0) set({ isTimeLeft: true });
     set({ timeLeft: timeLimit });
   },
 
@@ -64,18 +66,27 @@ export const useTimerStore = create<TimerState>((set, get) => ({
 
 type RoundState = {
   round: number;
+  score: number;
   nextRound: () => void;
   resetRound: () => void;
+  resetScore: () => void;
 };
 
 export const useRoundStore = create<RoundState>((set) => ({
   round: 0,
 
+  score: 0,
+
   nextRound: () => {
     set((state) => ({ round: state.round + 1 }));
+    set((state) => ({ score: state.score + 1 }));
   },
 
   resetRound: () => {
     set({ round: 0 });
+  },
+
+  resetScore: () => {
+    set({ score: 0 });
   },
 }));

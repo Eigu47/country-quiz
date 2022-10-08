@@ -1,43 +1,41 @@
 import React from "react";
 
+import { useAutoAnimate } from "@formkit/auto-animate/react";
+
+import { TIME_LIMIT } from "../../constants/game-const";
 import { useTimerStore } from "../../utils/store";
 
-type Props = {
-  timeLimit: number;
-};
+export default function QuizCardTimer() {
+  const { timeLeft, isTimerRunning, isTimeLeft } = useTimerStore();
 
-export default function QuizCardTimer({ timeLimit }: Props) {
-  const { timeLeft, isTimerRunning, isTimeOver } = useTimerStore();
+  const [timerParent] = useAutoAnimate<HTMLDivElement>();
 
-  const circleDashArray = `${
-    isTimeOver
-      ? 0
-      : (
-          (timeLeft / timeLimit -
-            (1 / timeLimit) * (1 - timeLeft / timeLimit)) *
-          283
-        ).toFixed(0)
-  } 283`;
+  const circleDashArray = `${((timeLeft / TIME_LIMIT) * 283).toFixed(0)} 283`;
 
   const pathColor =
-    timeLeft / timeLimit < 0.25
+    timeLeft / TIME_LIMIT < 0.25
       ? "#b91c1c"
-      : timeLeft / timeLimit < 0.5
+      : timeLeft / TIME_LIMIT < 0.5
       ? "#f59e0b"
       : "#10b981";
 
-  const normal = "1s linear all";
+  const transitionSpeed =
+    !isTimerRunning && isTimeLeft ? "0.4s ease-out all" : "1s linear all";
 
-  const final = "0.2 linear all";
-
-  const start = "0.2s ease-in-out all";
-
-  const transitionAnimation =
-    !isTimerRunning && isTimeOver ? start : isTimeOver ? final : normal;
+  const timerLabel =
+    !isTimerRunning && !isTimeLeft
+      ? 0
+      : !isTimerRunning && isTimeLeft
+      ? timeLeft
+      : timeLeft + 1;
 
   return (
     <>
-      <div className="absolute -top-16 left-[calc(50%-64px)] flex h-32 w-32 items-center justify-center rounded-full bg-indigo-50  shadow ring-1 ring-black/10">
+      <div
+        ref={timerParent}
+        className="absolute -top-16 left-[calc(50%-64px)] flex h-32 w-32 items-center justify-center rounded-full bg-indigo-50  shadow ring-1 ring-black/10"
+      >
+        {}
         <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
           <g style={{ fill: "none", stroke: "none" }}>
             <circle
@@ -48,7 +46,7 @@ export default function QuizCardTimer({ timeLimit }: Props) {
                 // strokeLinecap: "round",
                 rotate: "-90deg",
                 transformOrigin: "center",
-                transition: transitionAnimation,
+                transition: transitionSpeed,
               }}
               cx="50"
               cy="50"
@@ -58,7 +56,7 @@ export default function QuizCardTimer({ timeLimit }: Props) {
         </svg>
       </div>
       <p className="absolute -top-5 left-[calc(50%-40px)] mx-auto w-20 text-4xl">
-        {timeLeft}
+        {timerLabel}
       </p>
     </>
   );

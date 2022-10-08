@@ -2,27 +2,23 @@ import React from "react";
 
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 
+import { useRoundStore } from "../../utils/store";
 import QuizCardTimer from "./QuizCardTimer";
 
 type Props = {
   gameName: string;
-  round: number | undefined;
-  timeLimit: number;
   children: React.ReactNode;
 };
 
-export default function QuizCard({
-  gameName,
-  round,
-  timeLimit,
-  children,
-}: Props) {
+export default function QuizCard({ gameName, children }: Props) {
+  const round = useRoundStore((state) => state.round);
+
   const [imageParent] = useAutoAnimate<HTMLDivElement>();
   const [roundParent] = useAutoAnimate<HTMLDivElement>();
 
   return (
     <section className="relative mx-auto mt-40 rounded-xl bg-indigo-50 sm:w-4/6">
-      <QuizCardTimer timeLimit={timeLimit} />
+      <QuizCardTimer />
       <div
         ref={roundParent}
         className="my-4 mx-4 flex justify-between text-xl text-black"
