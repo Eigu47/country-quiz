@@ -28,7 +28,7 @@ export default function QuizCard({
         className="my-4 mx-4 flex justify-between text-xl text-black"
       >
         <p>{gameName}</p>
-        {round !== undefined && <p>Round {round + 1}</p>}
+        {round !== 0 && <p className="whitespace-nowrap">Round {round}</p>}
       </div>
       <div ref={imageParent} className="my-10 mx-auto flex h-52 w-80">
         {children}

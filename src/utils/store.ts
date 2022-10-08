@@ -1,62 +1,81 @@
 import create from "zustand";
 
-type PlayingState = {
-  isPlaying: boolean;
-  setIsPlaying: (boolean: boolean) => void;
-};
-
-export const usePlayingStore = create<PlayingState>((set) => ({
-  isPlaying: false,
-  setIsPlaying: (boolean: boolean) => set({ isPlaying: boolean }),
-}));
-
 type TimerState = {
-  timer: number;
-  setTimer: (number: number) => void;
-  interval: NodeJS.Timeout | null;
-  startTimer: (boolean: boolean) => void;
-  timerIsRunning: boolean;
+  timeLeft: number;
+  isTimerRunning: boolean;
   isTimeOver: boolean;
+  playTimer: (play: boolean) => void;
+  setTimer: (timeLimit: number) => void;
+  startTimer: (start: boolean, timeLimit?: number) => void;
+  addTime: (time: number) => void;
 };
+
+let interval: NodeJS.Timeout | null = null;
 
 export const useTimerStore = create<TimerState>((set, get) => ({
-  timer: 0,
+  timeLeft: 0,
 
-  setTimer: (number: number) => {
-    if (number <= 0) return;
-    set({ timer: number });
-    set({ isTimeOver: false });
-  },
-
-  interval: null,
-
-  startTimer: (boolean) => {
-    function clear() {
-      if (!get().timerIsRunning) return;
-      clearInterval(get().interval!);
-      set({ interval: null });
-      set({ timerIsRunning: false });
-    }
-
-    if (!boolean) return clear();
-    if (get().timerIsRunning || get().timer === 0) return;
-
-    set({ timerIsRunning: true });
-
-    const newInterval = setInterval(() => {
-      set((state) => ({ timer: state.timer - 1 }));
-      if (get().timer === 0) {
-        clear();
-        set({ isTimeOver: true });
-
-        return;
-      }
-    }, 1000);
-
-    set({ interval: newInterval });
-  },
-
-  timerIsRunning: false,
+  isTimerRunning: false,
 
   isTimeOver: false,
+
+  playTimer: (play) => {
+    function clear() {
+      if (get().timeLeft === 0) set({ isTimeOver: true });
+      if (interval === null) return;
+      clearInterval(interval);
+      set({ isTimerRunning: false });
+      interval = null;
+    }
+
+    if (!play || get().timeLeft === 0) return clear();
+    if (interval !== null) return;
+
+    set({ isTimerRunning: true });
+
+    set((state) => ({ timeLeft: state.timeLeft - 1 }));
+    const newInterval = setInterval(() => {
+      if (get().timeLeft === 0) return clear();
+
+      set((state) => ({ timeLeft: state.timeLeft - 1 }));
+
+      if (get().timeLeft === 0) set({ isTimeOver: true });
+    }, 1000);
+
+    interval = newInterval;
+  },
+
+  setTimer: (timeLimit) => {
+    if (timeLimit < 0) return;
+    if (timeLimit > 0) set({ isTimeOver: false });
+    set({ timeLeft: timeLimit });
+  },
+
+  startTimer: (start, timeLimit) => {
+    if (timeLimit !== undefined) get().setTimer(timeLimit);
+    get().playTimer(start);
+  },
+
+  addTime: (time) => {
+    if (get().timeLeft === 0) return;
+    set((state) => ({ timeLeft: state.timeLeft + time }));
+  },
+}));
+
+type RoundState = {
+  round: number;
+  nextRound: () => void;
+  resetRound: () => void;
+};
+
+export const useRoundStore = create<RoundState>((set) => ({
+  round: 0,
+
+  nextRound: () => {
+    set((state) => ({ round: state.round + 1 }));
+  },
+
+  resetRound: () => {
+    set({ round: 0 });
+  },
 }));

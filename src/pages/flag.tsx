@@ -7,39 +7,36 @@ import Modal from "../components/portal/Modal";
 import QuizCard from "../components/quiz/QuizCard";
 import QuizChoices from "../components/quiz/QuizChoices";
 import countriesList from "../constants/countries.json";
-import { useTimerStore } from "../utils/store";
+import { useRoundStore, useTimerStore } from "../utils/store";
 import { getRandomCountryIndexes } from "../utils/utils";
 
-const TIME_LIMIT = 6;
+const TIME_LIMIT = 10;
 const OPTIONS = ["Option 1", "Option 2", "Option 3", "Option 4"];
 
 const Flag: NextPage = () => {
-  const [round, setRound] = useState<number>();
-  const [randomIndexes, setRandomIndexes] = useState(() =>
+  const [randomCountryIndexes, setRandomCountryIndexes] = useState(() =>
     getRandomCountryIndexes()
   );
 
-  const startTimer = useTimerStore((state) => state.startTimer);
-  const isTimeOver = useTimerStore((state) => state.isTimeOver);
+  const { round, nextRound, resetRound } = useRoundStore();
+  const playTimer = useTimerStore((state) => state.playTimer);
   const setTimer = useTimerStore((state) => state.setTimer);
+  const isTimerRunning = useTimerStore((state) => state.isTimerRunning);
+  const isTimeOver = useTimerStore((state) => state.isTimeOver);
 
   const currentCountry =
-    round !== undefined ? countriesList[randomIndexes[round]] : undefined;
+    round !== 0 ? countriesList[randomCountryIndexes[round]] : undefined;
 
   function nextCountry() {
     setTimer(TIME_LIMIT);
-    startTimer(true);
-    setRound((prev) => {
-      if (prev === undefined) return 0;
-      prev + 1;
-    });
+    playTimer(true);
+    nextRound();
   }
 
   function playAgain() {
-    setRandomIndexes(getRandomCountryIndexes());
-    setRound(0);
+    setRandomCountryIndexes(getRandomCountryIndexes());
+    resetRound();
     setTimer(TIME_LIMIT);
-    startTimer(true);
   }
 
   return (
@@ -54,7 +51,7 @@ const Flag: NextPage = () => {
             priority
           />
         )}
-        {round === undefined && (
+        {round === 0 && (
           <button
             className="mx-auto h-fit self-center rounded-xl bg-cyan-500 px-12 py-6 text-xl shadow ring-1 ring-black/30 duration-100 hover:scale-105 active:scale-95"
             onClick={nextCountry}
@@ -64,7 +61,7 @@ const Flag: NextPage = () => {
         )}
       </QuizCard>
       <QuizChoices options={OPTIONS} />
-      {isTimeOver && (
+      {!isTimerRunning && isTimeOver && (
         <Modal>
           <div className="my-10 flex w-full flex-col justify-between text-center">
             <p className="text-3xl">Your score: {round}</p>
