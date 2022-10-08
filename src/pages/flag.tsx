@@ -50,7 +50,7 @@ const Flag: NextPage = () => {
         )}
         {round === 0 && (
           <button
-            className="mx-auto h-fit self-center rounded-xl bg-cyan-500 px-12 py-6 text-xl shadow ring-1 ring-black/30 duration-100 hover:scale-105 active:scale-95"
+            className="mx-auto my-3 h-fit rounded-xl bg-cyan-500 px-12 py-6 text-xl shadow ring-1 ring-black/30 transition-transform duration-100 hover:scale-105 active:scale-95 sm:mb-6"
             onClick={nextCountry}
           >
             Start!
@@ -63,7 +63,7 @@ const Flag: NextPage = () => {
           <div className="my-10 flex w-full flex-col justify-between text-center">
             <p className="text-3xl">Your score: {score - 1}</p>
             <button
-              className="my-10 mx-auto w-min whitespace-nowrap rounded-xl bg-cyan-500 px-3 py-6 text-3xl shadow ring-1 ring-black/20 duration-100 hover:scale-105 active:scale-95"
+              className="my-6 mx-auto w-min whitespace-nowrap rounded-xl bg-cyan-500 px-3 py-6 text-3xl shadow ring-1 ring-black/20 duration-100 hover:scale-105 active:scale-95"
               onClick={playAgain}
             >
               Try Again?

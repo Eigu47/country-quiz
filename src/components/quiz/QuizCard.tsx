@@ -17,16 +17,19 @@ export default function QuizCard({ gameName, children }: Props) {
   const [roundParent] = useAutoAnimate<HTMLDivElement>();
 
   return (
-    <section className="relative mx-auto mt-40 rounded-xl bg-indigo-50 sm:w-4/6">
+    <section className="relative mx-auto mt-24 w-full rounded-xl bg-indigo-50 sm:mt-40 sm:w-4/6">
       <QuizCardTimer />
       <div
         ref={roundParent}
-        className="my-4 mx-4 flex justify-between text-xl text-black"
+        className="my-4 mx-4 flex justify-between text-black sm:text-xl"
       >
         <p>{gameName}</p>
         {round !== 0 && <p className="whitespace-nowrap">Round {round}</p>}
       </div>
-      <div ref={imageParent} className="my-10 mx-auto flex h-52 w-80">
+      <div
+        ref={imageParent}
+        className="my-10 mx-auto flex h-36 w-full flex-col-reverse sm:h-52 sm:w-80"
+      >
         {children}
       </div>
     </section>

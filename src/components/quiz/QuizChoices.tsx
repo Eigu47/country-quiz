@@ -20,7 +20,7 @@ export default function QuizChoices({ randomCountryIndexes }: Props) {
   const startTimer = useTimerStore((state) => state.startTimer);
   const addTime = useTimerStore((state) => state.addTime);
 
-  const [optionsParent] = useAutoAnimate<HTMLElement>({ duration: 100 });
+  const [optionsParent] = useAutoAnimate<HTMLElement>();
 
   const options = useMemo(
     () => (round !== 0 ? getOptions(randomCountryIndexes, round) : []),
@@ -57,7 +57,7 @@ export default function QuizChoices({ randomCountryIndexes }: Props) {
   return (
     <section
       ref={optionsParent}
-      className="mx-auto my-20 flex h-full w-80 flex-col justify-between text-2xl text-slate-50 sm:w-4/6"
+      className="mx-auto my-6 flex h-full w-80 flex-col justify-center gap-4 text-2xl text-slate-50 sm:w-4/6 sm:gap-6"
     >
       {options.map((option) => (
         <QuizChoicesOption
