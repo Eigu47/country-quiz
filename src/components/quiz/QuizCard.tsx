@@ -24,7 +24,9 @@ export default function QuizCard({ gameName, children }: Props) {
         className="my-4 mx-4 flex justify-between text-black sm:text-xl"
       >
         <p>{gameName}</p>
-        {round !== 0 && <p className="whitespace-nowrap">Round {round}</p>}
+        {round !== null && (
+          <p className="whitespace-nowrap">Round {round + 1}</p>
+        )}
       </div>
       <div
         ref={imageParent}

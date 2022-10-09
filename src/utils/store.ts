@@ -65,28 +65,19 @@ export const useTimerStore = create<TimerState>((set, get) => ({
 }));
 
 type RoundState = {
-  round: number;
-  score: number;
+  round: number | null;
   nextRound: () => void;
   resetRound: () => void;
-  resetScore: () => void;
 };
 
 export const useRoundStore = create<RoundState>((set) => ({
-  round: 0,
-
-  score: 0,
+  round: null,
 
   nextRound: () => {
-    set((state) => ({ round: state.round + 1 }));
-    set((state) => ({ score: state.score + 1 }));
+    set((state) => ({ round: state.round === null ? 0 : state.round + 1 }));
   },
 
   resetRound: () => {
-    set({ round: 0 });
-  },
-
-  resetScore: () => {
-    set({ score: 0 });
+    set({ round: null });
   },
 }));
