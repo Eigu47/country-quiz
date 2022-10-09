@@ -1,4 +1,5 @@
 import create from "zustand";
+import { persist } from "zustand/middleware";
 
 import { TIME_LIMIT } from "../constants/game-const";
 
@@ -81,3 +82,32 @@ export const useRoundStore = create<RoundState>((set) => ({
     set({ round: null });
   },
 }));
+
+type MaxScoreState = {
+  maxScore: { mode: string; score: number }[];
+  setMaxScore: (mode: string, score: number) => void;
+};
+
+export const useMaxScoreStore = create<MaxScoreState>()(
+  persist(
+    (set, get) => ({
+      maxScore: [],
+
+      setMaxScore: (mode, score) => {
+        const prevRecord = get().maxScore.find((score) => score.mode === mode);
+
+        if ((prevRecord?.score ?? 0) < score) {
+          set((state) => ({
+            maxScore: [
+              ...state.maxScore.filter((score) => score.mode !== mode),
+              { mode, score },
+            ],
+          }));
+        }
+      },
+    }),
+    {
+      name: "country-quiz-records",
+    }
+  )
+);

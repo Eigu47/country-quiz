@@ -8,20 +8,22 @@ type Props = {
   className?: string;
 };
 
-export default function Portal({ children, className }: Props) {
+export default function Modal({ children, className }: Props) {
   const [portalRef, setPortal] = useState<HTMLElement | null>(null);
 
   useEffect(() => {
     setPortal(document.getElementById("portal"));
-    portalRef && autoAnimate(portalRef);
+    portalRef && autoAnimate(portalRef, { duration: 300 });
   }, [portalRef]);
 
   if (portalRef)
     return createPortal(
-      <div
-        className={`fixed inset-0 flex h-screen w-screen bg-black/70 ${className}`}
-      >
-        {children}
+      <div className={`fixed inset-0 flex h-screen w-screen bg-black/70`}>
+        <section
+          className={`container mx-auto mt-[calc(20vh)] h-80 max-w-sm rounded-xl bg-slate-300 shadow-xl sm:max-w-xl ${className}`}
+        >
+          {children}
+        </section>
       </div>,
       portalRef
     );

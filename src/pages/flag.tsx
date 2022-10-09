@@ -4,7 +4,7 @@ import { useAutoAnimate } from "@formkit/auto-animate/react";
 import type { NextPage } from "next";
 import Image from "next/image";
 
-import Modal from "../components/portal/Modal";
+import GameOverModal from "../components/quiz/GameOverModal";
 import QuizCard from "../components/quiz/QuizCard";
 import QuizChoices from "../components/quiz/QuizChoices";
 import COUNTRIES_LIST from "../constants/countries.json";
@@ -50,7 +50,7 @@ const Flag: NextPage = () => {
       ref={optionsParent}
       className="container mx-auto flex h-full flex-col text-center"
     >
-      <QuizCard gameName="Guess by flag">
+      <QuizCard gameMode="Guess by flag">
         {currentCountry && (
           <Image
             src={currentCountry.flag}
@@ -75,17 +75,7 @@ const Flag: NextPage = () => {
         randomIndexes={randomIndexes}
       />
       {!isTimerRunning && !isTimeLeft && (
-        <Modal>
-          <div className="my-10 flex w-full flex-col justify-between text-center">
-            <p className="text-3xl">Your score: {round ?? 0}</p>
-            <button
-              className="my-6 mx-auto w-min whitespace-nowrap rounded-xl bg-cyan-500 px-1 py-4 text-2xl shadow ring-1 ring-black/20 duration-100 hover:scale-105 active:scale-95 sm:px-3 sm:py-6 sm:text-3xl"
-              onClick={playAgain}
-            >
-              Try Again?
-            </button>
-          </div>
-        </Modal>
+        <GameOverModal playAgain={playAgain} gameMode="by_flag" />
       )}
     </main>
   );
