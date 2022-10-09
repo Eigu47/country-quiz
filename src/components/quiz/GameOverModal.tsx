@@ -43,7 +43,7 @@ function RecordText({ round, prevRecord }: RecordTextProps) {
     return <p>Your score: {round ?? 0}</p>;
   }
 
-  if ((round ?? 0) > prevRecord) {
+  if (round && round > prevRecord) {
     return <p>New Record! {round ?? 0}</p>;
   }
 

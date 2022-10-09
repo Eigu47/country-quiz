@@ -33,6 +33,7 @@ export default function QuizChoicesOption({
       onClick={() => {
         if (state === "unanswered") handleSelectCountry(option);
       }}
+      disabled={state !== "unanswered"}
     >
       {option}
       {(state === "unanswered" || state === "unselected") && <BsCircle />}
@@ -45,8 +46,8 @@ export default function QuizChoicesOption({
 const UNANSWERED_CLASS =
   "text-slate-50 ring-slate-50 hover:ring-emerald-500 [&_svg]:hover:text-emerald-500";
 
-const UNSELECTED_CLASS = "cursor-default text-slate-50 ring-slate-50";
+const UNSELECTED_CLASS = "text-slate-50 ring-slate-50";
 
-const CORRECT_CLASS = "cursor-default text-emerald-500 ring-emerald-500";
+const CORRECT_CLASS = "text-emerald-500 ring-emerald-500";
 
-const INCORRECT_CLASS = "cursor-default text-red-500 ring-red-500";
+const INCORRECT_CLASS = "text-red-500 ring-red-500";

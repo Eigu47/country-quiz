@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 import type { NextPage } from "next";
@@ -7,6 +7,7 @@ import Image from "next/image";
 import GameOverModal from "../components/quiz/GameOverModal";
 import QuizCard from "../components/quiz/QuizCard";
 import QuizChoices from "../components/quiz/QuizChoices";
+import StartButton from "../components/quiz/StartButton";
 import COUNTRIES_LIST from "../constants/countries.json";
 import { TIME_LIMIT } from "../constants/game-const";
 import { useRoundStore, useTimerStore } from "../utils/store";
@@ -60,14 +61,7 @@ const Flag: NextPage = () => {
             priority
           />
         )}
-        {round === null && (
-          <button
-            className="mx-auto my-3 h-fit rounded-xl bg-cyan-500 px-12 py-6 text-xl shadow ring-1 ring-black/30 transition-transform duration-100 hover:scale-105 active:scale-95 sm:mb-6"
-            onClick={nextCountry}
-          >
-            Start!
-          </button>
-        )}
+        {round === null && <StartButton nextCountry={nextCountry} />}
       </QuizCard>
       <QuizChoices
         key={round}

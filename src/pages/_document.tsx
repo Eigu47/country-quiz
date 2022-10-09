@@ -1,33 +1,25 @@
-import Document, {
-  DocumentContext,
-  DocumentInitialProps,
-  Html,
-  Head,
-  Main,
-  NextScript,
-} from "next/document";
+import { Head, Html, Main, NextScript } from "next/document";
+import { BsGithub } from "react-icons/bs";
 
-class MyDocument extends Document {
-  static async getInitialProps(
-    ctx: DocumentContext
-  ): Promise<DocumentInitialProps> {
-    const initialProps = await Document.getInitialProps(ctx);
-
-    return initialProps;
-  }
-
-  render() {
-    return (
-      <Html>
-        <Head />
-        <body>
-          <Main />
-          <div id="portal" />
-          <NextScript />
-        </body>
-      </Html>
-    );
-  }
+export default function Document() {
+  return (
+    <Html>
+      <Head />
+      <body>
+        <Main />
+        <div id="portal" />
+        <div className="fixed right-0 top-0 flex h-24 w-24 translate-x-1/2 -translate-y-1/2 rotate-45 justify-center overflow-hidden bg-black/40 sm:h-36 sm:w-36">
+          <a
+            href="https://github.com/Eigu47/country-quiz"
+            rel="noreferrer"
+            target="_blank"
+            className="absolute bottom-1 -rotate-45 text-3xl text-transparent duration-200 hover:text-slate-100/80 active:text-slate-100 sm:text-5xl"
+          >
+            <BsGithub />
+          </a>
+        </div>
+        <NextScript />
+      </body>
+    </Html>
+  );
 }
-
-export default MyDocument;
