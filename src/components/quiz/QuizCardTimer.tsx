@@ -20,7 +20,7 @@ export default function QuizCardTimer() {
       : "#10b981";
 
   const transitionSpeed =
-    !isTimerRunning && isTimeLeft ? "0.4s ease-out all" : "1s linear all";
+    !isTimerRunning && isTimeLeft ? "0.4s ease-in-out all" : "1s linear all";
 
   const timerLabel =
     !isTimerRunning && !isTimeLeft
@@ -44,19 +44,13 @@ export default function QuizCardTimer() {
                 strokeWidth: "6px",
                 stroke: pathColor,
                 // strokeLinecap: "round",
-                rotate: "-90deg",
+                transform: "rotate(-90deg)",
                 transformOrigin: "center",
                 transition: transitionSpeed,
               }}
               cx="50"
               cy="50"
               r="44"
-              d="
-              M 50, 50
-              m -45, 0
-              a 45,45 0 1,0 90,0
-              a 45,45 0 1,0 -90,0
-            "
             />
           </g>
         </svg>

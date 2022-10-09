@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 import type { NextPage } from "next";
@@ -13,9 +13,7 @@ import { useRoundStore, useTimerStore } from "../utils/store";
 import { getRandomCountryIndexes } from "../utils/utils";
 
 const Flag: NextPage = () => {
-  const [randomIndexes, setRandomIndexes] = useState(() =>
-    getRandomCountryIndexes()
-  );
+  const [randomIndexes, setRandomIndexes] = useState(getRandomCountryIndexes());
 
   const [optionsParent] = useAutoAnimate<HTMLElement>();
 
@@ -38,6 +36,11 @@ const Flag: NextPage = () => {
     startTimer(false, TIME_LIMIT);
     resetRound();
   }
+
+  useEffect(() => {
+    startTimer(false, TIME_LIMIT);
+    resetRound();
+  }, [startTimer, resetRound]);
 
   const currentCountry =
     round !== null ? COUNTRIES_LIST[randomIndexes[round]!] : undefined;
