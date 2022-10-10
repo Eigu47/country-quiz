@@ -94,9 +94,11 @@ export const useMaxScoreStore = create<MaxScoreState>()(
       maxScore: [],
 
       setMaxScore: (mode, score) => {
-        const prevRecord = get().maxScore.find((score) => score.mode === mode);
+        const prevScore = get().maxScore.find(
+          (score) => score.mode === mode
+        )?.score;
 
-        if ((prevRecord?.score ?? 0) < score) {
+        if (score > (prevScore ?? 0)) {
           set((state) => ({
             maxScore: [
               ...state.maxScore.filter((score) => score.mode !== mode),

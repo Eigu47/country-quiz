@@ -12,22 +12,17 @@ export default function QuizCardTimer() {
 
   const circleDashArray = `${((timeLeft / TIME_LIMIT) * 283).toFixed(0)} 283`;
 
-  const pathColor =
-    timeLeft / TIME_LIMIT < 0.25
-      ? "#b91c1c"
-      : timeLeft / TIME_LIMIT < 0.5
-      ? "#f59e0b"
-      : "#10b981";
+  function getPathColor() {
+    if (timeLeft / TIME_LIMIT < 0.25) return "#b91c1c";
+    if (timeLeft / TIME_LIMIT < 0.5) return "#f59e0b";
+    return "#10b981";
+  }
 
-  const transitionSpeed =
-    !isTimerRunning && isTimeLeft ? "0.4s ease-in-out all" : "1s linear all";
-
-  const timerLabel =
-    !isTimerRunning && !isTimeLeft
-      ? 0
-      : !isTimerRunning && isTimeLeft
-      ? timeLeft
-      : timeLeft + 1;
+  function getTimeLabel() {
+    if (!isTimerRunning && !isTimeLeft) return 0;
+    if (!isTimerRunning && isTimeLeft) return timeLeft;
+    return timeLeft + 1;
+  }
 
   return (
     <>
@@ -42,11 +37,14 @@ export default function QuizCardTimer() {
               strokeDasharray={circleDashArray}
               style={{
                 strokeWidth: "6px",
-                stroke: pathColor,
+                stroke: getPathColor(),
                 // strokeLinecap: "round",
                 transform: "rotate(-90deg)",
                 transformOrigin: "center",
-                transition: transitionSpeed,
+                transition:
+                  !isTimerRunning && isTimeLeft
+                    ? "0.4s ease-in-out all"
+                    : "1s linear all",
               }}
               cx="50"
               cy="50"
@@ -56,7 +54,7 @@ export default function QuizCardTimer() {
         </svg>
       </div>
       <p className="absolute -top-5 left-[calc(50%-40px)] mx-auto w-20 text-4xl">
-        {timerLabel}
+        {getTimeLabel()}
       </p>
     </>
   );

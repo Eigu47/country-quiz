@@ -2,15 +2,16 @@ import React from "react";
 
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 
+import useGetGameMode from "../../utils/hooks/useGetGameMode";
 import { useRoundStore } from "../../utils/store";
 import QuizCardTimer from "./QuizCardTimer";
 
 type Props = {
-  gameMode: string;
   children: React.ReactNode;
 };
 
-export default function QuizCard({ gameMode, children }: Props) {
+export default function QuizCard({ children }: Props) {
+  const gameMode = useGetGameMode();
   const round = useRoundStore((state) => state.round);
 
   const [imageParent] = useAutoAnimate<HTMLDivElement>();
@@ -23,7 +24,7 @@ export default function QuizCard({ gameMode, children }: Props) {
         ref={roundParent}
         className="my-4 mx-4 flex justify-between text-black sm:text-xl"
       >
-        <p>{gameMode}</p>
+        <p>{gameMode?.title}</p>
         {round !== null && (
           <p className="whitespace-nowrap">Round {round + 1}</p>
         )}

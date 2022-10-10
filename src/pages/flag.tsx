@@ -24,7 +24,7 @@ const Flag: NextPage = () => {
   const isTimeLeft = useTimerStore((state) => state.isTimeLeft);
 
   function nextCountry() {
-    if (randomIndexes[(round ?? 0) + 1] === undefined) {
+    if (round !== null && randomIndexes[round + 1] === undefined) {
       setRandomIndexes((prev) => [...prev, ...getRandomCountryIndexes()]);
     }
 
@@ -43,15 +43,16 @@ const Flag: NextPage = () => {
     resetRound();
   }, [startTimer, resetRound]);
 
+  const countryIndex = round !== null ? randomIndexes[round] : undefined;
   const currentCountry =
-    round !== null ? COUNTRIES_LIST[randomIndexes[round]!] : undefined;
+    countryIndex !== undefined ? COUNTRIES_LIST[countryIndex] : undefined;
 
   return (
     <main
       ref={optionsParent}
       className="container mx-auto flex h-full flex-col text-center"
     >
-      <QuizCard gameMode="Guess by flag">
+      <QuizCard>
         {currentCountry && (
           <Image
             src={currentCountry.flag}
@@ -69,7 +70,7 @@ const Flag: NextPage = () => {
         randomIndexes={randomIndexes}
       />
       {!isTimerRunning && !isTimeLeft && (
-        <GameOverModal playAgain={playAgain} gameMode="by_flag" />
+        <GameOverModal playAgain={playAgain} />
       )}
     </main>
   );

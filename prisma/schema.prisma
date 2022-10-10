@@ -59,31 +59,31 @@ model VerificationToken {
     @@unique([identifier, token])
 }
 
-model Country {
-    name         String    @id
-    code         String    @unique
-    latlng       Float[]
-    capital      String
-    altSpellings String[]
-    region       Region    @relation(fields: [regionId], references: [name], onUpdate: Cascade, onDelete: Cascade)
-    regionId     String
-    subregion    Subregion @relation(fields: [subregionId], references: [name], onUpdate: Cascade, onDelete: Cascade)
-    subregionId  String
-    languages    String[]
-    borders      Country[] @relation("CountryToCountry")
-    bordersBy    Country[] @relation("CountryToCountry")
-    area         Float
-    population   Int
-    map          String
-    flag         String
-}
+// model Country {
+//     name         String    @id
+//     code         String    @unique
+//     latlng       Float[]
+//     capital      String
+//     altSpellings String[]
+//     region       Region    @relation(fields: [regionId], references: [name], onUpdate: Cascade, onDelete: Cascade)
+//     regionId     String
+//     subregion    Subregion @relation(fields: [subregionId], references: [name], onUpdate: Cascade, onDelete: Cascade)
+//     subregionId  String
+//     languages    String[]
+//     borders      Country[] @relation("CountryToCountry")
+//     bordersBy    Country[] @relation("CountryToCountry")
+//     area         Float
+//     population   Int
+//     map          String
+//     flag         String
+// }
 
-model Region {
-    name      String    @id
-    countries Country[]
-}
+// model Region {
+//     name      String    @id
+//     countries Country[]
+// }
 
-model Subregion {
-    name      String    @id
-    countries Country[]
-}
+// model Subregion {
+//     name      String    @id
+//     countries Country[]
+// }

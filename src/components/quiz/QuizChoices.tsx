@@ -1,8 +1,8 @@
 import React, { useMemo, useRef, useState } from "react";
 
 import COUNTRIES_LIST from "../../constants/countries.json";
+import useTimeout from "../../utils/hooks/useTimeout";
 import { useRoundStore, useTimerStore } from "../../utils/store";
-import useTimeout from "../../utils/useTimeout";
 import { getOptions } from "../../utils/utils";
 import QuizChoicesOption from "./QuizChoicesOption";
 
@@ -19,13 +19,11 @@ export default function QuizChoices({ randomIndexes, nextCountry }: Props) {
   const startTimer = useTimerStore((state) => state.startTimer);
   const addTime = useTimerStore((state) => state.addTime);
 
-  const options = useMemo(
-    () => (round !== null ? getOptions(randomIndexes, round) : []),
-    [randomIndexes, round]
-  );
-
+  const countryIndex = round !== null ? randomIndexes[round] : undefined;
   const correctAnwswer =
-    round !== null ? COUNTRIES_LIST[randomIndexes[round]!]?.name : undefined;
+    countryIndex !== undefined ? COUNTRIES_LIST[countryIndex]?.name : undefined;
+
+  const options = useMemo(() => getOptions(countryIndex), [countryIndex]);
 
   function handleSelectCountry(option: string) {
     startTimer(false);
@@ -53,14 +51,15 @@ export default function QuizChoices({ randomIndexes, nextCountry }: Props) {
     <section className="mx-auto my-6 flex h-full w-80 flex-col justify-center gap-4 text-2xl text-slate-50 sm:w-4/6 sm:gap-6">
       {options.map((option) => (
         <QuizChoicesOption
-          key={option}
+          key={option.name}
           option={option}
           state={
             !selectedCountry
               ? "unanswered"
-              : correctAnwswer === option
+              : correctAnwswer === option.name
               ? "correct"
-              : correctAnwswer !== option && selectedCountry === option
+              : correctAnwswer !== option.name &&
+                selectedCountry === option.name
               ? "incorrect"
               : "unselected"
           }
