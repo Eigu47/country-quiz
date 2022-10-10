@@ -53,16 +53,8 @@ export default function QuizChoices({ randomIndexes, nextCountry }: Props) {
         <QuizChoicesOption
           key={option.name}
           option={option}
-          state={
-            !selectedCountry
-              ? "unanswered"
-              : correctAnwswer === option.name
-              ? "correct"
-              : correctAnwswer !== option.name &&
-                selectedCountry === option.name
-              ? "incorrect"
-              : "unselected"
-          }
+          isCorrect={correctAnwswer === option.name}
+          selected={selectedCountry}
           handleSelectCountry={handleSelectCountry}
         />
       ))}

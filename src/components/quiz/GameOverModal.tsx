@@ -21,11 +21,9 @@ export default function GameOverModal({ playAgain }: Props) {
     if (round && round > (prevRecord ?? 0)) {
       return <p>New Record! {round ?? 0}</p>;
     }
-
     if (prevRecord === null) {
       return <p>Your score: {round ?? 0}</p>;
     }
-
     return (
       <>
         <p>Your score: {round ?? 0}</p>
