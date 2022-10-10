@@ -18,12 +18,12 @@ export default function GameOverModal({ playAgain }: Props) {
     maxScore.find((score) => score.mode === gameMode?.name)?.score ?? null;
 
   function RecordText() {
-    if (prevRecord === null) {
-      return <p>Your score: {round ?? 0}</p>;
+    if (round && round > (prevRecord ?? 0)) {
+      return <p>New Record! {round ?? 0}</p>;
     }
 
-    if (round && round > prevRecord) {
-      return <p>New Record! {round ?? 0}</p>;
+    if (prevRecord === null) {
+      return <p>Your score: {round ?? 0}</p>;
     }
 
     return (
