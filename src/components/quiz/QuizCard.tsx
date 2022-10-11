@@ -22,7 +22,7 @@ export default function QuizCard({ children }: Props) {
       <QuizCardTimer />
       <div
         ref={roundParent}
-        className="my-4 mx-4 flex justify-between text-black sm:text-xl"
+        className="flex justify-between py-3 px-3 text-black sm:py-4 sm:px-4 sm:text-xl"
       >
         <p>{gameMode?.title}</p>
         {round !== null && (
@@ -31,8 +31,11 @@ export default function QuizCard({ children }: Props) {
       </div>
       <div
         ref={imageParent}
-        className="my-10 mx-auto flex h-36 w-full flex-col-reverse sm:h-52 sm:w-80"
+        className="my-8 mx-auto flex h-36 w-full flex-col justify-end sm:my-10 sm:h-52 sm:w-80"
       >
+        {round === null && (
+          <p className="my-auto text-2xl">{gameMode?.description}</p>
+        )}
         {children}
       </div>
     </section>

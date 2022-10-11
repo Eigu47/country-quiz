@@ -11,7 +11,7 @@ export interface Country {
   capital: Capital;
   altSpellings: string[];
   region: Region | string;
-  subregion: string;
+  subregion: Subregion | string;
   languages: string[];
   borders: string[];
   area: number;
@@ -25,11 +25,37 @@ export interface Capital {
   latlng?: number[];
 }
 
-export enum Region {
-  Africa = "Africa",
-  Americas = "Americas",
-  Antarctic = "Antarctic",
-  Asia = "Asia",
-  Europe = "Europe",
-  Oceania = "Oceania",
-}
+export type Region =
+  | "Africa"
+  | "Americas"
+  | "Antarctic"
+  | "Asia"
+  | "Europe"
+  | "Oceania";
+
+export type Subregion =
+  | "Antarctic"
+  | "Australia and New Zealand"
+  | "Caribbean"
+  | "Central America"
+  | "Central Asia"
+  | "Central Europe"
+  | "Eastern Africa"
+  | "Eastern Asia"
+  | "Eastern Europe"
+  | "Melanesia"
+  | "Micronesia"
+  | "Middle Africa"
+  | "North America"
+  | "Northern Africa"
+  | "Northern Europe"
+  | "Polynesia"
+  | "South America"
+  | "South-Eastern Asia"
+  | "Southeast Europe"
+  | "Southern Africa"
+  | "Southern Asia"
+  | "Southern Europe"
+  | "Western Africa"
+  | "Western Asia"
+  | "Western Europe";

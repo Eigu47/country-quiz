@@ -26,9 +26,12 @@ export function shuffleArray<T>(indexes: T[]): T[] {
 
 let previousCountries: Country[] = [];
 
-export function getOptions(countryIndex: number | undefined): Country[] {
+export function getOptions(
+  countryIndex: number | undefined,
+  optionsLength: number | undefined
+): Country[] {
   // Early returns to make ts happy
-  if (countryIndex === undefined) return [];
+  if (countryIndex === undefined || optionsLength === undefined) return [];
   const correctCountry = COUNTRIES_LIST[countryIndex];
   if (correctCountry === undefined) return [];
 
@@ -39,7 +42,7 @@ export function getOptions(countryIndex: number | undefined): Country[] {
   prevCountry && previousCountries.push(prevCountry);
   nextCountry && previousCountries.push(nextCountry);
 
-  while (options.length < 4) {
+  while (options.length < optionsLength) {
     const randomIndex = Math.floor(Math.random() * COUNTRIES_LENGTH);
     const randomCountry = COUNTRIES_LIST[randomIndex];
     // Keep looping if the country is already an option or previous options
