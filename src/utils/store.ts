@@ -1,7 +1,7 @@
 import create from "zustand";
 import { persist } from "zustand/middleware";
 
-import { TIME_LIMIT } from "../constants/game-const";
+import { TIME_LIMIT } from "@/constants/game-const";
 
 type TimerState = {
   timeLeft: number;

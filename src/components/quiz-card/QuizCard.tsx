@@ -2,15 +2,16 @@ import React from "react";
 
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 
-import useGetGameMode from "../../utils/hooks/useGetGameMode";
-import { useRoundStore } from "../../utils/store";
-import QuizCardTimer from "./QuizCardTimer";
+import QuizCardTimer from "@/components/quiz-card/QuizCardTimer";
+import useGetGameMode from "@/utils/hooks/useGetGameMode";
+import { useRoundStore } from "@/utils/store";
 
 type Props = {
   children: React.ReactNode;
+  className?: string;
 };
 
-export default function QuizCard({ children }: Props) {
+export default function QuizCard({ children, className }: Props) {
   const gameMode = useGetGameMode();
   const round = useRoundStore((state) => state.round);
 
@@ -31,7 +32,7 @@ export default function QuizCard({ children }: Props) {
       </div>
       <div
         ref={imageParent}
-        className="my-8 mx-auto flex h-36 w-full flex-col justify-end sm:my-10 sm:h-52 sm:w-80"
+        className={`mx-auto my-8 mb-6 flex h-32 w-full flex-col justify-end sm:my-10 sm:h-52 ${className}`}
       >
         {round === null && (
           <p className="my-auto text-2xl">{gameMode?.description}</p>

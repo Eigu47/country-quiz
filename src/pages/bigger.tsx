@@ -1,13 +1,12 @@
 import type { NextPage } from "next";
-import Image from "next/image";
 
 import QuizCard from "@/components/quiz-card/QuizCard";
-import QuizChoices from "@/components/quiz-choices/QuizChoices";
+import QuizCardChoices from "@/components/quiz-card/QuizCardChoices";
 import GameOverModal from "@/components/utils/GameOverModal";
 import StartButton from "@/components/utils/StartButton";
 import useQuiz from "@/utils/hooks/useQuiz";
 
-const Flag: NextPage = () => {
+const Bigger: NextPage = () => {
   const {
     randomIndexes,
     autoAnimateRef,
@@ -24,23 +23,18 @@ const Flag: NextPage = () => {
       ref={autoAnimateRef}
       className="container mx-auto flex h-full flex-col text-center"
     >
-      <QuizCard>
+      <QuizCard
+        className={round === null ? "h-32 sm:h-[30vh]" : "h-[55vh] sm:h-[30vh]"}
+      >
         {currentCountry && (
-          <Image
-            src={currentCountry.flag}
-            alt="Flag"
-            objectFit="contain"
-            layout="fill"
-            priority
+          <QuizCardChoices
+            key={round}
+            nextCountry={nextCountry}
+            randomIndexes={randomIndexes}
           />
         )}
         {round === null && <StartButton nextCountry={nextCountry} />}
       </QuizCard>
-      <QuizChoices
-        key={round}
-        nextCountry={nextCountry}
-        randomIndexes={randomIndexes}
-      />
       {!isTimerRunning && !isTimeLeft && (
         <GameOverModal playAgain={playAgain} />
       )}
@@ -48,4 +42,4 @@ const Flag: NextPage = () => {
   );
 };
 
-export default Flag;
+export default Bigger;

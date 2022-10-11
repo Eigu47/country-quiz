@@ -2,8 +2,8 @@ import React from "react";
 
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 
-import { TIME_LIMIT } from "../../constants/game-const";
-import { useTimerStore } from "../../utils/store";
+import { TIME_LIMIT } from "@/constants/game-const";
+import { useTimerStore } from "@/utils/store";
 
 export default function QuizCardTimer() {
   const { timeLeft, isTimerRunning, isTimeLeft } = useTimerStore();

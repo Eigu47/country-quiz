@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-import { GAME_MODES } from "../../constants/game-const";
+import { GAME_MODES } from "@/constants/game-const";
 
 export default function useGetGameMode() {
   const router = useRouter();

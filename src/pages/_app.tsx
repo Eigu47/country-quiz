@@ -8,8 +8,8 @@ import type { AppType } from "next/app";
 import Head from "next/head";
 import superjson from "superjson";
 
-import type { AppRouter } from "../server/router";
-import "../styles/globals.css";
+import type { AppRouter } from "@/server/router";
+import "@/styles/globals.css";
 
 const MyApp: AppType<{ session: Session | null }> = ({
   Component,

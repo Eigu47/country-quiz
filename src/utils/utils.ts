@@ -1,5 +1,5 @@
-import COUNTRIES_LIST from "../constants/countries.json";
-import type { Country } from "../types/country-types";
+import COUNTRIES_LIST from "@/constants/countries.json";
+import type { Country } from "@/types/country-types";
 
 const COUNTRIES_LENGTH = COUNTRIES_LIST.length;
 

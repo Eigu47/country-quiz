@@ -1,8 +1,8 @@
 import React from "react";
 
-import useGetGameMode from "../../utils/hooks/useGetGameMode";
-import { useMaxScoreStore, useRoundStore } from "../../utils/store";
-import Modal from "../utils/Modal";
+import Modal from "@/components/utils/Modal";
+import useGetGameMode from "@/utils/hooks/useGetGameMode";
+import { useMaxScoreStore, useRoundStore } from "@/utils/store";
 
 type Props = {
   playAgain: () => void;

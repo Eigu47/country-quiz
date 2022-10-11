@@ -6,8 +6,7 @@ import {
   BsFillXCircleFill,
 } from "react-icons/bs";
 
-import { Country } from "../../types/country-types";
-import useGetGameMode from "../../utils/hooks/useGetGameMode";
+import { Country } from "@/types/country-types";
 
 type Props = {
   option: Country;
@@ -22,8 +21,6 @@ export default function QuizChoicesOption({
   isCorrect,
   selected,
 }: Props) {
-  const gameMode = useGetGameMode();
-
   function getClass() {
     if (selected === undefined) return NO_ANSWER;
     if (isCorrect) return CORRECT;
@@ -45,7 +42,7 @@ export default function QuizChoicesOption({
       }}
       disabled={selected !== undefined}
     >
-      {gameMode?.options === "name" && option.name}
+      {option.name}
       <Icon />
     </button>
   );
