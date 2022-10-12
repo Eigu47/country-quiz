@@ -21,9 +21,20 @@ const MyApp: AppType<{ session: Session | null }> = ({
         <title>Country Quiz</title>
         <meta
           name="description"
-          content="Multiple minigames with countries! Become an expert in geography!"
+          content="Can you name the county by its flag? How many capitals do you know? Play multiple geography mini games and learn about countries!"
+        />
+        <meta property="og:title" content="Country Quiz" />
+        <meta
+          property="og:description"
+          content="Can you name the county by its flag? How many capitals do you know? Play multiple geography mini games and learn about countries!"
         />
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://country-quiz-eigu.vercel.app/"
+        />
+        <meta property="og:locale" content="en_US" />
       </Head>
       <SessionProvider session={session}>
         <Component {...pageProps} />
