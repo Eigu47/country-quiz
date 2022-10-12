@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import BiggerOption from "@/components/bigger/BiggerOption";
 import useQuizChoices from "@/utils/hooks/useQuizChoices";
@@ -9,13 +9,15 @@ type Props = {
 };
 
 export default function BiggerChoices({ randomIndexes, nextCountry }: Props) {
-  const { selectedCountry, options, handleSelectCountry } = useQuizChoices(
-    randomIndexes,
-    nextCountry
-  );
+  const { selectedCountry, options, handleSelectCountry, setCorrectCountry } =
+    useQuizChoices(randomIndexes, nextCountry);
 
   const biggestArea = Math.max(...options.map((option) => option.area));
   const biggestCountry = options.find((option) => option.area === biggestArea);
+
+  useEffect(() => {
+    setCorrectCountry(biggestCountry?.name);
+  }, [biggestCountry?.name, setCorrectCountry]);
 
   return (
     <section className="mx-auto flex h-full w-full flex-col items-center justify-center gap-3 px-6 text-2xl text-slate-50 sm:flex-row sm:gap-6">

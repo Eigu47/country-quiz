@@ -1,4 +1,4 @@
-export const TIME_LIMIT = 20;
+export const TIME_LIMIT = 999;
 
 export const GAME_MODES = [
   {

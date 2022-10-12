@@ -1,5 +1,6 @@
 import React from "react";
 
+import { useAutoAnimate } from "@formkit/auto-animate/react";
 import Image from "next/image";
 
 import { Country } from "@/types/country-types";
@@ -17,17 +18,24 @@ export default function QuizChoicesBigger({
   isCorrect,
   selected,
 }: Props) {
-  function getClass() {
-    if (selected === undefined) return NO_ANSWER;
-    if (isCorrect) return CORRECT;
-    if (!isCorrect && selected === option.name) return WRONG;
-    return UNSELECTED;
-  }
+  const [animateRef] = useAutoAnimate<HTMLDivElement>();
+
+  const currentClass =
+    selected !== undefined && isCorrect
+      ? CORRECT
+      : selected !== undefined && !isCorrect
+      ? WRONG
+      : "";
 
   return (
-    <>
+    <article className="h-full w-full">
+      <p
+        className={`w-full whitespace-nowrap text-xl text-black ${currentClass}`}
+      >
+        {option.name}
+      </p>
       <button
-        className="relative h-full w-full"
+        className="relative h-4/6 w-full sm:h-5/6"
         onClick={() => {
           if (selected === undefined) handleSelectCountry(option.name);
         }}
@@ -41,12 +49,16 @@ export default function QuizChoicesBigger({
           priority
         />
       </button>
-    </>
+      <div ref={animateRef}>
+        {selected !== undefined && (
+          <p className={`w-full text-xl ${currentClass}`}>
+            {option.area.toLocaleString() + " km²"}
+          </p>
+        )}
+      </div>
+    </article>
   );
 }
 
-const NO_ANSWER =
-  "text-slate-50 ring-slate-50 hover:ring-emerald-500 [&_svg]:hover:text-emerald-500";
-const CORRECT = "text-emerald-500 ring-emerald-500";
-const WRONG = "text-red-500 ring-red-500";
-const UNSELECTED = "text-slate-50 ring-slate-50";
+const CORRECT = "text-emerald-600 font-bold";
+const WRONG = "text-red-500 font-bold";

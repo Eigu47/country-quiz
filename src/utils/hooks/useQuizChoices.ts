@@ -22,6 +22,10 @@ export default function useQuizChoices(
   const currentCountry =
     countryIndex !== undefined ? COUNTRIES_LIST[countryIndex] : undefined;
 
+  const [correctCountry, setCorrectCountry] = useState<string | undefined>(
+    currentCountry?.name
+  );
+
   const options = useMemo(
     () => getOptions(countryIndex, gameMode?.optionsLength),
     [countryIndex, gameMode?.optionsLength]
@@ -36,7 +40,7 @@ export default function useQuizChoices(
 
   useTimeout(
     () => {
-      if (selectedCountry === currentCountry?.name) {
+      if (selectedCountry === correctCountry) {
         addTime(2);
         nextCountry();
       } else {
@@ -55,5 +59,6 @@ export default function useQuizChoices(
     currentCountry,
     options,
     handleSelectCountry,
+    setCorrectCountry,
   };
 }
