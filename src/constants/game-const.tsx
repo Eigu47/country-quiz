@@ -1,4 +1,5 @@
-export const TIME_LIMIT = 999;
+export const TIME_LIMIT =
+  !process.env.NODE_ENV || process.env.NODE_ENV === "development" ? 1000 : 20;
 
 export const GAME_MODES = [
   {
