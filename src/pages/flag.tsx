@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
 import Image from "next/image";
 
-import QuizCard from "@/components/quiz-card/QuizCard";
-import QuizChoices from "@/components/quiz-choices/QuizChoices";
-import GameOverModal from "@/components/utils/GameOverModal";
-import StartButton from "@/components/utils/StartButton";
+import GameOverModal from "@/components/base/GameOverModal";
+import QuizCard from "@/components/base/QuizCard";
+import StartButton from "@/components/base/StartButton";
+import FlagChoices from "@/components/flag/FlagChoices";
 import useQuiz from "@/utils/hooks/useQuiz";
 
 const Flag: NextPage = () => {
@@ -12,11 +12,11 @@ const Flag: NextPage = () => {
     randomIndexes,
     autoAnimateRef,
     round,
-    isTimerRunning,
-    isTimeLeft,
     nextCountry,
     playAgain,
     currentCountry,
+    modalOpen,
+    setModalOpen,
   } = useQuiz();
 
   return (
@@ -36,13 +36,13 @@ const Flag: NextPage = () => {
         )}
         {round === null && <StartButton nextCountry={nextCountry} />}
       </QuizCard>
-      <QuizChoices
+      <FlagChoices
         key={round}
         nextCountry={nextCountry}
         randomIndexes={randomIndexes}
       />
-      {!isTimerRunning && !isTimeLeft && (
-        <GameOverModal playAgain={playAgain} />
+      {modalOpen && (
+        <GameOverModal playAgain={playAgain} setModalOpen={setModalOpen} />
       )}
     </main>
   );

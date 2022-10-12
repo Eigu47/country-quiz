@@ -9,6 +9,7 @@ import { getRandomCountryIndexes } from "@/utils/utils";
 
 export default function useQuiz() {
   const [randomIndexes, setRandomIndexes] = useState(getRandomCountryIndexes());
+  const [modalOpen, setModalOpen] = useState(false);
 
   const [autoAnimateRef] = useAutoAnimate<HTMLElement>();
 
@@ -30,12 +31,18 @@ export default function useQuiz() {
     setRandomIndexes(getRandomCountryIndexes());
     startTimer(false, TIME_LIMIT);
     resetRound();
+    setModalOpen(false);
   }
 
   useEffect(() => {
     startTimer(false, TIME_LIMIT);
     resetRound();
+    setModalOpen(false);
   }, [startTimer, resetRound]);
+
+  useEffect(() => {
+    if (!isTimerRunning && !isTimeLeft) setModalOpen(true);
+  }, [isTimerRunning, isTimeLeft]);
 
   const countryIndex = round !== null ? randomIndexes[round] : undefined;
   const currentCountry =
@@ -45,10 +52,10 @@ export default function useQuiz() {
     randomIndexes,
     autoAnimateRef,
     round,
-    isTimerRunning,
-    isTimeLeft,
     nextCountry,
     playAgain,
     currentCountry,
+    modalOpen,
+    setModalOpen,
   };
 }

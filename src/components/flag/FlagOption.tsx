@@ -15,7 +15,7 @@ type Props = {
   selected: string | undefined;
 };
 
-export default function QuizChoicesOption({
+export default function FlagOptions({
   option,
   handleSelectCountry,
   isCorrect,

@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 
-import QuizCard from "@/components/quiz-card/QuizCard";
-import QuizCardChoices from "@/components/quiz-card/QuizCardChoices";
-import GameOverModal from "@/components/utils/GameOverModal";
-import StartButton from "@/components/utils/StartButton";
+import GameOverModal from "@/components/base/GameOverModal";
+import QuizCard from "@/components/base/QuizCard";
+import StartButton from "@/components/base/StartButton";
+import BiggerOption from "@/components/bigger/BiggerChoices";
 import useQuiz from "@/utils/hooks/useQuiz";
 
 const Bigger: NextPage = () => {
@@ -27,7 +27,7 @@ const Bigger: NextPage = () => {
         className={round === null ? "h-32 sm:h-[30vh]" : "h-[55vh] sm:h-[30vh]"}
       >
         {currentCountry && (
-          <QuizCardChoices
+          <BiggerOption
             key={round}
             nextCountry={nextCountry}
             randomIndexes={randomIndexes}

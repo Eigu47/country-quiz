@@ -13,7 +13,7 @@ export default function Document() {
             href="https://github.com/Eigu47/country-quiz"
             rel="noreferrer"
             target="_blank"
-            className="absolute bottom-1 -rotate-45 text-3xl text-transparent duration-200 hover:text-slate-100/80 active:text-slate-100 sm:text-5xl"
+            className="absolute bottom-1 -rotate-45 text-3xl text-slate-100/10 duration-200 hover:text-slate-100/80 sm:text-5xl sm:text-transparent"
           >
             <BsGithub />
           </a>

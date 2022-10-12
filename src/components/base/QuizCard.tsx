@@ -2,7 +2,7 @@ import React from "react";
 
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 
-import QuizCardTimer from "@/components/quiz-card/QuizCardTimer";
+import QuizCardTimer from "@/components/base/QuizCardTimer";
 import useGetGameMode from "@/utils/hooks/useGetGameMode";
 import { useRoundStore } from "@/utils/store";
 
