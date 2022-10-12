@@ -11,8 +11,8 @@ const Bigger: NextPage = () => {
     randomIndexes,
     autoAnimateRef,
     round,
-    isTimerRunning,
-    isTimeLeft,
+    modalOpen,
+    setModalOpen,
     nextCountry,
     playAgain,
     currentCountry,
@@ -35,8 +35,8 @@ const Bigger: NextPage = () => {
         )}
         {round === null && <StartButton nextCountry={nextCountry} />}
       </QuizCard>
-      {!isTimerRunning && !isTimeLeft && (
-        <GameOverModal playAgain={playAgain} />
+      {modalOpen && (
+        <GameOverModal playAgain={playAgain} setModalOpen={setModalOpen} />
       )}
     </main>
   );

@@ -2,6 +2,7 @@ import React from "react";
 
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 
+import BackButton from "@/components/base/BackButton";
 import QuizCardTimer from "@/components/base/QuizCardTimer";
 import useGetGameMode from "@/utils/hooks/useGetGameMode";
 import { useRoundStore } from "@/utils/store";
@@ -13,7 +14,7 @@ type Props = {
 
 export default function QuizCard({ children, className }: Props) {
   const gameMode = useGetGameMode();
-  const round = useRoundStore((state) => state.round);
+  const { round } = useRoundStore();
 
   const [imageParent] = useAutoAnimate<HTMLDivElement>();
   const [roundParent] = useAutoAnimate<HTMLDivElement>();
@@ -35,10 +36,13 @@ export default function QuizCard({ children, className }: Props) {
         className={`mx-auto my-8 mb-6 flex h-32 w-full flex-col justify-end sm:my-10 sm:h-52 ${className}`}
       >
         {round === null && (
-          <p className="my-auto text-2xl">{gameMode?.description}</p>
+          <p className="my-auto text-2xl sm:text-4xl">
+            {gameMode?.description}
+          </p>
         )}
         {children}
       </div>
+      <BackButton />
     </section>
   );
 }
