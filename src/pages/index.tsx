@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         {GAME_MODES.map((mode) => (
           <Link href={`/${mode.name}`} key={mode.name}>
             <button className="w-3/6 rounded-xl bg-cyan-500 p-3 text-xl sm:w-2/6 sm:p-10 sm:text-3xl">
-              <h3>{mode.description}</h3>
+              <h3>{mode.title}</h3>
             </button>
           </Link>
         ))}

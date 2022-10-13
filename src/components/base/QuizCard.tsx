@@ -4,15 +4,17 @@ import { useAutoAnimate } from "@formkit/auto-animate/react";
 
 import BackButton from "@/components/base/BackButton";
 import QuizCardTimer from "@/components/base/QuizCardTimer";
+import StartButton from "@/components/base/StartButton";
 import useGetGameMode from "@/utils/hooks/useGetGameMode";
 import { useRoundStore } from "@/utils/store";
 
 type Props = {
   children: React.ReactNode;
+  nextCountry: () => void;
   className?: string;
 };
 
-export default function QuizCard({ children, className }: Props) {
+export default function QuizCard({ children, nextCountry, className }: Props) {
   const gameMode = useGetGameMode();
   const { round } = useRoundStore();
 
@@ -33,13 +35,14 @@ export default function QuizCard({ children, className }: Props) {
       </div>
       <div
         ref={imageParent}
-        className={`mx-auto my-8 mb-6 flex h-32 w-full flex-col justify-end sm:my-10 sm:h-52 ${className}`}
+        className={`mx-auto my-6 flex h-32 w-full flex-col sm:h-52 ${className}`}
       >
         {round === null && (
-          <p className="my-auto text-2xl sm:text-4xl">
+          <p className="my-auto px-3 text-2xl sm:text-4xl">
             {gameMode?.description}
           </p>
         )}
+        {round === null && <StartButton nextCountry={nextCountry} />}
         {children}
       </div>
       <BackButton />

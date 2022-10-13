@@ -28,14 +28,14 @@ export default function QuizChoicesBigger({
       : "";
 
   return (
-    <article className="h-full w-full">
+    <article className="flex h-full w-full flex-col justify-center">
       <p
         className={`w-full whitespace-nowrap text-xl text-black ${currentClass}`}
       >
         {option.name}
       </p>
       <button
-        className="relative h-4/6 w-full sm:h-5/6"
+        className="relative h-full w-full"
         onClick={() => {
           if (selected === undefined) handleSelectCountry(option.name);
         }}
@@ -49,7 +49,7 @@ export default function QuizChoicesBigger({
           priority
         />
       </button>
-      <div ref={animateRef}>
+      <div ref={animateRef} className="min-h-[28px]">
         {selected !== undefined && (
           <p className={`w-full text-xl ${currentClass}`}>
             {option.area.toLocaleString() + " km²"}

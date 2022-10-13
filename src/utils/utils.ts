@@ -28,7 +28,8 @@ let previousCountries: Country[] = [];
 
 export function getOptions(
   countryIndex: number | undefined,
-  optionsLength: number | undefined
+  optionsLength: number | undefined,
+  uniqueBy?: "borders"
 ): Country[] {
   // Early returns to make ts happy
   if (countryIndex === undefined || optionsLength === undefined) return [];
@@ -52,10 +53,21 @@ export function getOptions(
       previousCountries.includes(randomCountry)
     )
       continue;
+    // If uniqueBy is specified, keep looping by unique value
+    if (uniqueBy === "borders") {
+      if (checkIsEqual(randomCountry.borders, correctCountry.borders)) continue;
+    }
 
     options.push(randomCountry);
   }
 
   previousCountries = options;
   return shuffleArray(options);
+}
+
+function checkIsEqual(array1: string[], array2: string[]) {
+  return (
+    array1.length === array2.length &&
+    array1.every((value, index) => value === array2[index])
+  );
 }

@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 
 import GameOverModal from "@/components/base/GameOverModal";
 import QuizCard from "@/components/base/QuizCard";
-import StartButton from "@/components/base/StartButton";
 import BiggerOption from "@/components/bigger/BiggerChoices";
 import useQuiz from "@/utils/hooks/useQuiz";
 
@@ -24,7 +23,8 @@ const Bigger: NextPage = () => {
       className="container mx-auto flex h-full flex-col text-center"
     >
       <QuizCard
-        className={round === null ? "h-32 sm:h-52" : "h-[55vh] sm:h-[30h]"}
+        nextCountry={nextCountry}
+        className={round === null ? "h-32 sm:h-52" : "h-[60vh] sm:h-[35vh]"}
       >
         {currentCountry && (
           <BiggerOption
@@ -33,7 +33,6 @@ const Bigger: NextPage = () => {
             randomIndexes={randomIndexes}
           />
         )}
-        {round === null && <StartButton nextCountry={nextCountry} />}
       </QuizCard>
       {modalOpen && (
         <GameOverModal playAgain={playAgain} setModalOpen={setModalOpen} />

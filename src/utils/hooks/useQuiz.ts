@@ -4,6 +4,7 @@ import { useAutoAnimate } from "@formkit/auto-animate/react";
 
 import COUNTRIES_LIST from "@/constants/countries.json";
 import { TIME_LIMIT } from "@/constants/game-const";
+import type { Country } from "@/types/country-types";
 import { useRoundStore, useTimerStore } from "@/utils/store";
 import { getRandomCountryIndexes } from "@/utils/utils";
 
@@ -35,17 +36,20 @@ export default function useQuiz() {
   }
 
   useEffect(() => {
-    startTimer(false, TIME_LIMIT);
-    resetRound();
-    setModalOpen(false);
-  }, [startTimer, resetRound]);
+    if (round === null) {
+      setRandomIndexes(getRandomCountryIndexes());
+      startTimer(false, TIME_LIMIT);
+      resetRound();
+      setModalOpen(false);
+    }
+  }, [startTimer, resetRound, round]);
 
   useEffect(() => {
     if (!isTimerRunning && !isTimeLeft) setModalOpen(true);
   }, [isTimerRunning, isTimeLeft]);
 
   const countryIndex = round !== null ? randomIndexes[round] : undefined;
-  const currentCountry =
+  const currentCountry: Country | undefined =
     countryIndex !== undefined ? COUNTRIES_LIST[countryIndex] : undefined;
 
   return {

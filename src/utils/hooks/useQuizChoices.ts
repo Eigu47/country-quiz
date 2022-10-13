@@ -1,6 +1,7 @@
 import { useMemo, useRef, useState } from "react";
 
 import COUNTRIES_LIST from "@/constants/countries.json";
+import type { Country } from "@/types/country-types";
 import useGetGameMode from "@/utils/hooks/useGetGameMode";
 import useTimeout from "@/utils/hooks/useTimeout";
 import { useRoundStore, useTimerStore } from "@/utils/store";
@@ -8,7 +9,8 @@ import { getOptions } from "@/utils/utils";
 
 export default function useQuizChoices(
   randomIndexes: number[],
-  nextCountry: () => void
+  nextCountry: () => void,
+  uniqueBy?: "borders"
 ) {
   const [selectedCountry, setSelectedCountry] = useState<string>();
   const nextRoundDelay = useRef(false);
@@ -19,7 +21,7 @@ export default function useQuizChoices(
   const addTime = useTimerStore((state) => state.addTime);
 
   const countryIndex = round !== null ? randomIndexes[round] : undefined;
-  const currentCountry =
+  const currentCountry: Country | undefined =
     countryIndex !== undefined ? COUNTRIES_LIST[countryIndex] : undefined;
 
   const [correctCountry, setCorrectCountry] = useState<string | undefined>(
@@ -27,8 +29,8 @@ export default function useQuizChoices(
   );
 
   const options = useMemo(
-    () => getOptions(countryIndex, gameMode?.optionsLength),
-    [countryIndex, gameMode?.optionsLength]
+    () => getOptions(countryIndex, gameMode?.options, uniqueBy),
+    [countryIndex, gameMode?.options, uniqueBy]
   );
 
   function handleSelectCountry(option: string) {
