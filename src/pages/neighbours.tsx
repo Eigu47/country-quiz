@@ -23,8 +23,10 @@ const Neighbours: NextPage = () => {
       ref={autoAnimateRef}
       className="container mx-auto flex h-full flex-col text-center"
     >
-      <QuizCard nextCountry={nextCountry}>
-        {currentCountry && <BordersList currentCountry={currentCountry} />}
+      <QuizCard nextCountry={nextCountry} className="justify-center">
+        {currentCountry && (
+          <BordersList key={round} currentCountry={currentCountry} />
+        )}
       </QuizCard>
       <QuizChoices
         key={round}
@@ -55,9 +57,5 @@ function BordersList({ currentCountry }: { currentCountry: Country }) {
     );
   }
 
-  return (
-    <h3 className="pt-[10%] text-lg sm:pt-[5%] sm:text-xl">
-      No bordering countries
-    </h3>
-  );
+  return <h3 className="text-xl sm:text-2xl">No bordering countries</h3>;
 }

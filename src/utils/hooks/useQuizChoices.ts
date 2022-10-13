@@ -10,7 +10,7 @@ import { getOptions } from "@/utils/utils";
 export default function useQuizChoices(
   randomIndexes: number[],
   nextCountry: () => void,
-  uniqueBy?: "borders"
+  uniqueBy?: "borders" | "region"
 ) {
   const [selectedCountry, setSelectedCountry] = useState<string>();
   const nextRoundDelay = useRef(false);
@@ -28,10 +28,14 @@ export default function useQuizChoices(
     currentCountry?.name
   );
 
-  const options = useMemo(
-    () => getOptions(countryIndex, gameMode?.options, uniqueBy),
-    [countryIndex, gameMode?.options, uniqueBy]
+  const [options] = useState(() =>
+    getOptions(countryIndex, gameMode?.options, uniqueBy)
   );
+
+  // const options = useMemo(
+  //   () => getOptions(countryIndex, gameMode?.options, uniqueBy),
+  //   [countryIndex, gameMode?.options, uniqueBy]
+  // );
 
   function handleSelectCountry(option: string) {
     startTimer(false);

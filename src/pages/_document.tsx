@@ -7,7 +7,7 @@ export default function Document() {
       <Head />
       <body>
         <Main />
-        <div id="portal" />
+        <div id="portal" className="overflow-hidden" />
         <div className="fixed right-0 top-0 flex h-24 w-24 translate-x-1/2 -translate-y-1/2 rotate-45 justify-center overflow-hidden bg-black/40 sm:h-36 sm:w-36">
           <a
             href="https://github.com/Eigu47/country-quiz"

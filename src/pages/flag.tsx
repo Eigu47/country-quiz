@@ -26,6 +26,7 @@ const Flag: NextPage = () => {
       <QuizCard nextCountry={nextCountry}>
         {currentCountry && (
           <Image
+            key={round}
             src={currentCountry.flag}
             alt="Flag"
             objectFit="contain"

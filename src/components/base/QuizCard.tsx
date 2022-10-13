@@ -18,7 +18,7 @@ export default function QuizCard({ children, nextCountry, className }: Props) {
   const gameMode = useGetGameMode();
   const { round } = useRoundStore();
 
-  const [imageParent] = useAutoAnimate<HTMLDivElement>();
+  const [cardParent] = useAutoAnimate<HTMLDivElement>();
   const [roundParent] = useAutoAnimate<HTMLDivElement>();
 
   return (
@@ -34,16 +34,16 @@ export default function QuizCard({ children, nextCountry, className }: Props) {
         )}
       </div>
       <div
-        ref={imageParent}
+        ref={cardParent}
         className={`mx-auto my-6 flex h-32 w-full flex-col sm:h-52 ${className}`}
       >
+        {children}
         {round === null && (
           <p className="my-auto px-3 text-2xl sm:text-4xl">
             {gameMode?.description}
           </p>
         )}
         {round === null && <StartButton nextCountry={nextCountry} />}
-        {children}
       </div>
       <BackButton />
     </section>

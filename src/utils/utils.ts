@@ -3,8 +3,8 @@ import type { Country } from "@/types/country-types";
 
 const COUNTRIES_LENGTH = COUNTRIES_LIST.length;
 
-export function getRandomCountryIndexes() {
-  const indexes = Array(COUNTRIES_LENGTH)
+export function getRandomCountryIndexes(length?: number) {
+  const indexes = Array(length ?? COUNTRIES_LENGTH)
     .fill(0)
     .map((_, i) => i);
 
@@ -24,12 +24,26 @@ export function shuffleArray<T>(indexes: T[]): T[] {
   return indexes;
 }
 
+export function getRandomCountry(
+  filterType?: string,
+  filterName?: string
+): Country {
+  const randomIndex = Math.floor(Math.random() * COUNTRIES_LENGTH);
+  const randomCountry = COUNTRIES_LIST[randomIndex] as Country;
+
+  if (filterType === "region" && randomCountry.subregion === filterName) {
+    return getRandomCountry(filterType, filterName);
+  }
+
+  return randomCountry;
+}
+
 let previousCountries: Country[] = [];
 
 export function getOptions(
   countryIndex: number | undefined,
   optionsLength: number | undefined,
-  uniqueBy?: "borders"
+  uniqueBy?: "borders" | "region"
 ): Country[] {
   // Early returns to make ts happy
   if (countryIndex === undefined || optionsLength === undefined) return [];
@@ -56,6 +70,9 @@ export function getOptions(
     // If uniqueBy is specified, keep looping by unique value
     if (uniqueBy === "borders") {
       if (checkIsEqual(randomCountry.borders, correctCountry.borders)) continue;
+    }
+    if (uniqueBy === "region") {
+      if (randomCountry.subregion !== correctCountry.subregion) continue;
     }
 
     options.push(randomCountry);

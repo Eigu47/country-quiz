@@ -20,4 +20,10 @@ export const GAME_MODES = [
     description: "Which country has the next bordering countries",
     options: 4,
   },
+  {
+    name: "region",
+    title: "Not from here",
+    description: "Guess the country that is not from the region",
+    options: 4,
+  },
 ];

@@ -9,7 +9,7 @@ export const FLAT_REGIONS = [
 
 export const FLAT_SUBREGIONS = [
   "Antarctic",
-  "Australia and New Zealand",
+  "Australasia",
   "Caribbean",
   "Central America",
   "Central Asia",

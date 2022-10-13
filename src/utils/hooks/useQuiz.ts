@@ -12,7 +12,7 @@ export default function useQuiz() {
   const [randomIndexes, setRandomIndexes] = useState(getRandomCountryIndexes());
   const [modalOpen, setModalOpen] = useState(false);
 
-  const [autoAnimateRef] = useAutoAnimate<HTMLElement>();
+  const [autoAnimateRef] = useAutoAnimate<HTMLDivElement>();
 
   const { round, nextRound, resetRound } = useRoundStore();
   const startTimer = useTimerStore((state) => state.startTimer);

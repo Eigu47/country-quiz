@@ -1,13 +1,13 @@
 import React from "react";
 
-import FlagOption from "@/components/base/QuizChoicesOption";
+import QuizChoicesOption from "@/components/base/QuizChoicesOption";
 import useQuizChoices from "@/utils/hooks/useQuizChoices";
 
 type Props = {
   randomIndexes: number[];
   nextCountry: () => void;
   className?: string;
-  uniqueBy?: "borders";
+  uniqueBy?: "borders" | "region";
 };
 
 export default function QuizChoices({
@@ -28,7 +28,7 @@ export default function QuizChoices({
       className={`mx-auto my-6 flex h-full w-80 flex-col justify-center gap-4 text-2xl text-slate-50 sm:w-4/6 sm:gap-6 ${className}`}
     >
       {options.map((option) => (
-        <FlagOption
+        <QuizChoicesOption
           key={option.name}
           option={option}
           isCorrect={correctAnswer?.name === option.name}
