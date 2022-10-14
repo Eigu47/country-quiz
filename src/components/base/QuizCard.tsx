@@ -30,8 +30,17 @@ export default function QuizCard({ children, nextCountry, className }: Props) {
       >
         {round !== null && (
           <>
-            <p onClick={nextCountry}>{gameMode?.title}</p>
-            <p className="whitespace-nowrap">Round {round + 1}</p>
+            <p>{gameMode?.title}</p>
+            <p
+              onClick={() => {
+                if (process.env.NODE_ENV === "development") {
+                  nextCountry();
+                }
+              }}
+              className="whitespace-nowrap"
+            >
+              Round {round + 1}
+            </p>
           </>
         )}
       </div>
