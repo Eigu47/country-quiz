@@ -23,7 +23,7 @@ const Neighbours: NextPage = () => {
       ref={autoAnimateRef}
       className="container mx-auto flex h-full flex-col text-center"
     >
-      <QuizCard nextCountry={nextCountry} className="justify-center">
+      <QuizCard nextCountry={nextCountry}>
         {currentCountry && (
           <BordersList key={round} currentCountry={currentCountry} />
         )}

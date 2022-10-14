@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 
 import QuizChoicesOption from "@/components/base/QuizChoicesOption";
 import { FLAT_SUBREGIONS } from "@/constants/countries-const";
@@ -34,16 +34,6 @@ export default function RegionChoices({
   const regionIndex = round !== null ? randomIndexes[round] : undefined;
   const currentRegion: string | undefined =
     regionIndex !== undefined ? FLAT_SUBREGIONS[regionIndex] : undefined;
-
-  // const correctCountry = useMemo(
-  //   () => getRandomCountry("region", currentRegion),
-  //   [currentRegion]
-  // );
-
-  // const options = useMemo(
-  //   () => getRegionOptions(currentRegion, gameMode?.options, correctCountry),
-  //   [currentRegion, gameMode?.options, correctCountry]
-  // );
 
   const [correctCountry] = useState(() =>
     getRandomCountry("region", currentRegion)
@@ -105,7 +95,7 @@ export function getRegionOptions(
     const randomCountry = COUNTRIES_LIST[randomIndex] as Country;
 
     if (
-      randomCountry === undefined ||
+      !randomCountry ||
       options.includes(randomCountry) ||
       randomCountry.subregion !== currentRegion
     )

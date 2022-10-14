@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from "react";
+import { useRef, useState } from "react";
 
 import COUNTRIES_LIST from "@/constants/countries.json";
 import type { Country } from "@/types/country-types";
@@ -31,11 +31,6 @@ export default function useQuizChoices(
   const [options] = useState(() =>
     getOptions(countryIndex, gameMode?.options, uniqueBy)
   );
-
-  // const options = useMemo(
-  //   () => getOptions(countryIndex, gameMode?.options, uniqueBy),
-  //   [countryIndex, gameMode?.options, uniqueBy]
-  // );
 
   function handleSelectCountry(option: string) {
     startTimer(false);

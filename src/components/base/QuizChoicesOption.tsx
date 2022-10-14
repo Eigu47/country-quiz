@@ -22,14 +22,14 @@ export default function QuizChoicesOptions({
   selected,
 }: Props) {
   function getClass() {
-    if (selected === undefined) return NO_ANSWER;
+    if (!selected) return NO_ANSWER;
     if (isCorrect) return CORRECT;
     if (!isCorrect && selected === option.name) return WRONG;
     return UNSELECTED;
   }
 
   function Icon() {
-    if (selected !== undefined && isCorrect) return <BsFillCheckCircleFill />;
+    if (selected && isCorrect) return <BsFillCheckCircleFill />;
     if (selected === option.name && !isCorrect) return <BsFillXCircleFill />;
     return <BsCircle />;
   }
@@ -38,9 +38,9 @@ export default function QuizChoicesOptions({
     <button
       className={`flex items-center justify-between rounded-xl py-2 px-6 text-lg ring-2 duration-200 sm:py-3 sm:px-10 sm:text-2xl [&_svg]:duration-200 ${getClass()}`}
       onClick={() => {
-        if (selected === undefined) handleSelectCountry(option.name);
+        if (!selected) handleSelectCountry(option.name);
       }}
-      disabled={selected !== undefined}
+      disabled={!!selected}
     >
       {option.name}
       <Icon />

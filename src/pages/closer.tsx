@@ -2,10 +2,10 @@ import type { NextPage } from "next";
 
 import GameOverModal from "@/components/base/GameOverModal";
 import QuizCard from "@/components/base/QuizCard";
-import BiggerChoices from "@/components/bigger/BiggerChoices";
+import CloserChoices from "@/components/closer/CloserChoices";
 import useQuiz from "@/utils/hooks/useQuiz";
 
-const Bigger: NextPage = () => {
+const Closer: NextPage = () => {
   const {
     randomIndexes,
     autoAnimateRef,
@@ -27,7 +27,7 @@ const Bigger: NextPage = () => {
         className={round === null ? "h-32 sm:h-52" : "h-[60vh] sm:h-[35vh]"}
       >
         {currentCountry && (
-          <BiggerChoices
+          <CloserChoices
             key={round}
             nextCountry={nextCountry}
             randomIndexes={randomIndexes}
@@ -41,4 +41,4 @@ const Bigger: NextPage = () => {
   );
 };
 
-export default Bigger;
+export default Closer;

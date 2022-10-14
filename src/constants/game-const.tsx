@@ -26,4 +26,10 @@ export const GAME_MODES = [
     description: "Guess the country that is not from the region",
     options: 4,
   },
+  {
+    name: "closer",
+    title: "Who's closer",
+    description: "Which country is closer to the next country?",
+    options: 3,
+  },
 ];

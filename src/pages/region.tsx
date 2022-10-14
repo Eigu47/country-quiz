@@ -65,7 +65,7 @@ const Region: NextPage = () => {
       ref={autoAnimateRef}
       className="container mx-auto flex h-full flex-col text-center"
     >
-      <QuizCard nextCountry={nextCountry} className="justify-center">
+      <QuizCard nextCountry={nextCountry}>
         {currentRegion && (
           <h3 key={round} className="text-2xl sm:text-3xl">
             {currentRegion}

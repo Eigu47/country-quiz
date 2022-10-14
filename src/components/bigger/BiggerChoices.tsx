@@ -20,7 +20,7 @@ export default function BiggerChoices({ randomIndexes, nextCountry }: Props) {
   }, [biggestCountry?.name, setCorrectCountry]);
 
   return (
-    <section className="mx-auto flex h-full w-full flex-col items-center justify-center gap-3 px-6 text-2xl text-slate-50 sm:flex-row sm:gap-6">
+    <div className="mx-auto flex h-full w-full flex-col items-center justify-center gap-3 px-6 text-2xl sm:flex-row sm:gap-6">
       {options[0] && options[1] && (
         <>
           <BiggerOption
@@ -29,7 +29,7 @@ export default function BiggerChoices({ randomIndexes, nextCountry }: Props) {
             selected={selectedCountry}
             handleSelectCountry={handleSelectCountry}
           />
-          <p className="text-black">VS</p>
+          <p>VS</p>
           <BiggerOption
             option={options[1]}
             isCorrect={biggestCountry?.name === options[1].name}
@@ -38,6 +38,6 @@ export default function BiggerChoices({ randomIndexes, nextCountry }: Props) {
           />
         </>
       )}
-    </section>
+    </div>
   );
 }

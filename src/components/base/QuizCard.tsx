@@ -22,20 +22,22 @@ export default function QuizCard({ children, nextCountry, className }: Props) {
   const [roundParent] = useAutoAnimate<HTMLDivElement>();
 
   return (
-    <section className="relative mx-auto mt-24 w-full rounded-xl bg-indigo-50 sm:mt-40 sm:w-4/6">
+    <section className="relative mx-auto mt-24 w-full rounded-xl bg-indigo-50 text-black sm:mt-40 sm:w-4/6">
       <QuizCardTimer />
       <div
         ref={roundParent}
-        className="flex justify-between py-3 px-3 text-black sm:py-4 sm:px-4 sm:text-xl"
+        className="flex h-7 justify-between py-3 px-3 sm:py-4 sm:px-4 sm:text-xl"
       >
-        <p>{gameMode?.title}</p>
         {round !== null && (
-          <p className="whitespace-nowrap">Round {round + 1}</p>
+          <>
+            <p onClick={nextCountry}>{gameMode?.title}</p>
+            <p className="whitespace-nowrap">Round {round + 1}</p>
+          </>
         )}
       </div>
       <div
         ref={cardParent}
-        className={`mx-auto my-6 flex h-32 w-full flex-col sm:h-52 ${className}`}
+        className={`mx-auto mt-12 mb-4 flex h-32 w-full flex-col justify-center sm:mt-14 sm:mb-6 sm:h-52 ${className}`}
       >
         {children}
         {round === null && (
