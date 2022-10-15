@@ -56,6 +56,18 @@ const Script: NextPage = () => {
 
 export default Script;
 
+export function getStaticProps() {
+  if (process.env.NODE_ENV !== "development") {
+    return {
+      notFound: true,
+    };
+  }
+
+  return {
+    props: {},
+  };
+}
+
 // function formatCountry(raw: typeof rawCountries) {
 //   return raw.map((country) => {
 //     return {
