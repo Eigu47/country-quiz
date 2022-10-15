@@ -26,7 +26,7 @@ export default function CloserOption({
     selected && isCorrect ? CORRECT : selected && !isCorrect ? WRONG : "";
 
   return (
-    <article className="flex h-full w-full flex-1 flex-col items-center justify-center overflow-hidden text-xl sm:w-auto sm:text-2xl">
+    <article className="flex h-full w-full flex-1 flex-col items-center justify-center text-xl sm:w-auto sm:text-2xl">
       <p className={currentClass}>{option?.name}</p>
       <button
         className="relative h-full w-full"
@@ -44,7 +44,8 @@ export default function CloserOption({
           priority
         />
       </button>
-      <div ref={animateRef} className="min-h-[28px]">
+
+      <div ref={animateRef}>
         {selected && (
           <p className={currentClass}>{distance?.toLocaleString() + " km²"}</p>
         )}

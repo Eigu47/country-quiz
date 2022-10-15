@@ -10,13 +10,13 @@ Can you name the county by its flag? How many capitals do you know? Play multipl
 - [x] Which has bigger area
 - [x] Neighbours
 - [x] Not from region
-- [ ] Whos closer
+- [x] Whos closer
 - [ ] More or less population
 
 #### Given the country guess:
 
 - [ ] What they speak
-- [ ] Name by flag
+- [x] Name by flag
 
 #### Guess in the map:
 

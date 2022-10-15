@@ -32,4 +32,10 @@ export const GAME_MODES = [
     description: "Which country is closer to the next country?",
     options: 3,
   },
+  {
+    name: "my-flag",
+    title: "Guess my flag",
+    description: "Guess the flag by the country name",
+    options: 9,
+  },
 ];
