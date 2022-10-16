@@ -44,6 +44,6 @@ export default function FlagOption({
 }
 
 const NO_ANSWER = "ring-slate-50 hover:ring-emerald-500";
-const CORRECT = "ring-emerald-500";
-const WRONG = "ring-red-500";
+const CORRECT = "ring-4 ring-emerald-500";
+const WRONG = "ring-4 ring-red-500";
 const UNSELECTED = "ring-slate-50";

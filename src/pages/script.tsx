@@ -5,15 +5,9 @@ import type { NextPage } from "next";
 import { FLAT_REGIONS } from "../constants/countries-const";
 import formatedCountries from "../constants/countries.json";
 // import rawCountries from "../constants/raw-countries.json";
-import { trpc } from "../utils/trpc";
 
 const Script: NextPage = () => {
   const [region, setRegion] = useState<string>();
-
-  // const { mutate } = trpc.useMutation("script.post");
-  // const { data } = trpc.useQuery(["script.get", region], {
-  //   enabled: !!region,
-  // });
 
   return (
     <div className="container mx-auto h-full">
